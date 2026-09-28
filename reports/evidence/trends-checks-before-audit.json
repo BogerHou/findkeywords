@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-09-26T01:39:30.346811+00:00",
+  "method": "人工使用浏览器读取Google Trends网页图表的无障碍数据表与相关查询；没有调用非公开API",
+  "market_note": "美国仅作为试跑示例，目标市场尚未由用户确认",
+  "checks": [
+    {
+      "keyword": "agent permission matrix",
+      "url": "https://trends.google.com/trends/explore?date=today%203-m&geo=US&q=agent%20permission%20matrix&hl=en",
+      "market": "美国 / Web Search / All categories",
+      "timeframe": "页面Past 90 days，显示2026-06-26至2026-09-26",
+      "observation": "图表仅2026-09-21为100，其余显示日期为0；Related topics和Related queries均提示数据不足。",
+      "verdict": "保留观察；孤立尖峰不足以证明持续增长或足够搜索规模。",
+      "related_queries": []
+    },
+    {
+      "keyword": "sprite sheet maker",
+      "url": "https://trends.google.com/trends/explore?date=today%203-m&geo=US&q=sprite%20sheet%20maker&hl=en",
+      "market": "美国 / Web Search / All categories",
+      "timeframe": "页面Past 90 days，显示2026-06-26至2026-09-26",
+      "observation": "2026-07-25显示100；9月有多个非零日期。Related queries的Rising显示gif to sprite sheet +80%，fnf sprite sheet maker +70%。",
+      "verdict": "可以继续复核相关任务词；尚不能断言整体持续上涨、低竞争或是新词。",
+      "related_queries": [
+        {
+          "keyword": "gif to sprite sheet",
+          "growth_display": "+80%"
+        },
+        {
+          "keyword": "fnf sprite sheet maker",
+          "growth_display": "+70%"
+        }
+      ]
+    }
+  ]
+}

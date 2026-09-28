@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="从域名线索到关键词验证。查看筛选方法、真实趋势、量级试算与原始证据。">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<title>FindKeywords · 关键词研究工作台</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="month.css">
+<link rel="stylesheet" href="trends30.css">
+<link rel="stylesheet" href="roots.css">
+<script src="data.js" defer></script>
+<script src="month-data.js" defer></script>
+<script src="tld-data.js" defer></script>
+<script src="trends30-data.js" defer></script>
+<script src="roots-data.js" defer></script>
+<script src="cost-plan.js" defer></script>
+<script src="tld.js" defer></script>
+<script src="month.js" defer></script>
+<script src="methods.js" defer></script>
+<script src="trends30.js" defer></script>
+<script src="roots.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#view">跳到主要内容</a>
+<div class="app-shell">
+<aside class="sidebar">
+<a class="brand" href="#roots" aria-label="FindKeywords 首页"><span class="brand-mark">f<span>k</span></span><span>FindKeywords<small>关键词研究工作台</small></span></a>
+<div class="nav-label">研究空间</div>
+<nav aria-label="主导航">
+<a href="#roots" data-nav="roots"><span class="nav-icon">⌕</span>词根筛选<span class="nav-count" id="nav-roots">51</span></a>
+<a href="#month" data-nav="month"><span class="nav-icon">▥</span>近30天扩量<span class="nav-count" id="nav-month">3,000</span></a>
+<a href="#tld" data-nav="tld"><span class="nav-icon">◇</span>后缀与名称<span class="nav-count" id="nav-tld">待核验</span></a>
+<a href="#trends30" data-nav="trends30"><span class="nav-icon">↗</span>近30天趋势<span class="nav-count" id="nav-trends30">整理中</span></a>
+<a href="#overview" data-nav="overview"><span class="nav-icon">◫</span>前轮趋势概览</a>
+<a href="#keywords" data-nav="keywords"><span class="nav-icon">⌕</span>已查趋势词<span class="nav-count" id="nav-keywords">32</span></a>
+<a href="#domains" data-nav="domains"><span class="nav-icon">◇</span>前轮域名样本<span class="nav-count" id="nav-domains">52</span></a>
+<a href="#methods" data-nav="methods"><span class="nav-icon">≡</span>分析方法</a>
+<a href="#sources" data-nav="sources"><span class="nav-icon">▤</span>数据与报告</a>
+</nav>
+<div class="sidebar-bottom"><span class="snapshot-dot"></span> 已保存的研究快照<p id="sidebar-date">2026.09.26</p><small>候选是线索，证据决定下一步。</small></div>
+</aside>
+<div class="workspace">
+<header class="topbar"><div class="breadcrumb">研究空间 <span>/</span> <strong id="page-name">研究概览</strong></div><div class="top-actions"><span class="market">美国 · 网页搜索</span><button class="quick-search" id="quick-search">搜索关键词 <kbd>/</kbd></button></div></header>
+<main id="view" tabindex="-1"><div class="loading-state">正在整理已保存的研究记录…</div></main>
+<footer class="app-footer"><span>FindKeywords · 每个结论，都能回到原始记录。</span><span id="footer-date"></span></footer>
+</div>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<noscript><p class="notice">请启用 JavaScript，或打开 <a href="../reports/round2-2026-09-26.html">第二轮静态报告</a> 查看全部结果。</p></noscript>
+</body>
+</html>

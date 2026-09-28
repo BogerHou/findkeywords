@@ -1,0 +1,1169 @@
+{
+  "audit_date": "2026-09-26",
+  "scope": "独立离线复算，只读取筛选脚本、两份原始 TXT、name_matches.json、selected_domains.json、provenance.json；没有访问任何域名网页或网络服务。",
+  "evidence_files": [
+    {
+      "path": "scripts/screen_names.py",
+      "sha256": "0d154bfe540605f4f4f4d70d076cc7c9fddc224ce03be0f75572c66000810e37"
+    },
+    {
+      "path": "data/raw/whoisds-2026-09-22.txt",
+      "sha256": "3affcbbfb77aa27fd0a16c18855b43a6b5ad37e51eb984e675950b269abc3943"
+    },
+    {
+      "path": "data/raw/whoisds-2026-09-25.txt",
+      "sha256": "e432c5941289147e96c35878331741424cb0d03e98a9f506c98eaf894af04696"
+    },
+    {
+      "path": "data/runs/2026-09-26/name_matches.json",
+      "sha256": "7a0d387ec081fa55205b23c189445620a061398aa3e90aaf503b627945114c61"
+    },
+    {
+      "path": "data/runs/2026-09-26/selected_domains.json",
+      "sha256": "c48dda294210c197a9399f813c6b3ab11c012b63bb77f54701d383ed2fecd734"
+    },
+    {
+      "path": "data/runs/2026-09-26/provenance.json",
+      "sha256": "43c01a03c69cb9936b47bd8b8bc122d80f6fa545a9da1d5c723dfbfdf7c8c7ec"
+    }
+  ],
+  "actual_name_rule": {
+    "normalization": "每行 strip() 后 lower()；空行跳过。",
+    "tested_label": "domain.split(\".\")[0]，即域名字符串的第一个标签；不是对域名做分词或公共后缀识别。",
+    "terms": [
+      "calculator",
+      "converter",
+      "generator",
+      "checker",
+      "tracker",
+      "planner",
+      "invoice",
+      "subtitle",
+      "transcript",
+      "compress",
+      "resize",
+      "remove",
+      "background",
+      "pdf",
+      "csv",
+      "json",
+      "markdown",
+      "diagram",
+      "audio",
+      "video",
+      "image",
+      "photo",
+      "prompt",
+      "agent",
+      "schema",
+      "recipe",
+      "itinerary",
+      "resume",
+      "flashcard",
+      "chord",
+      "sheet",
+      "font",
+      "palette",
+      "mockup",
+      "watermark",
+      "screenshot",
+      "timezone",
+      "pronunciation",
+      "worksheet",
+      "timer",
+      "countdown",
+      "qr",
+      "barcode"
+    ],
+    "terms_count": 43,
+    "substring_condition": "任一词根 term in name；没有词边界、语义模型、语言判定或固定评分。",
+    "length_condition": "len(name) < 34，即 1–33 个字符。",
+    "numeric_condition": "not re.search(r\"\\d{3}\", name)，排除任何连续三个数字；并非排除一切数字。",
+    "duplicate_handling": "通过全部条件后才进入 seen；后续相同域名不再重复输出。当前两份名单没有重复域名，因此此细节不影响计数。",
+    "logic": "has_dictionary_substring AND len(first_label)<34 AND no_three_consecutive_digits",
+    "source_date_meaning": "文件批次日期，不是经过 RDAP 核验的注册日期。"
+  },
+  "funnel": {
+    "raw_rows": 140000,
+    "unique_domains": 140000,
+    "duplicate_rows": 0,
+    "at_least_one_substring": 1224,
+    "after_label_length_lt_34": 1221,
+    "after_no_three_consecutive_digits": 1210,
+    "saved_name_matches": 1210,
+    "reproduced_exactly_matches_saved_json": true,
+    "name_screen_retention_percent": 0.8642857142857143,
+    "mutually_exclusive_exclusions": {
+      "no_dictionary_substring": 138776,
+      "label_length_gte_34_among_matches": 3,
+      "three_consecutive_digits_among_short_matches": 11
+    }
+  },
+  "batches": [
+    {
+      "source_file": "data/raw/whoisds-2026-09-22.txt",
+      "source_date": "2026-09-22",
+      "raw_line_count": 70000,
+      "nonempty_rows": 70000,
+      "unique_domains": 70000,
+      "at_least_one_substring": 696,
+      "after_label_length_lt_34": 695,
+      "after_no_three_consecutive_digits": 690,
+      "mutually_exclusive_exclusions": {
+        "no_dictionary_substring": 69304,
+        "label_length_gte_34_among_matches": 1,
+        "three_consecutive_digits_among_short_matches": 5
+      },
+      "substring_counts_before_other_filters_overlapping": {
+        "calculator": 8,
+        "converter": 3,
+        "generator": 9,
+        "checker": 5,
+        "tracker": 19,
+        "planner": 15,
+        "invoice": 5,
+        "subtitle": 0,
+        "transcript": 0,
+        "compress": 2,
+        "resize": 1,
+        "remove": 7,
+        "background": 1,
+        "pdf": 13,
+        "csv": 2,
+        "json": 1,
+        "markdown": 0,
+        "diagram": 0,
+        "audio": 26,
+        "video": 120,
+        "image": 14,
+        "photo": 98,
+        "prompt": 43,
+        "agent": 131,
+        "schema": 5,
+        "recipe": 20,
+        "itinerary": 0,
+        "resume": 6,
+        "flashcard": 0,
+        "chord": 2,
+        "sheet": 22,
+        "font": 6,
+        "palette": 6,
+        "mockup": 0,
+        "watermark": 4,
+        "screenshot": 1,
+        "timezone": 2,
+        "pronunciation": 0,
+        "worksheet": 1,
+        "timer": 22,
+        "countdown": 1,
+        "qr": 88,
+        "barcode": 3
+      },
+      "substring_counts_final_overlapping": {
+        "calculator": 8,
+        "converter": 3,
+        "generator": 9,
+        "checker": 5,
+        "tracker": 19,
+        "planner": 15,
+        "invoice": 5,
+        "subtitle": 0,
+        "transcript": 0,
+        "compress": 2,
+        "resize": 1,
+        "remove": 7,
+        "background": 1,
+        "pdf": 13,
+        "csv": 2,
+        "json": 1,
+        "markdown": 0,
+        "diagram": 0,
+        "audio": 26,
+        "video": 120,
+        "image": 14,
+        "photo": 96,
+        "prompt": 43,
+        "agent": 130,
+        "schema": 5,
+        "recipe": 20,
+        "itinerary": 0,
+        "resume": 6,
+        "flashcard": 0,
+        "chord": 2,
+        "sheet": 22,
+        "font": 6,
+        "palette": 6,
+        "mockup": 0,
+        "watermark": 4,
+        "screenshot": 1,
+        "timezone": 2,
+        "pronunciation": 0,
+        "worksheet": 1,
+        "timer": 22,
+        "countdown": 1,
+        "qr": 85,
+        "barcode": 3
+      }
+    },
+    {
+      "source_file": "data/raw/whoisds-2026-09-25.txt",
+      "source_date": "2026-09-25",
+      "raw_line_count": 70000,
+      "nonempty_rows": 70000,
+      "unique_domains": 70000,
+      "at_least_one_substring": 528,
+      "after_label_length_lt_34": 526,
+      "after_no_three_consecutive_digits": 520,
+      "mutually_exclusive_exclusions": {
+        "no_dictionary_substring": 69472,
+        "label_length_gte_34_among_matches": 2,
+        "three_consecutive_digits_among_short_matches": 6
+      },
+      "substring_counts_before_other_filters_overlapping": {
+        "calculator": 12,
+        "converter": 3,
+        "generator": 14,
+        "checker": 4,
+        "tracker": 18,
+        "planner": 14,
+        "invoice": 5,
+        "subtitle": 0,
+        "transcript": 3,
+        "compress": 1,
+        "resize": 0,
+        "remove": 8,
+        "background": 2,
+        "pdf": 13,
+        "csv": 3,
+        "json": 0,
+        "markdown": 0,
+        "diagram": 3,
+        "audio": 23,
+        "video": 64,
+        "image": 28,
+        "photo": 84,
+        "prompt": 18,
+        "agent": 115,
+        "schema": 1,
+        "recipe": 2,
+        "itinerary": 1,
+        "resume": 4,
+        "flashcard": 0,
+        "chord": 2,
+        "sheet": 8,
+        "font": 12,
+        "palette": 1,
+        "mockup": 1,
+        "watermark": 1,
+        "screenshot": 0,
+        "timezone": 0,
+        "pronunciation": 0,
+        "worksheet": 0,
+        "timer": 5,
+        "countdown": 0,
+        "qr": 69,
+        "barcode": 1
+      },
+      "substring_counts_final_overlapping": {
+        "calculator": 11,
+        "converter": 3,
+        "generator": 13,
+        "checker": 4,
+        "tracker": 18,
+        "planner": 12,
+        "invoice": 5,
+        "subtitle": 0,
+        "transcript": 3,
+        "compress": 1,
+        "resize": 0,
+        "remove": 8,
+        "background": 2,
+        "pdf": 12,
+        "csv": 3,
+        "json": 0,
+        "markdown": 0,
+        "diagram": 3,
+        "audio": 23,
+        "video": 64,
+        "image": 28,
+        "photo": 84,
+        "prompt": 18,
+        "agent": 113,
+        "schema": 1,
+        "recipe": 2,
+        "itinerary": 1,
+        "resume": 4,
+        "flashcard": 0,
+        "chord": 2,
+        "sheet": 8,
+        "font": 12,
+        "palette": 1,
+        "mockup": 1,
+        "watermark": 1,
+        "screenshot": 0,
+        "timezone": 0,
+        "pronunciation": 0,
+        "worksheet": 0,
+        "timer": 5,
+        "countdown": 0,
+        "qr": 68,
+        "barcode": 1
+      }
+    }
+  ],
+  "substring_counts_final_overlapping": {
+    "calculator": 19,
+    "converter": 6,
+    "generator": 22,
+    "checker": 9,
+    "tracker": 37,
+    "planner": 27,
+    "invoice": 10,
+    "subtitle": 0,
+    "transcript": 3,
+    "compress": 3,
+    "resize": 1,
+    "remove": 15,
+    "background": 3,
+    "pdf": 25,
+    "csv": 5,
+    "json": 1,
+    "markdown": 0,
+    "diagram": 3,
+    "audio": 49,
+    "video": 184,
+    "image": 42,
+    "photo": 180,
+    "prompt": 61,
+    "agent": 243,
+    "schema": 6,
+    "recipe": 22,
+    "itinerary": 1,
+    "resume": 10,
+    "flashcard": 0,
+    "chord": 4,
+    "sheet": 30,
+    "font": 18,
+    "palette": 7,
+    "mockup": 1,
+    "watermark": 5,
+    "screenshot": 1,
+    "timezone": 2,
+    "pronunciation": 0,
+    "worksheet": 1,
+    "timer": 27,
+    "countdown": 1,
+    "qr": 153,
+    "barcode": 4
+  },
+  "substring_count_note": "每个域名可以命中多个词根，因此词根计数相加会大于域名总数；词根表不是互斥分类。",
+  "length_exclusions": [
+    {
+      "domain": "mpqrrhzdkcvllpabusnvnnbqznvszohslwnloc.网站",
+      "source_file": "data/raw/whoisds-2026-09-22.txt",
+      "source_date": "2026-09-22",
+      "raw_line": 5948,
+      "label_length": 38,
+      "name_matches": [
+        "qr"
+      ]
+    },
+    {
+      "domain": "magento-platform-migration-agencies.com",
+      "source_file": "data/raw/whoisds-2026-09-25.txt",
+      "source_date": "2026-09-25",
+      "raw_line": 13071,
+      "label_length": 35,
+      "name_matches": [
+        "agent"
+      ]
+    },
+    {
+      "domain": "california-weddings-group-wedding-planners-vendors-state.com",
+      "source_file": "data/raw/whoisds-2026-09-25.txt",
+      "source_date": "2026-09-25",
+      "raw_line": 64430,
+      "label_length": 56,
+      "name_matches": [
+        "planner"
+      ]
+    }
+  ],
+  "numeric_exclusions": [
+    {
+      "domain": "34000920bmprzaqreq779.top",
+      "source_file": "data/raw/whoisds-2026-09-22.txt",
+      "source_date": "2026-09-22",
+      "raw_line": 6545,
+      "name_matches": [
+        "qr"
+      ]
+    },
+    {
+      "domain": "rtphotowin557.com",
+      "source_file": "data/raw/whoisds-2026-09-22.txt",
+      "source_date": "2026-09-22",
+      "raw_line": 8772,
+      "name_matches": [
+        "photo"
+      ]
+    },
+    {
+      "domain": "brqr006.top",
+      "source_file": "data/raw/whoisds-2026-09-22.txt",
+      "source_date": "2026-09-22",
+      "raw_line": 34952,
+      "name_matches": [
+        "qr"
+      ]
+    },
+    {
+      "domain": "168photo.xyz",
+      "source_file": "data/raw/whoisds-2026-09-22.txt",
+      "source_date": "2026-09-22",
+      "raw_line": 38583,
+      "name_matches": [
+        "photo"
+      ]
+    },
+    {
+      "domain": "360agentic.co",
+      "source_file": "data/raw/whoisds-2026-09-22.txt",
+      "source_date": "2026-09-22",
+      "raw_line": 40803,
+      "name_matches": [
+        "agent"
+      ]
+    },
+    {
+      "domain": "calculator100.com",
+      "source_file": "data/raw/whoisds-2026-09-25.txt",
+      "source_date": "2026-09-25",
+      "raw_line": 6919,
+      "name_matches": [
+        "calculator"
+      ]
+    },
+    {
+      "domain": "6686agent-hub.com.cn",
+      "source_file": "data/raw/whoisds-2026-09-25.txt",
+      "source_date": "2026-09-25",
+      "raw_line": 12816,
+      "name_matches": [
+        "agent"
+      ]
+    },
+    {
+      "domain": "180weddingplanner.com",
+      "source_file": "data/raw/whoisds-2026-09-25.txt",
+      "source_date": "2026-09-25",
+      "raw_line": 25365,
+      "name_matches": [
+        "planner"
+      ]
+    },
+    {
+      "domain": "528orgonegenerators.com",
+      "source_file": "data/raw/whoisds-2026-09-25.txt",
+      "source_date": "2026-09-25",
+      "raw_line": 26695,
+      "name_matches": [
+        "generator"
+      ]
+    },
+    {
+      "domain": "appauthsystem000pdfreader.site",
+      "source_file": "data/raw/whoisds-2026-09-25.txt",
+      "source_date": "2026-09-25",
+      "raw_line": 39474,
+      "name_matches": [
+        "pdf"
+      ]
+    },
+    {
+      "domain": "pdqrv353.com",
+      "source_file": "data/raw/whoisds-2026-09-25.txt",
+      "source_date": "2026-09-25",
+      "raw_line": 64448,
+      "name_matches": [
+        "qr"
+      ]
+    }
+  ],
+  "selection": {
+    "count": 52,
+    "all_selected_in_name_matches_pool": true,
+    "duplicate_selected_domains": 0,
+    "percent_of_name_matches": 4.297520661157025,
+    "percent_of_raw_domains": 0.037142857142857144,
+    "group_counts": {
+      "readable_task": 40,
+      "emerging_concept": 12
+    },
+    "source_date_counts": {
+      "2026-09-22": 24,
+      "2026-09-25": 28
+    },
+    "source_date_by_group": {
+      "2026-09-22": {
+        "readable_task": 20,
+        "emerging_concept": 4
+      },
+      "2026-09-25": {
+        "readable_task": 20,
+        "emerging_concept": 8
+      }
+    },
+    "observed_order": "前20条为 2026-09-22 readable_task；接着20条为 2026-09-25 readable_task；最后12条为 emerging_concept（其中4条来自09-22，8条来自09-25）。这是文件实际结构，不能证明当时事先设置了配额。",
+    "recorded_reason_counts": {
+      "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证": 40,
+      "智能体权限矩阵；仅域名命名推测，具体业务待网页验证": 1,
+      "智能体访问控制；仅域名命名推测，具体业务待网页验证": 1,
+      "智能体治理；仅域名命名推测，具体业务待网页验证": 1,
+      "智能体隔离/限制含义待查；仅域名命名推测，具体业务待网页验证": 1,
+      "智能体交易对手含义待查；仅域名命名推测，具体业务待网页验证": 1,
+      "智能体支付；仅域名命名推测，具体业务待网页验证": 1,
+      "面向智能体的邮箱；仅域名命名推测，具体业务待网页验证": 1,
+      "智能体运维调度；仅域名命名推测，具体业务待网页验证": 1,
+      "模型生态skills相关线索；仅域名命名推测，具体业务待网页验证": 1,
+      "MCP与音频，缩写含义待查；仅域名命名推测，具体业务待网页验证": 1,
+      "模型与图片相关线索；仅域名命名推测，具体业务待网页验证": 1,
+      "陌生缩写MPP，含义待查；仅域名命名推测，具体业务待网页验证": 1
+    },
+    "reproducibility_limit": "所检查文件只保存了最终入选名单、组别和理由文本，没有数值评分、排序、截止阈值、随机种子，也没有逐条说明另1158个候选为何未入选；无法由这些文件复现为何恰好选择这52个。不能事后编造更详细的当时选择规则。",
+    "sampling_bias": "provenance.json 明确写明 not random or representative / 有目的选样；40条 readable_task 和12条 emerging_concept 均来自同一43词根匹配池。"
+  },
+  "selected_domains_with_existing_recorded_reasons": [
+    {
+      "domain": "thetimezonemap.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "timezone"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "getkitchenconverter.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "converter"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "colorpaletteextractor.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "palette"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "pdfconverter.dev",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "converter",
+        "pdf"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "photoimageresizer.net",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "resize",
+        "image",
+        "photo"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "chordhunter.ai",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "chord"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "recipereel.app",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "recipe"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "promptgenerator.fyi",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "generator",
+        "prompt"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "movieshotplanner.tools",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "planner"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "aestheticpomodorotimer.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "timer"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "myphotoeditor.app",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "photo"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "reelsplanner.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "planner"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "freeinvoicegenerator.info",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "generator",
+        "invoice"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "barcodescanning.net",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "barcode"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "3dcalculators.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "calculator"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "socialimagekit.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "image"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "pdf-doctor-lab.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "pdf"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "qrswitcher.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "qr"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "resumereef.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "resume"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "imageremodeler.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "image"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "spritesheetmaker.net",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "sheet"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "ai-translate-video.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "video"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "ceilingfanplanner.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "planner"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "petpetgenerator.app",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "generator"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "imagescanai.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "image"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "heicpngconverter.website",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "converter"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "image-to-3d.art",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "image"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "seedlingspaceplanner.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "planner"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "mockupmagicstudio.net",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "mockup"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "sparktranscript.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "transcript"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "videoassembler.io",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "video"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "shopbuildplanner.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "planner"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "imagefixkit.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "image"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "mdtopdf.co",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "pdf"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "numberfontsgenerator.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "generator",
+        "font"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "imagecompactor.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "image"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "imagecompressed.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "compress",
+        "image"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "promptfirst.app",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "prompt"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "resumealgo.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "resume"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "friendlypdf.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "pdf"
+      ],
+      "selection_reason": "人工复核域名名称：可辨识的工具、软件或资料需求；具体业务待页面验证",
+      "selection_group": "readable_task"
+    },
+    {
+      "domain": "agentpermissionmatrix.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "agent"
+      ],
+      "selection_group": "emerging_concept",
+      "selection_reason": "智能体权限矩阵；仅域名命名推测，具体业务待网页验证"
+    },
+    {
+      "domain": "agentaccessguard.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "agent"
+      ],
+      "selection_group": "emerging_concept",
+      "selection_reason": "智能体访问控制；仅域名命名推测，具体业务待网页验证"
+    },
+    {
+      "domain": "agentgovernancecloud.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "agent"
+      ],
+      "selection_group": "emerging_concept",
+      "selection_reason": "智能体治理；仅域名命名推测，具体业务待网页验证"
+    },
+    {
+      "domain": "agentconfinement.co",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "agent"
+      ],
+      "selection_group": "emerging_concept",
+      "selection_reason": "智能体隔离/限制含义待查；仅域名命名推测，具体业务待网页验证"
+    },
+    {
+      "domain": "agentcounterparty.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "agent"
+      ],
+      "selection_group": "emerging_concept",
+      "selection_reason": "智能体交易对手含义待查；仅域名命名推测，具体业务待网页验证"
+    },
+    {
+      "domain": "museagenticpayments.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "agent"
+      ],
+      "selection_group": "emerging_concept",
+      "selection_reason": "智能体支付；仅域名命名推测，具体业务待网页验证"
+    },
+    {
+      "domain": "emailforagents.ai",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "agent"
+      ],
+      "selection_group": "emerging_concept",
+      "selection_reason": "面向智能体的邮箱；仅域名命名推测，具体业务待网页验证"
+    },
+    {
+      "domain": "agentopsdispatch.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "agent"
+      ],
+      "selection_group": "emerging_concept",
+      "selection_reason": "智能体运维调度；仅域名命名推测，具体业务待网页验证"
+    },
+    {
+      "domain": "claudeskillsagent.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "agent"
+      ],
+      "selection_group": "emerging_concept",
+      "selection_reason": "模型生态skills相关线索；仅域名命名推测，具体业务待网页验证"
+    },
+    {
+      "domain": "mcpaudio.com",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-25",
+      "name_matches": [
+        "audio"
+      ],
+      "selection_group": "emerging_concept",
+      "selection_reason": "MCP与音频，缩写含义待查；仅域名命名推测，具体业务待网页验证"
+    },
+    {
+      "domain": "qwenimage.com.cn",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "image"
+      ],
+      "selection_group": "emerging_concept",
+      "selection_reason": "模型与图片相关线索；仅域名命名推测，具体业务待网页验证"
+    },
+    {
+      "domain": "agent-mpp.io",
+      "source": "WhoisDS free daily list",
+      "source_date": "2026-09-22",
+      "name_matches": [
+        "agent"
+      ],
+      "selection_group": "emerging_concept",
+      "selection_reason": "陌生缩写MPP，含义待查；仅域名命名推测，具体业务待网页验证"
+    }
+  ],
+  "examples": {
+    "warning": "下列解释仅基于名称及机械匹配，不代表已确认网页业务、真假、流量或商业价值。",
+    "possible_substring_false_positives": [
+      {
+        "domain": "87wqr2a.top",
+        "source_file": "data/raw/whoisds-2026-09-22.txt",
+        "source_date": "2026-09-22",
+        "raw_line": 16,
+        "matched_terms": [
+          "qr"
+        ],
+        "name_only_explanation": "命中 qr，但名称整体像字母数字串；仅凭名称不能确认二维码需求。"
+      },
+      {
+        "domain": "iskreldpapdf.shop",
+        "source_file": "data/raw/whoisds-2026-09-22.txt",
+        "source_date": "2026-09-22",
+        "raw_line": 361,
+        "matched_terms": [
+          "pdf"
+        ],
+        "name_only_explanation": "命中 pdf，但其余部分难辨含义；仅凭名称不能确认 PDF 工具。"
+      },
+      {
+        "domain": "grandirafontenay.fr",
+        "source_file": "data/raw/whoisds-2026-09-22.txt",
+        "source_date": "2026-09-22",
+        "raw_line": 10363,
+        "matched_terms": [
+          "font"
+        ],
+        "name_only_explanation": "font 出现在 fontenay 内部，并未按完整词匹配；不能据此推断字体需求。"
+      },
+      {
+        "domain": "springanchordevelopment.de",
+        "source_file": "data/raw/whoisds-2026-09-22.txt",
+        "source_date": "2026-09-22",
+        "raw_line": 41621,
+        "matched_terms": [
+          "chord"
+        ],
+        "name_only_explanation": "chord 跨 anchor 与 development 的连接处出现；不能据此推断和弦需求。"
+      },
+      {
+        "domain": "magento-replatforming-agencies.com",
+        "source_file": "data/raw/whoisds-2026-09-25.txt",
+        "source_date": "2026-09-25",
+        "raw_line": 148,
+        "matched_terms": [
+          "agent"
+        ],
+        "name_only_explanation": "agent 是 magento 的内部子串；名称指向 Magento 相关线索，不能据此推断 AI 智能体。"
+      }
+    ],
+    "readable_names_excluded_for_no_dictionary_match": [
+      {
+        "domain": "personal-budget.app",
+        "source_file": "data/raw/whoisds-2026-09-22.txt",
+        "source_date": "2026-09-22",
+        "raw_line": 11132,
+        "matched_terms": [],
+        "name_only_explanation": "personal budget 可读作个人预算，是名称层面的需求线索。",
+        "exclusion_reason": "第一个标签不含43个词根中的任何一个；未进入后续人工挑选池。"
+      },
+      {
+        "domain": "taxriskcheck.com",
+        "source_file": "data/raw/whoisds-2026-09-22.txt",
+        "source_date": "2026-09-22",
+        "raw_line": 213,
+        "matched_terms": [],
+        "name_only_explanation": "tax risk check 可读作税务风险检查，是名称层面的需求线索。",
+        "exclusion_reason": "第一个标签不含43个词根中的任何一个；未进入后续人工挑选池。"
+      },
+      {
+        "domain": "learnformalverification.com",
+        "source_file": "data/raw/whoisds-2026-09-22.txt",
+        "source_date": "2026-09-22",
+        "raw_line": 3860,
+        "matched_terms": [],
+        "name_only_explanation": "learn formal verification 可读作学习形式化验证，是名称层面的需求线索。",
+        "exclusion_reason": "第一个标签不含43个词根中的任何一个；未进入后续人工挑选池。"
+      },
+      {
+        "domain": "smartflowbookingai.com",
+        "source_file": "data/raw/whoisds-2026-09-22.txt",
+        "source_date": "2026-09-22",
+        "raw_line": 7338,
+        "matched_terms": [],
+        "name_only_explanation": "booking / AI 是可辨识名称片段，存在预约类线索。",
+        "exclusion_reason": "第一个标签不含43个词根中的任何一个；未进入后续人工挑选池。"
+      },
+      {
+        "domain": "insoft-booking.com",
+        "source_file": "data/raw/whoisds-2026-09-22.txt",
+        "source_date": "2026-09-22",
+        "raw_line": 3805,
+        "matched_terms": [],
+        "name_only_explanation": "booking 是可辨识名称片段，存在预约类线索。",
+        "exclusion_reason": "第一个标签不含43个词根中的任何一个；未进入后续人工挑选池。"
+      }
+    ]
+  },
+  "existing_provenance_screening": "substring vocabulary then manual semantic review; not random or representative",
+  "interpretation": "1210表示符合这份预设英文词根表及两个字符规则，不等同于14万个域名中只有1210个有意义；52不是质量排名前52，也不是经网页、RDAP或趋势全量筛出的结果。"
+}

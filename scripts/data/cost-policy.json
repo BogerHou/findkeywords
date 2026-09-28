@@ -1,0 +1,13 @@
+{
+  "version": "cost-priority-2026-09-28-v1",
+  "broadRoots": ["online", "example", "sample", "format", "scheme", "pattern"],
+  "maxPriorityNameLength": 24,
+  "maxPriorityDigits": 2,
+  "maxPriorityHyphens": 1,
+  "cacheDays": 7,
+  "batchSize": 100,
+  "prioritySlots": 80,
+  "explorationSlots": 20,
+  "seed": "findkeywords-cost-v1",
+  "meaning": "请求优先级及预算，不是价值评分或永久淘汰规则。所有51词根仍保留；不以词典收录为条件，避免排除新造词。"
+}

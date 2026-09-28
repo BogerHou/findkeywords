@@ -1,0 +1,9 @@
+{
+  "description": "人为分配探索预算；分组不表示权威、价格、质量或SEO排序。不在前三组的后缀也有独立探索配额。",
+  "groups": [
+    {"id":"traditional", "label":"传统后缀", "percent":45, "suffixes":["com","net","org"]},
+    {"id":"product_technology", "label":"产品与技术后缀", "percent":25, "suffixes":["ai","io","app","dev","tech"]},
+    {"id":"other_common", "label":"其他常见选择", "percent":20, "suffixes":["co","me","cc","tv"]},
+    {"id":"remaining_exploration", "label":"其余后缀探索", "percent":10, "suffixes":[], "fallback":true}
+  ]
+}

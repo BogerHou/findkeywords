@@ -1,0 +1,2224 @@
+{
+  "meta": {
+    "asOf": "2026-09-28",
+    "status": "prepared_not_executed",
+    "version": "cost-priority-2026-09-28-v1",
+    "sourceWindow": {
+      "start": "2026-08-27",
+      "end": "2026-09-25",
+      "meaning": "input list dates only; domain age and launch date unverified"
+    },
+    "inputs": {
+      "domains": {
+        "path": "site/roots-data.json",
+        "sha256": "2e1dceffeabedb7356681c5994d48e754f4715944e75ae1074a2d54dc7ef9cf0"
+      },
+      "cache": {
+        "path": "site/probe-cache-index.json",
+        "sha256": "52c7cbe9d6b9c2c197e79bf8da1fafcd7ba672d8e4b286da5bfb7c3531953365"
+      },
+      "config": {
+        "path": "scripts/data/cost-policy.json",
+        "sha256": "92d049a00559fa04b100375266b53ed2d03ce06bc40effbbc477f3e5cc372366"
+      }
+    }
+  },
+  "selection": "80 priority + 20 exploration; per-lane root round-robin in fixed SHA256 order; one representative per exact first-label spelling; historical cache excluded for 7 days",
+  "domains": [
+    {
+      "domain": "youdaotranslator.com",
+      "roots": [
+        "translator"
+      ],
+      "matches": [
+        {
+          "root": "translator",
+          "start": 6,
+          "end": 16,
+          "text": "translator"
+        }
+      ],
+      "sourceDate": "2026-09-25",
+      "sourceFile": "whoisds-2026-09-25.txt",
+      "sourceLine": 4061,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "translator"
+    },
+    {
+      "domain": "generatorserviceocala.com",
+      "roots": [
+        "generator"
+      ],
+      "matches": [
+        {
+          "root": "generator",
+          "start": 0,
+          "end": 9,
+          "text": "generator"
+        }
+      ],
+      "sourceDate": "2026-09-18",
+      "sourceFile": "whoisds-2026-09-18.txt",
+      "sourceLine": 11350,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "generator"
+    },
+    {
+      "domain": "convertignitehub.xyz",
+      "roots": [
+        "convert"
+      ],
+      "matches": [
+        {
+          "root": "convert",
+          "start": 0,
+          "end": 7,
+          "text": "convert"
+        }
+      ],
+      "sourceDate": "2026-09-23",
+      "sourceFile": "whoisds-2026-09-23.txt",
+      "sourceLine": 66714,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "convert"
+    },
+    {
+      "domain": "dapaonlinechecker.website",
+      "roots": [
+        "online",
+        "checker"
+      ],
+      "matches": [
+        {
+          "root": "online",
+          "start": 4,
+          "end": 10,
+          "text": "online"
+        },
+        {
+          "root": "checker",
+          "start": 10,
+          "end": 17,
+          "text": "checker"
+        }
+      ],
+      "sourceDate": "2026-09-11",
+      "sourceFile": "whoisds-2026-09-11.txt",
+      "sourceLine": 13545,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "online"
+    },
+    {
+      "domain": "morsecodetranslatorhub.com",
+      "roots": [
+        "translator"
+      ],
+      "matches": [
+        {
+          "root": "translator",
+          "start": 9,
+          "end": 19,
+          "text": "translator"
+        }
+      ],
+      "sourceDate": "2026-09-01",
+      "sourceFile": "whoisds-2026-09-01.txt",
+      "sourceLine": 19624,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "translator"
+    },
+    {
+      "domain": "redditdownloader.top",
+      "roots": [
+        "downloader"
+      ],
+      "matches": [
+        {
+          "root": "downloader",
+          "start": 6,
+          "end": 16,
+          "text": "downloader"
+        }
+      ],
+      "sourceDate": "2026-09-01",
+      "sourceFile": "whoisds-2026-09-01.txt",
+      "sourceLine": 9769,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "downloader"
+    },
+    {
+      "domain": "lifemaker.app",
+      "roots": [
+        "maker"
+      ],
+      "matches": [
+        {
+          "root": "maker",
+          "start": 4,
+          "end": 9,
+          "text": "maker"
+        }
+      ],
+      "sourceDate": "2026-09-24",
+      "sourceFile": "whoisds-2026-09-24.txt",
+      "sourceLine": 59738,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "maker"
+    },
+    {
+      "domain": "pulseformcreator.com",
+      "roots": [
+        "creator"
+      ],
+      "matches": [
+        {
+          "root": "creator",
+          "start": 9,
+          "end": 16,
+          "text": "creator"
+        }
+      ],
+      "sourceDate": "2026-09-22",
+      "sourceFile": "whoisds-2026-09-22.txt",
+      "sourceLine": 7050,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "creator"
+    },
+    {
+      "domain": "editorial-ideas.com",
+      "roots": [
+        "editor"
+      ],
+      "matches": [
+        {
+          "root": "editor",
+          "start": 0,
+          "end": 6,
+          "text": "editor"
+        }
+      ],
+      "sourceDate": "2026-09-23",
+      "sourceFile": "whoisds-2026-09-23.txt",
+      "sourceLine": 53150,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "editor"
+    },
+    {
+      "domain": "everexgeneratorsystems.com",
+      "roots": [
+        "generator"
+      ],
+      "matches": [
+        {
+          "root": "generator",
+          "start": 6,
+          "end": 15,
+          "text": "generator"
+        }
+      ],
+      "sourceDate": "2026-09-17",
+      "sourceFile": "whoisds-2026-09-17.txt",
+      "sourceLine": 21673,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "generator"
+    },
+    {
+      "domain": "aimicroprocessor.com",
+      "roots": [
+        "processor"
+      ],
+      "matches": [
+        {
+          "root": "processor",
+          "start": 7,
+          "end": 16,
+          "text": "processor"
+        }
+      ],
+      "sourceDate": "2026-09-22",
+      "sourceFile": "whoisds-2026-09-22.txt",
+      "sourceLine": 21688,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "processor"
+    },
+    {
+      "domain": "ats-designer.com",
+      "roots": [
+        "designer"
+      ],
+      "matches": [
+        {
+          "root": "designer",
+          "start": 4,
+          "end": 12,
+          "text": "designer"
+        }
+      ],
+      "sourceDate": "2026-09-20",
+      "sourceFile": "whoisds-2026-09-20.txt",
+      "sourceLine": 56494,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "designer"
+    },
+    {
+      "domain": "compilerfoundry.com",
+      "roots": [
+        "compiler"
+      ],
+      "matches": [
+        {
+          "root": "compiler",
+          "start": 0,
+          "end": 8,
+          "text": "compiler"
+        }
+      ],
+      "sourceDate": "2026-09-07",
+      "sourceFile": "whoisds-2026-09-07.txt",
+      "sourceLine": 4276,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "compiler"
+    },
+    {
+      "domain": "disanalyzer.com",
+      "roots": [
+        "analyzer"
+      ],
+      "matches": [
+        {
+          "root": "analyzer",
+          "start": 3,
+          "end": 11,
+          "text": "analyzer"
+        }
+      ],
+      "sourceDate": "2026-09-06",
+      "sourceFile": "whoisds-2026-09-06.txt",
+      "sourceLine": 5497,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "analyzer"
+    },
+    {
+      "domain": "oakinteractivepagexample704.com",
+      "roots": [
+        "example"
+      ],
+      "matches": [
+        {
+          "root": "example",
+          "start": 17,
+          "end": 24,
+          "text": "example"
+        }
+      ],
+      "sourceDate": "2026-09-16",
+      "sourceFile": "whoisds-2026-09-16.txt",
+      "sourceLine": 24919,
+      "priorityReasons": [
+        "broad_roots_only",
+        "no_specific_root_at_name_edge",
+        "long_name",
+        "many_digits"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "example"
+    },
+    {
+      "domain": "evaluators.pl",
+      "roots": [
+        "evaluator"
+      ],
+      "matches": [
+        {
+          "root": "evaluator",
+          "start": 0,
+          "end": 9,
+          "text": "evaluator"
+        }
+      ],
+      "sourceDate": "2026-09-20",
+      "sourceFile": "whoisds-2026-09-20.txt",
+      "sourceLine": 49758,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "evaluator"
+    },
+    {
+      "domain": "senderosg.com.mx",
+      "roots": [
+        "sender"
+      ],
+      "matches": [
+        {
+          "root": "sender",
+          "start": 0,
+          "end": 6,
+          "text": "sender"
+        }
+      ],
+      "sourceDate": "2026-09-02",
+      "sourceFile": "whoisds-2026-09-02.txt",
+      "sourceLine": 59158,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "sender"
+    },
+    {
+      "domain": "receiverobo.xyz",
+      "roots": [
+        "receiver"
+      ],
+      "matches": [
+        {
+          "root": "receiver",
+          "start": 0,
+          "end": 8,
+          "text": "receiver"
+        }
+      ],
+      "sourceDate": "2026-09-17",
+      "sourceFile": "whoisds-2026-09-17.txt",
+      "sourceLine": 2873,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "receiver"
+    },
+    {
+      "domain": "myaiinterpreter.com",
+      "roots": [
+        "interpreter"
+      ],
+      "matches": [
+        {
+          "root": "interpreter",
+          "start": 4,
+          "end": 15,
+          "text": "interpreter"
+        }
+      ],
+      "sourceDate": "2026-08-28",
+      "sourceFile": "whoisds-2026-08-28.txt",
+      "sourceLine": 58368,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "interpreter"
+    },
+    {
+      "domain": "taxiconverting.xyz",
+      "roots": [
+        "convert"
+      ],
+      "matches": [
+        {
+          "root": "convert",
+          "start": 4,
+          "end": 11,
+          "text": "convert"
+        }
+      ],
+      "sourceDate": "2026-09-24",
+      "sourceFile": "whoisds-2026-09-24.txt",
+      "sourceLine": 34908,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "convert"
+    },
+    {
+      "domain": "tcguploader.com",
+      "roots": [
+        "uploader"
+      ],
+      "matches": [
+        {
+          "root": "uploader",
+          "start": 3,
+          "end": 11,
+          "text": "uploader"
+        }
+      ],
+      "sourceDate": "2026-09-18",
+      "sourceFile": "whoisds-2026-09-18.txt",
+      "sourceLine": 52971,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "uploader"
+    },
+    {
+      "domain": "calculator.autos",
+      "roots": [
+        "calculator"
+      ],
+      "matches": [
+        {
+          "root": "calculator",
+          "start": 0,
+          "end": 10,
+          "text": "calculator"
+        }
+      ],
+      "sourceDate": "2026-09-25",
+      "sourceFile": "whoisds-2026-09-25.txt",
+      "sourceLine": 8568,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [
+        "calculator.services"
+      ],
+      "sampling_root": "calculator"
+    },
+    {
+      "domain": "golchintemplate.ir",
+      "roots": [
+        "template"
+      ],
+      "matches": [
+        {
+          "root": "template",
+          "start": 7,
+          "end": 15,
+          "text": "template"
+        }
+      ],
+      "sourceDate": "2026-09-19",
+      "sourceFile": "whoisds-2026-09-19.txt",
+      "sourceLine": 24529,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "template"
+    },
+    {
+      "domain": "transformationsmanager.ch",
+      "roots": [
+        "format",
+        "manager"
+      ],
+      "matches": [
+        {
+          "root": "format",
+          "start": 5,
+          "end": 11,
+          "text": "format"
+        },
+        {
+          "root": "manager",
+          "start": 15,
+          "end": 22,
+          "text": "manager"
+        }
+      ],
+      "sourceDate": "2026-09-24",
+      "sourceFile": "whoisds-2026-09-24.txt",
+      "sourceLine": 66782,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "format"
+    },
+    {
+      "domain": "satishacademyonline.in",
+      "roots": [
+        "online"
+      ],
+      "matches": [
+        {
+          "root": "online",
+          "start": 13,
+          "end": 19,
+          "text": "online"
+        }
+      ],
+      "sourceDate": "2026-08-31",
+      "sourceFile": "whoisds-2026-08-31.txt",
+      "sourceLine": 48973,
+      "priorityReasons": [
+        "broad_roots_only",
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "online"
+    },
+    {
+      "domain": "becomeaworldbuilder.com",
+      "roots": [
+        "builder"
+      ],
+      "matches": [
+        {
+          "root": "builder",
+          "start": 12,
+          "end": 19,
+          "text": "builder"
+        }
+      ],
+      "sourceDate": "2026-08-31",
+      "sourceFile": "whoisds-2026-08-31.txt",
+      "sourceLine": 61502,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "builder"
+    },
+    {
+      "domain": "patterndesigner.info",
+      "roots": [
+        "designer",
+        "pattern"
+      ],
+      "matches": [
+        {
+          "root": "pattern",
+          "start": 0,
+          "end": 7,
+          "text": "pattern"
+        },
+        {
+          "root": "designer",
+          "start": 7,
+          "end": 15,
+          "text": "designer"
+        }
+      ],
+      "sourceDate": "2026-09-07",
+      "sourceFile": "whoisds-2026-09-07.txt",
+      "sourceLine": 14440,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "pattern"
+    },
+    {
+      "domain": "checkerbrain.xyz",
+      "roots": [
+        "checker"
+      ],
+      "matches": [
+        {
+          "root": "checker",
+          "start": 0,
+          "end": 7,
+          "text": "checker"
+        }
+      ],
+      "sourceDate": "2026-09-09",
+      "sourceFile": "whoisds-2026-09-09.txt",
+      "sourceLine": 3725,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "checker"
+    },
+    {
+      "domain": "bannerdetector.online",
+      "roots": [
+        "detector"
+      ],
+      "matches": [
+        {
+          "root": "detector",
+          "start": 6,
+          "end": 14,
+          "text": "detector"
+        }
+      ],
+      "sourceDate": "2026-09-06",
+      "sourceFile": "whoisds-2026-09-06.txt",
+      "sourceLine": 28043,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "detector"
+    },
+    {
+      "domain": "fbdownloaderhd.com",
+      "roots": [
+        "downloader"
+      ],
+      "matches": [
+        {
+          "root": "downloader",
+          "start": 2,
+          "end": 12,
+          "text": "downloader"
+        }
+      ],
+      "sourceDate": "2026-08-28",
+      "sourceFile": "whoisds-2026-08-28.txt",
+      "sourceLine": 25879,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "downloader"
+    },
+    {
+      "domain": "filescraper.net",
+      "roots": [
+        "scraper"
+      ],
+      "matches": [
+        {
+          "root": "scraper",
+          "start": 4,
+          "end": 11,
+          "text": "scraper"
+        }
+      ],
+      "sourceDate": "2026-09-01",
+      "sourceFile": "whoisds-2026-09-01.txt",
+      "sourceLine": 65205,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "scraper"
+    },
+    {
+      "domain": "warehouseflowmanager.net",
+      "roots": [
+        "manager"
+      ],
+      "matches": [
+        {
+          "root": "manager",
+          "start": 13,
+          "end": 20,
+          "text": "manager"
+        }
+      ],
+      "sourceDate": "2026-09-13",
+      "sourceFile": "whoisds-2026-09-13.txt",
+      "sourceLine": 67597,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "manager"
+    },
+    {
+      "domain": "explorer.im",
+      "roots": [
+        "explorer"
+      ],
+      "matches": [
+        {
+          "root": "explorer",
+          "start": 0,
+          "end": 8,
+          "text": "explorer"
+        }
+      ],
+      "sourceDate": "2026-09-19",
+      "sourceFile": "whoisds-2026-09-19.txt",
+      "sourceLine": 3075,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [
+        "explorer.tm",
+        "explorer.web.id",
+        "explorer.house"
+      ],
+      "sampling_root": "explorer"
+    },
+    {
+      "domain": "valuesdashboard.com",
+      "roots": [
+        "dashboard"
+      ],
+      "matches": [
+        {
+          "root": "dashboard",
+          "start": 6,
+          "end": 15,
+          "text": "dashboard"
+        }
+      ],
+      "sourceDate": "2026-09-12",
+      "sourceFile": "whoisds-2026-09-12.txt",
+      "sourceLine": 17184,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "dashboard"
+    },
+    {
+      "domain": "themakersmarketplace.it",
+      "roots": [
+        "maker"
+      ],
+      "matches": [
+        {
+          "root": "maker",
+          "start": 3,
+          "end": 8,
+          "text": "maker"
+        }
+      ],
+      "sourceDate": "2026-09-24",
+      "sourceFile": "whoisds-2026-09-24.txt",
+      "sourceLine": 22970,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "maker"
+    },
+    {
+      "domain": "movingplanner.online",
+      "roots": [
+        "planner"
+      ],
+      "matches": [
+        {
+          "root": "planner",
+          "start": 6,
+          "end": 13,
+          "text": "planner"
+        }
+      ],
+      "sourceDate": "2026-09-24",
+      "sourceFile": "whoisds-2026-09-24.txt",
+      "sourceLine": 54147,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "planner"
+    },
+    {
+      "domain": "trymhatracker.com",
+      "roots": [
+        "tracker"
+      ],
+      "matches": [
+        {
+          "root": "tracker",
+          "start": 6,
+          "end": 13,
+          "text": "tracker"
+        }
+      ],
+      "sourceDate": "2026-09-07",
+      "sourceFile": "whoisds-2026-09-07.txt",
+      "sourceLine": 22333,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "tracker"
+    },
+    {
+      "domain": "s30recorder.ru",
+      "roots": [
+        "recorder"
+      ],
+      "matches": [
+        {
+          "root": "recorder",
+          "start": 3,
+          "end": 11,
+          "text": "recorder"
+        }
+      ],
+      "sourceDate": "2026-09-17",
+      "sourceFile": "whoisds-2026-09-17.txt",
+      "sourceLine": 49033,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "recorder"
+    },
+    {
+      "domain": "taxesoptimizer.xyz",
+      "roots": [
+        "optimizer"
+      ],
+      "matches": [
+        {
+          "root": "optimizer",
+          "start": 5,
+          "end": 14,
+          "text": "optimizer"
+        }
+      ],
+      "sourceDate": "2026-09-22",
+      "sourceFile": "whoisds-2026-09-22.txt",
+      "sourceLine": 1527,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "optimizer"
+    },
+    {
+      "domain": "musecreators.dev",
+      "roots": [
+        "creator"
+      ],
+      "matches": [
+        {
+          "root": "creator",
+          "start": 4,
+          "end": 11,
+          "text": "creator"
+        }
+      ],
+      "sourceDate": "2026-09-07",
+      "sourceFile": "whoisds-2026-09-07.txt",
+      "sourceLine": 34896,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [
+        "musecreators.app"
+      ],
+      "sampling_root": "creator"
+    },
+    {
+      "domain": "autoscheduler.online",
+      "roots": [
+        "scheduler"
+      ],
+      "matches": [
+        {
+          "root": "scheduler",
+          "start": 4,
+          "end": 13,
+          "text": "scheduler"
+        }
+      ],
+      "sourceDate": "2026-09-19",
+      "sourceFile": "whoisds-2026-09-19.txt",
+      "sourceLine": 2034,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "scheduler"
+    },
+    {
+      "domain": "moonconverter.xyz",
+      "roots": [
+        "converter"
+      ],
+      "matches": [
+        {
+          "root": "converter",
+          "start": 4,
+          "end": 13,
+          "text": "converter"
+        }
+      ],
+      "sourceDate": "2026-09-16",
+      "sourceFile": "whoisds-2026-09-16.txt",
+      "sourceLine": 51570,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "converter"
+    },
+    {
+      "domain": "aiyardreviewer.xyz",
+      "roots": [
+        "viewer"
+      ],
+      "matches": [
+        {
+          "root": "viewer",
+          "start": 8,
+          "end": 14,
+          "text": "viewer"
+        }
+      ],
+      "sourceDate": "2026-09-21",
+      "sourceFile": "whoisds-2026-09-21.txt",
+      "sourceLine": 5367,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "viewer"
+    },
+    {
+      "domain": "ehrextractor.xyz",
+      "roots": [
+        "extractor"
+      ],
+      "matches": [
+        {
+          "root": "extractor",
+          "start": 3,
+          "end": 12,
+          "text": "extractor"
+        }
+      ],
+      "sourceDate": "2026-09-16",
+      "sourceFile": "whoisds-2026-09-16.txt",
+      "sourceLine": 36621,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "extractor"
+    },
+    {
+      "domain": "noueditorial.com",
+      "roots": [
+        "editor"
+      ],
+      "matches": [
+        {
+          "root": "editor",
+          "start": 3,
+          "end": 9,
+          "text": "editor"
+        }
+      ],
+      "sourceDate": "2026-09-10",
+      "sourceFile": "whoisds-2026-09-10.txt",
+      "sourceLine": 4230,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "editor"
+    },
+    {
+      "domain": "zrq-monitor.xyz",
+      "roots": [
+        "monitor"
+      ],
+      "matches": [
+        {
+          "root": "monitor",
+          "start": 4,
+          "end": 11,
+          "text": "monitor"
+        }
+      ],
+      "sourceDate": "2026-09-06",
+      "sourceFile": "whoisds-2026-09-06.txt",
+      "sourceLine": 68458,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "monitor"
+    },
+    {
+      "domain": "remote-notifier.com",
+      "roots": [
+        "notifier"
+      ],
+      "matches": [
+        {
+          "root": "notifier",
+          "start": 7,
+          "end": 15,
+          "text": "notifier"
+        }
+      ],
+      "sourceDate": "2026-08-30",
+      "sourceFile": "whoisds-2026-08-30.txt",
+      "sourceLine": 28945,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "notifier"
+    },
+    {
+      "domain": "mapverifier.xyz",
+      "roots": [
+        "verifier"
+      ],
+      "matches": [
+        {
+          "root": "verifier",
+          "start": 3,
+          "end": 11,
+          "text": "verifier"
+        }
+      ],
+      "sourceDate": "2026-09-08",
+      "sourceFile": "whoisds-2026-09-08.txt",
+      "sourceLine": 35189,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "verifier"
+    },
+    {
+      "domain": "policechiefsimulator.shop",
+      "roots": [
+        "simulator"
+      ],
+      "matches": [
+        {
+          "root": "simulator",
+          "start": 11,
+          "end": 20,
+          "text": "simulator"
+        }
+      ],
+      "sourceDate": "2026-09-07",
+      "sourceFile": "whoisds-2026-09-07.txt",
+      "sourceLine": 61434,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "simulator"
+    },
+    {
+      "domain": "taxiprocessors.xyz",
+      "roots": [
+        "processor"
+      ],
+      "matches": [
+        {
+          "root": "processor",
+          "start": 4,
+          "end": 13,
+          "text": "processor"
+        }
+      ],
+      "sourceDate": "2026-09-22",
+      "sourceFile": "whoisds-2026-09-22.txt",
+      "sourceLine": 7900,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "processor"
+    },
+    {
+      "domain": "aigrcassistant.xyz",
+      "roots": [
+        "assistant"
+      ],
+      "matches": [
+        {
+          "root": "assistant",
+          "start": 5,
+          "end": 14,
+          "text": "assistant"
+        }
+      ],
+      "sourceDate": "2026-09-21",
+      "sourceFile": "whoisds-2026-09-21.txt",
+      "sourceLine": 44930,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "assistant"
+    },
+    {
+      "domain": "constructoragim.online",
+      "roots": [
+        "constructor"
+      ],
+      "matches": [
+        {
+          "root": "constructor",
+          "start": 0,
+          "end": 11,
+          "text": "constructor"
+        }
+      ],
+      "sourceDate": "2026-09-04",
+      "sourceFile": "whoisds-2026-09-04.txt",
+      "sourceLine": 2580,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [
+        "constructoragim.store"
+      ],
+      "sampling_root": "constructor"
+    },
+    {
+      "domain": "techcomparator.com",
+      "roots": [
+        "comparator"
+      ],
+      "matches": [
+        {
+          "root": "comparator",
+          "start": 4,
+          "end": 14,
+          "text": "comparator"
+        }
+      ],
+      "sourceDate": "2026-09-02",
+      "sourceFile": "whoisds-2026-09-02.txt",
+      "sourceLine": 66930,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "comparator"
+    },
+    {
+      "domain": "edustudynavigator.com",
+      "roots": [
+        "navigator"
+      ],
+      "matches": [
+        {
+          "root": "navigator",
+          "start": 8,
+          "end": 17,
+          "text": "navigator"
+        }
+      ],
+      "sourceDate": "2026-09-07",
+      "sourceFile": "whoisds-2026-09-07.txt",
+      "sourceLine": 42625,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "navigator"
+    },
+    {
+      "domain": "lightingdesignerai.com",
+      "roots": [
+        "designer"
+      ],
+      "matches": [
+        {
+          "root": "designer",
+          "start": 8,
+          "end": 16,
+          "text": "designer"
+        }
+      ],
+      "sourceDate": "2026-09-16",
+      "sourceFile": "whoisds-2026-09-16.txt",
+      "sourceLine": 14114,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "designer"
+    },
+    {
+      "domain": "synceretec.com",
+      "roots": [
+        "syncer"
+      ],
+      "matches": [
+        {
+          "root": "syncer",
+          "start": 0,
+          "end": 6,
+          "text": "syncer"
+        }
+      ],
+      "sourceDate": "2026-09-12",
+      "sourceFile": "whoisds-2026-09-12.txt",
+      "sourceLine": 21654,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "syncer"
+    },
+    {
+      "domain": "marketplaceconnector.ru",
+      "roots": [
+        "connector"
+      ],
+      "matches": [
+        {
+          "root": "connector",
+          "start": 11,
+          "end": 20,
+          "text": "connector"
+        }
+      ],
+      "sourceDate": "2026-09-10",
+      "sourceFile": "whoisds-2026-09-10.txt",
+      "sourceLine": 46533,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "connector"
+    },
+    {
+      "domain": "responderbid.com",
+      "roots": [
+        "responder"
+      ],
+      "matches": [
+        {
+          "root": "responder",
+          "start": 0,
+          "end": 9,
+          "text": "responder"
+        }
+      ],
+      "sourceDate": "2026-09-06",
+      "sourceFile": "whoisds-2026-09-06.txt",
+      "sourceLine": 19006,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "responder"
+    },
+    {
+      "domain": "japantranslator.net",
+      "roots": [
+        "translator"
+      ],
+      "matches": [
+        {
+          "root": "translator",
+          "start": 5,
+          "end": 15,
+          "text": "translator"
+        }
+      ],
+      "sourceDate": "2026-09-12",
+      "sourceFile": "whoisds-2026-09-12.txt",
+      "sourceLine": 1132,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "translator"
+    },
+    {
+      "domain": "ex4tomq4decompilers.com",
+      "roots": [
+        "compiler"
+      ],
+      "matches": [
+        {
+          "root": "compiler",
+          "start": 10,
+          "end": 18,
+          "text": "compiler"
+        }
+      ],
+      "sourceDate": "2026-09-02",
+      "sourceFile": "whoisds-2026-09-02.txt",
+      "sourceLine": 44370,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "compiler"
+    },
+    {
+      "domain": "pflichtenheft-generator.store",
+      "roots": [
+        "generator"
+      ],
+      "matches": [
+        {
+          "root": "generator",
+          "start": 14,
+          "end": 23,
+          "text": "generator"
+        }
+      ],
+      "sourceDate": "2026-08-31",
+      "sourceFile": "whoisds-2026-08-31.txt",
+      "sourceLine": 25233,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [
+        "pflichtenheft-generator.global"
+      ],
+      "sampling_root": "generator"
+    },
+    {
+      "domain": "convertwave.xyz",
+      "roots": [
+        "convert"
+      ],
+      "matches": [
+        {
+          "root": "convert",
+          "start": 0,
+          "end": 7,
+          "text": "convert"
+        }
+      ],
+      "sourceDate": "2026-09-08",
+      "sourceFile": "whoisds-2026-09-08.txt",
+      "sourceLine": 22187,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "convert"
+    },
+    {
+      "domain": "onlinebacklinkgenerator.online",
+      "roots": [
+        "generator",
+        "online"
+      ],
+      "matches": [
+        {
+          "root": "online",
+          "start": 0,
+          "end": 6,
+          "text": "online"
+        },
+        {
+          "root": "generator",
+          "start": 14,
+          "end": 23,
+          "text": "generator"
+        }
+      ],
+      "sourceDate": "2026-09-23",
+      "sourceFile": "whoisds-2026-09-23.txt",
+      "sourceLine": 32797,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [
+        "onlinebacklinkgenerator.space"
+      ],
+      "sampling_root": "online"
+    },
+    {
+      "domain": "bskydownloader.app",
+      "roots": [
+        "downloader"
+      ],
+      "matches": [
+        {
+          "root": "downloader",
+          "start": 4,
+          "end": 14,
+          "text": "downloader"
+        }
+      ],
+      "sourceDate": "2026-09-03",
+      "sourceFile": "whoisds-2026-09-03.txt",
+      "sourceLine": 56009,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "downloader"
+    },
+    {
+      "domain": "soundanalyzerai.com",
+      "roots": [
+        "analyzer"
+      ],
+      "matches": [
+        {
+          "root": "analyzer",
+          "start": 5,
+          "end": 13,
+          "text": "analyzer"
+        }
+      ],
+      "sourceDate": "2026-09-02",
+      "sourceFile": "whoisds-2026-09-02.txt",
+      "sourceLine": 37467,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "analyzer"
+    },
+    {
+      "domain": "makerroute.xyz",
+      "roots": [
+        "maker"
+      ],
+      "matches": [
+        {
+          "root": "maker",
+          "start": 0,
+          "end": 5,
+          "text": "maker"
+        }
+      ],
+      "sourceDate": "2026-09-14",
+      "sourceFile": "whoisds-2026-09-14.txt",
+      "sourceLine": 28583,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "maker"
+    },
+    {
+      "domain": "creatorclubind.com",
+      "roots": [
+        "creator"
+      ],
+      "matches": [
+        {
+          "root": "creator",
+          "start": 0,
+          "end": 7,
+          "text": "creator"
+        }
+      ],
+      "sourceDate": "2026-09-25",
+      "sourceFile": "whoisds-2026-09-25.txt",
+      "sourceLine": 46180,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "creator"
+    },
+    {
+      "domain": "ethansanderseditor.com",
+      "roots": [
+        "editor"
+      ],
+      "matches": [
+        {
+          "root": "editor",
+          "start": 12,
+          "end": 18,
+          "text": "editor"
+        }
+      ],
+      "sourceDate": "2026-09-01",
+      "sourceFile": "whoisds-2026-09-01.txt",
+      "sourceLine": 59976,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "editor"
+    },
+    {
+      "domain": "mymerchantprocessor.com",
+      "roots": [
+        "processor"
+      ],
+      "matches": [
+        {
+          "root": "processor",
+          "start": 10,
+          "end": 19,
+          "text": "processor"
+        }
+      ],
+      "sourceDate": "2026-09-07",
+      "sourceFile": "whoisds-2026-09-07.txt",
+      "sourceLine": 52356,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "processor"
+    },
+    {
+      "domain": "embeddedevaluators.org",
+      "roots": [
+        "evaluator"
+      ],
+      "matches": [
+        {
+          "root": "evaluator",
+          "start": 8,
+          "end": 17,
+          "text": "evaluator"
+        }
+      ],
+      "sourceDate": "2026-09-14",
+      "sourceFile": "whoisds-2026-09-14.txt",
+      "sourceLine": 24413,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "evaluator"
+    },
+    {
+      "domain": "designerstudio.xyz",
+      "roots": [
+        "designer"
+      ],
+      "matches": [
+        {
+          "root": "designer",
+          "start": 0,
+          "end": 8,
+          "text": "designer"
+        }
+      ],
+      "sourceDate": "2026-09-07",
+      "sourceFile": "whoisds-2026-09-07.txt",
+      "sourceLine": 20180,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "designer"
+    },
+    {
+      "domain": "tripcompiler.xyz",
+      "roots": [
+        "compiler"
+      ],
+      "matches": [
+        {
+          "root": "compiler",
+          "start": 4,
+          "end": 12,
+          "text": "compiler"
+        }
+      ],
+      "sourceDate": "2026-09-20",
+      "sourceFile": "whoisds-2026-09-20.txt",
+      "sourceLine": 68728,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "compiler"
+    },
+    {
+      "domain": "analyzergrid.me",
+      "roots": [
+        "analyzer"
+      ],
+      "matches": [
+        {
+          "root": "analyzer",
+          "start": 0,
+          "end": 8,
+          "text": "analyzer"
+        }
+      ],
+      "sourceDate": "2026-09-14",
+      "sourceFile": "whoisds-2026-09-14.txt",
+      "sourceLine": 59834,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "analyzer"
+    },
+    {
+      "domain": "careevaluator.com",
+      "roots": [
+        "evaluator"
+      ],
+      "matches": [
+        {
+          "root": "evaluator",
+          "start": 4,
+          "end": 13,
+          "text": "evaluator"
+        }
+      ],
+      "sourceDate": "2026-08-29",
+      "sourceFile": "whoisds-2026-08-29.txt",
+      "sourceLine": 25597,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "evaluator"
+    },
+    {
+      "domain": "comunidadsenderosderaza.com",
+      "roots": [
+        "sender"
+      ],
+      "matches": [
+        {
+          "root": "sender",
+          "start": 9,
+          "end": 15,
+          "text": "sender"
+        }
+      ],
+      "sourceDate": "2026-09-13",
+      "sourceFile": "whoisds-2026-09-13.txt",
+      "sourceLine": 14866,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "sender"
+    },
+    {
+      "domain": "iiptvallesender.shop",
+      "roots": [
+        "sender"
+      ],
+      "matches": [
+        {
+          "root": "sender",
+          "start": 9,
+          "end": 15,
+          "text": "sender"
+        }
+      ],
+      "sourceDate": "2026-09-17",
+      "sourceFile": "whoisds-2026-09-17.txt",
+      "sourceLine": 11305,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "sender"
+    },
+    {
+      "domain": "roseburgreceiver.com",
+      "roots": [
+        "receiver"
+      ],
+      "matches": [
+        {
+          "root": "receiver",
+          "start": 8,
+          "end": 16,
+          "text": "receiver"
+        }
+      ],
+      "sourceDate": "2026-09-03",
+      "sourceFile": "whoisds-2026-09-03.txt",
+      "sourceLine": 2940,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "receiver"
+    },
+    {
+      "domain": "denverrussianinterpreter.com",
+      "roots": [
+        "interpreter"
+      ],
+      "matches": [
+        {
+          "root": "interpreter",
+          "start": 13,
+          "end": 24,
+          "text": "interpreter"
+        }
+      ],
+      "sourceDate": "2026-09-25",
+      "sourceFile": "whoisds-2026-09-25.txt",
+      "sourceLine": 4267,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "interpreter"
+    },
+    {
+      "domain": "rdcalculator.xyz",
+      "roots": [
+        "calculator"
+      ],
+      "matches": [
+        {
+          "root": "calculator",
+          "start": 2,
+          "end": 12,
+          "text": "calculator"
+        }
+      ],
+      "sourceDate": "2026-09-05",
+      "sourceFile": "whoisds-2026-09-05.txt",
+      "sourceLine": 23612,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "calculator"
+    },
+    {
+      "domain": "robotreceivers.xyz",
+      "roots": [
+        "receiver"
+      ],
+      "matches": [
+        {
+          "root": "receiver",
+          "start": 5,
+          "end": 13,
+          "text": "receiver"
+        }
+      ],
+      "sourceDate": "2026-09-24",
+      "sourceFile": "whoisds-2026-09-24.txt",
+      "sourceLine": 4903,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "receiver"
+    },
+    {
+      "domain": "yellowtemplate.site",
+      "roots": [
+        "template"
+      ],
+      "matches": [
+        {
+          "root": "template",
+          "start": 6,
+          "end": 14,
+          "text": "template"
+        }
+      ],
+      "sourceDate": "2026-09-24",
+      "sourceFile": "whoisds-2026-09-24.txt",
+      "sourceLine": 58694,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "template"
+    },
+    {
+      "domain": "bestecomsitebuilder.com",
+      "roots": [
+        "builder"
+      ],
+      "matches": [
+        {
+          "root": "builder",
+          "start": 12,
+          "end": 19,
+          "text": "builder"
+        }
+      ],
+      "sourceDate": "2026-09-18",
+      "sourceFile": "whoisds-2026-09-18.txt",
+      "sourceLine": 38482,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "builder"
+    },
+    {
+      "domain": "dadrpachecker.website",
+      "roots": [
+        "checker"
+      ],
+      "matches": [
+        {
+          "root": "checker",
+          "start": 6,
+          "end": 13,
+          "text": "checker"
+        }
+      ],
+      "sourceDate": "2026-09-11",
+      "sourceFile": "whoisds-2026-09-11.txt",
+      "sourceLine": 13519,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "checker"
+    },
+    {
+      "domain": "bounce-detector.com",
+      "roots": [
+        "detector"
+      ],
+      "matches": [
+        {
+          "root": "detector",
+          "start": 7,
+          "end": 15,
+          "text": "detector"
+        }
+      ],
+      "sourceDate": "2026-09-24",
+      "sourceFile": "whoisds-2026-09-24.txt",
+      "sourceLine": 33958,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "detector"
+    },
+    {
+      "domain": "bridgingthegapinterpreters.com",
+      "roots": [
+        "interpreter"
+      ],
+      "matches": [
+        {
+          "root": "interpreter",
+          "start": 14,
+          "end": 25,
+          "text": "interpreter"
+        }
+      ],
+      "sourceDate": "2026-09-24",
+      "sourceFile": "whoisds-2026-09-24.txt",
+      "sourceLine": 18607,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge",
+        "long_name"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "interpreter"
+    },
+    {
+      "domain": "marketscraper.pro",
+      "roots": [
+        "scraper"
+      ],
+      "matches": [
+        {
+          "root": "scraper",
+          "start": 6,
+          "end": 13,
+          "text": "scraper"
+        }
+      ],
+      "sourceDate": "2026-09-09",
+      "sourceFile": "whoisds-2026-09-09.txt",
+      "sourceLine": 40172,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "scraper"
+    },
+    {
+      "domain": "hockeymanager.net",
+      "roots": [
+        "manager"
+      ],
+      "matches": [
+        {
+          "root": "manager",
+          "start": 6,
+          "end": 13,
+          "text": "manager"
+        }
+      ],
+      "sourceDate": "2026-09-23",
+      "sourceFile": "whoisds-2026-09-23.txt",
+      "sourceLine": 14101,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "manager"
+    },
+    {
+      "domain": "explorerssl.xyz",
+      "roots": [
+        "explorer"
+      ],
+      "matches": [
+        {
+          "root": "explorer",
+          "start": 0,
+          "end": 8,
+          "text": "explorer"
+        }
+      ],
+      "sourceDate": "2026-09-16",
+      "sourceFile": "whoisds-2026-09-16.txt",
+      "sourceLine": 8045,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "explorer"
+    },
+    {
+      "domain": "cegarchitectdashboard.com",
+      "roots": [
+        "dashboard"
+      ],
+      "matches": [
+        {
+          "root": "dashboard",
+          "start": 12,
+          "end": 21,
+          "text": "dashboard"
+        }
+      ],
+      "sourceDate": "2026-08-28",
+      "sourceFile": "whoisds-2026-08-28.txt",
+      "sourceLine": 5396,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "dashboard"
+    },
+    {
+      "domain": "onlinefreightclasscalculator.com",
+      "roots": [
+        "online",
+        "calculator"
+      ],
+      "matches": [
+        {
+          "root": "online",
+          "start": 0,
+          "end": 6,
+          "text": "online"
+        },
+        {
+          "root": "calculator",
+          "start": 18,
+          "end": 28,
+          "text": "calculator"
+        }
+      ],
+      "sourceDate": "2026-09-05",
+      "sourceFile": "whoisds-2026-09-05.txt",
+      "sourceLine": 42885,
+      "priorityReasons": [
+        "long_name"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "calculator"
+    },
+    {
+      "domain": "romaamorweddingplanner.com",
+      "roots": [
+        "planner"
+      ],
+      "matches": [
+        {
+          "root": "planner",
+          "start": 15,
+          "end": 22,
+          "text": "planner"
+        }
+      ],
+      "sourceDate": "2026-09-05",
+      "sourceFile": "whoisds-2026-09-05.txt",
+      "sourceLine": 54726,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "planner"
+    },
+    {
+      "domain": "aichurntracker.xyz",
+      "roots": [
+        "tracker"
+      ],
+      "matches": [
+        {
+          "root": "tracker",
+          "start": 7,
+          "end": 14,
+          "text": "tracker"
+        }
+      ],
+      "sourceDate": "2026-09-07",
+      "sourceFile": "whoisds-2026-09-07.txt",
+      "sourceLine": 47431,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "tracker"
+    },
+    {
+      "domain": "getjobrecorder.com",
+      "roots": [
+        "recorder"
+      ],
+      "matches": [
+        {
+          "root": "recorder",
+          "start": 6,
+          "end": 14,
+          "text": "recorder"
+        }
+      ],
+      "sourceDate": "2026-09-03",
+      "sourceFile": "whoisds-2026-09-03.txt",
+      "sourceLine": 46732,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "recorder"
+    },
+    {
+      "domain": "slaoptimizer.xyz",
+      "roots": [
+        "optimizer"
+      ],
+      "matches": [
+        {
+          "root": "optimizer",
+          "start": 3,
+          "end": 12,
+          "text": "optimizer"
+        }
+      ],
+      "sourceDate": "2026-09-16",
+      "sourceFile": "whoisds-2026-09-16.txt",
+      "sourceLine": 27650,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "optimizer"
+    },
+    {
+      "domain": "otona-sample.com",
+      "roots": [
+        "sample"
+      ],
+      "matches": [
+        {
+          "root": "sample",
+          "start": 6,
+          "end": 12,
+          "text": "sample"
+        }
+      ],
+      "sourceDate": "2026-09-03",
+      "sourceFile": "whoisds-2026-09-03.txt",
+      "sourceLine": 65233,
+      "priorityReasons": [
+        "broad_roots_only",
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "sample"
+    },
+    {
+      "domain": "automatedscheduler.info",
+      "roots": [
+        "scheduler"
+      ],
+      "matches": [
+        {
+          "root": "scheduler",
+          "start": 9,
+          "end": 18,
+          "text": "scheduler"
+        }
+      ],
+      "sourceDate": "2026-09-23",
+      "sourceFile": "whoisds-2026-09-23.txt",
+      "sourceLine": 5887,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "scheduler"
+    },
+    {
+      "domain": "stablecoinconverter.com",
+      "roots": [
+        "converter"
+      ],
+      "matches": [
+        {
+          "root": "converter",
+          "start": 10,
+          "end": 19,
+          "text": "converter"
+        }
+      ],
+      "sourceDate": "2026-08-27",
+      "sourceFile": "whoisds-2026-08-27.txt",
+      "sourceLine": 19634,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "converter"
+    },
+    {
+      "domain": "viewerfirst.com",
+      "roots": [
+        "viewer"
+      ],
+      "matches": [
+        {
+          "root": "viewer",
+          "start": 0,
+          "end": 6,
+          "text": "viewer"
+        }
+      ],
+      "sourceDate": "2026-09-02",
+      "sourceFile": "whoisds-2026-09-02.txt",
+      "sourceLine": 43399,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "viewer"
+    },
+    {
+      "domain": "extractorbot.xyz",
+      "roots": [
+        "extractor"
+      ],
+      "matches": [
+        {
+          "root": "extractor",
+          "start": 0,
+          "end": 9,
+          "text": "extractor"
+        }
+      ],
+      "sourceDate": "2026-09-11",
+      "sourceFile": "whoisds-2026-09-11.txt",
+      "sourceLine": 48113,
+      "priorityReasons": [],
+      "lane": "priority",
+      "sameNameAlternatives": [],
+      "sampling_root": "extractor"
+    },
+    {
+      "domain": "mayatemplates.com",
+      "roots": [
+        "template"
+      ],
+      "matches": [
+        {
+          "root": "template",
+          "start": 4,
+          "end": 12,
+          "text": "template"
+        }
+      ],
+      "sourceDate": "2026-09-03",
+      "sourceFile": "whoisds-2026-09-03.txt",
+      "sourceLine": 52422,
+      "priorityReasons": [
+        "no_specific_root_at_name_edge"
+      ],
+      "lane": "exploration",
+      "sameNameAlternatives": [],
+      "sampling_root": "template"
+    }
+  ]
+}

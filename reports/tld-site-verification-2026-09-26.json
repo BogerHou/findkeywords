@@ -1,0 +1,36 @@
+{
+  "completed_at": "2026-09-26T04:10:40.833998+00:00",
+  "screening_audit": "data/runs/2026-09-26-tld/screening-verification.json",
+  "probe_records": 3000,
+  "automatic_candidates": 540,
+  "content_reviewed": 540,
+  "content_corrections": 111,
+  "content_candidates": 429,
+  "research_candidates": 357,
+  "research_excluded": 72,
+  "research_phrases": 1216,
+  "probe_window_and_rules": "Compared to prior month manifest: registration reference/cutoff, content regexes, phrase rule, timeout and redirect limits identical.",
+  "browser_checks": [
+    "Final #tld snapshot shows complete and357 research candidates",
+    "Search and pagination work",
+    "Old #month retains346 candidates and independent filter state",
+    "Name evidence, original metadata and one-time-encoded Trends links expand",
+    "Scope all plus neutral-ID search yields72 content candidates; first50 isolated rows have0links",
+    "Reset returns357 research candidates",
+    "No browser console errors during finalchecks"
+  ],
+  "artifact_checks": [
+    "All10currentresources HTTP200",
+    "Raw run/selection/part-audit routes HTTP404",
+    "540contentreviews matchraw auto candidates",
+    "Allindustryquoteevidence checked againstraw",
+    "Knownriskidentifiers absent frompublicbundles andCSV",
+    "CSV1216rows agrees withdata"
+  ],
+  "not_done": [
+    "No actual Trends queries for this run",
+    "No verification of firstlaunch, product function orSEOcompetition"
+  ],
+  "research_scope_status": "Provisional adult/gambling exclusion; optional user preference question unanswered at build time",
+  "data_sha256": "abe6e11832c6670de028ecc85a2b344440d987d3141e90892f0422f979686ec3"
+}

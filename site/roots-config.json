@@ -1,0 +1,235 @@
+{
+  "version": "user-roots-2026-09-28-v1",
+  "updatedAt": "2026-09-28",
+  "source": "用户于 2026-09-28 提供的 51 个英文词根，保持原顺序与中文说明。",
+  "goal": "只寻找最近 30 天刚开始起量、增长迅猛的关键词。",
+  "market": {
+    "geo": "US",
+    "searchType": "网页搜索",
+    "category": "全部类别"
+  },
+  "matching": {
+    "keyword": "case_insensitive_whole_word",
+    "domain": "case_insensitive_first_label_substring_longest_nonoverlapping",
+    "expandSynonyms": false,
+    "expandInflections": false,
+    "tldAllowlist": null
+  },
+  "trendReview": {
+    "status": "pending",
+    "completeDays": 30,
+    "backgroundMonths": 6,
+    "requirements": [
+      "最近 30 天内开始出现持续搜索信号，并有迅猛增长；稳定老词、温和上涨、孤立尖峰不作为本轮目标。",
+      "单词查询复查，结合半年背景辨别此前是否已有持续规模；0 仅表示低于展示阈值的可能性，不能证明此前无人搜索。",
+      "保存起量日期、起量前后均值、最近两周变化、非零天数、末段是否回落及查询条件。",
+      "迅猛增长的数值门槛本步尚未设定；不沿用历史 20% 升幅作为本轮入选标准。"
+    ]
+  },
+  "roots": [
+    {
+      "term": "Translator",
+      "meaning": "翻译器"
+    },
+    {
+      "term": "Generator",
+      "meaning": "生成器"
+    },
+    {
+      "term": "Example",
+      "meaning": "示例"
+    },
+    {
+      "term": "Convert",
+      "meaning": "转换"
+    },
+    {
+      "term": "Online",
+      "meaning": "在线"
+    },
+    {
+      "term": "Downloader",
+      "meaning": "下载器"
+    },
+    {
+      "term": "Maker",
+      "meaning": "制作器"
+    },
+    {
+      "term": "Creator",
+      "meaning": "创作者"
+    },
+    {
+      "term": "Editor",
+      "meaning": "编辑器"
+    },
+    {
+      "term": "Processor",
+      "meaning": "处理器"
+    },
+    {
+      "term": "Designer",
+      "meaning": "设计师"
+    },
+    {
+      "term": "Compiler",
+      "meaning": "编译器"
+    },
+    {
+      "term": "Analyzer",
+      "meaning": "分析器"
+    },
+    {
+      "term": "Evaluator",
+      "meaning": "评估器"
+    },
+    {
+      "term": "Sender",
+      "meaning": "发件人"
+    },
+    {
+      "term": "Receiver",
+      "meaning": "收件人"
+    },
+    {
+      "term": "Interpreter",
+      "meaning": "解释器"
+    },
+    {
+      "term": "Uploader",
+      "meaning": "上传者"
+    },
+    {
+      "term": "Calculator",
+      "meaning": "计算器"
+    },
+    {
+      "term": "Sample",
+      "meaning": "样本"
+    },
+    {
+      "term": "Template",
+      "meaning": "模板"
+    },
+    {
+      "term": "Format",
+      "meaning": "格式"
+    },
+    {
+      "term": "Builder",
+      "meaning": "构建器"
+    },
+    {
+      "term": "Scheme",
+      "meaning": "方案"
+    },
+    {
+      "term": "Pattern",
+      "meaning": "模式"
+    },
+    {
+      "term": "Checker",
+      "meaning": "检查器"
+    },
+    {
+      "term": "Detector",
+      "meaning": "检测器"
+    },
+    {
+      "term": "Scraper",
+      "meaning": "爬虫"
+    },
+    {
+      "term": "Manager",
+      "meaning": "管理器"
+    },
+    {
+      "term": "Explorer",
+      "meaning": "浏览器"
+    },
+    {
+      "term": "Dashboard",
+      "meaning": "仪表盘"
+    },
+    {
+      "term": "Planner",
+      "meaning": "计划器"
+    },
+    {
+      "term": "Tracker",
+      "meaning": "追踪器"
+    },
+    {
+      "term": "Recorder",
+      "meaning": "录制器"
+    },
+    {
+      "term": "Optimizer",
+      "meaning": "优化器"
+    },
+    {
+      "term": "Scheduler",
+      "meaning": "调度器"
+    },
+    {
+      "term": "Converter",
+      "meaning": "转换器"
+    },
+    {
+      "term": "Viewer",
+      "meaning": "查看器"
+    },
+    {
+      "term": "Extractor",
+      "meaning": "提取器"
+    },
+    {
+      "term": "Monitor",
+      "meaning": "监视器"
+    },
+    {
+      "term": "Notifier",
+      "meaning": "通知器"
+    },
+    {
+      "term": "Verifier",
+      "meaning": "验证器"
+    },
+    {
+      "term": "Simulator",
+      "meaning": "模拟器"
+    },
+    {
+      "term": "Assistant",
+      "meaning": "助手"
+    },
+    {
+      "term": "Constructor",
+      "meaning": "构建者"
+    },
+    {
+      "term": "Comparator",
+      "meaning": "比较器"
+    },
+    {
+      "term": "Navigator",
+      "meaning": "导航器"
+    },
+    {
+      "term": "Syncer",
+      "meaning": "同步器"
+    },
+    {
+      "term": "Connector",
+      "meaning": "连接器"
+    },
+    {
+      "term": "Cataloger",
+      "meaning": "目录制作人"
+    },
+    {
+      "term": "Responder",
+      "meaning": "响应器"
+    }
+  ]
+}

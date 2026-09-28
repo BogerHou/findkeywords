@@ -1,0 +1,18 @@
+{
+  "name": "macOS bundled web2 general English spelling list",
+  "source_path": "/usr/share/dict/web2",
+  "source_readme_path": "/usr/share/dict/README",
+  "source_readme": "#\t@(#)README\t8.1 (Berkeley) 6/5/93\n# $FreeBSD$\n\nWEB ---- (introduction provided by jaw@riacs) -------------------------\n\nWelcome to web2 (Webster's Second International) all 234,936 words worth.\nThe 1934 copyright has lapsed, according to the supplier.  The\nsupplemental 'web2a' list contains hyphenated terms as well as assorted\nnoun and adverbial phrases.  The wordlist makes a dandy 'grep' victim.\n\n     -- James A. Woods    {ihnp4,hplabs}!ames!jaw    (or jaw@riacs)\n\nCountry names are stored in the file /usr/share/misc/iso3166.\n\n\nFreeBSD Maintenance Notes ---------------------------------------------\n\nNote that FreeBSD is not maintaining a historical document, we're\nmaintaining a list of current [American] English spellings.\n\nA few words have been removed because their spellings have depreciated.\nThis list of words includes:\n    corelation (and its derivatives)\t\"correlation\" is the preferred spelling\n    freen\t\t\t\ttypographical error in original file\n    freend\t\t\t\tarchaic spelling no longer in use;\n\t\t\t\t\tmasks common typo in modern text\n\n--\n\nA list of technical terms has been added in the file 'freebsd'.  This\nword list contains FreeBSD/Unix lexicon that is used by the system\ndocumentation.  It makes a great ispell(1) personal dictionary to\nsupplement the standard English language dictionary.\n",
+  "raw_sha256": "be41ad97963bf8dabedd5871d5d691596175269d540956b0f9965a885c2bbab9",
+  "snapshot_path": "scripts/data/name-lexicon-web2.txt",
+  "snapshot_sha256": "092fa51ca005406dc5f66588fece66613b1e96617b442a25d3743c606c1c0001",
+  "raw_lines": 235976,
+  "snapshot_words": 234289,
+  "normalization": "Keep entries containing only A-Z/a-z and 3..32 letters, lowercase, deduplicate, lexicographic sort. No industry/category keywords added.",
+  "limitations": [
+    "The source README describes Webster’s Second International and historical FreeBSD maintenance; vocabulary may be archaic, rare, or include proper names.",
+    "This is a spelling lexicon, not a frequency, meaning, search-demand, trademark, or quality database.",
+    "Modern coined names and languages other than English are incompletely represented. Full word segmentation is only a reproducible lexical clue.",
+    "The source README says the copyright had lapsed according to its supplier; this project has not independently investigated that assertion."
+  ]
+}

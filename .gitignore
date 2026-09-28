@@ -1,0 +1,24 @@
+# Bulk input, original evidence, databases and local probe output stay local.
+/data/raw/
+/data/runs/
+/results/
+/runtime/
+/dist/
+/reports/*.tar.gz
+/reports/*.zip
+
+# A request computer opts in locally; never share routes or credentials in Git.
+/config/*.local.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/

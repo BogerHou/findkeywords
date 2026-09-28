@@ -1,0 +1,2135 @@
+{
+  "sources": [
+    {
+      "path": "data/runs/2026-09-26/probes.json",
+      "sha256": "7ffdf75161bc483d4288a7cf3fccf1403ff360657349edb061ce78ed9dc28a45",
+      "records": 52
+    },
+    {
+      "path": "data/runs/2026-09-26-month/probes.jsonl",
+      "sha256": "c30042a15335eac583c8caee8d105d15d34d4ecea57fdbc2ec9d5e6c2170d758",
+      "records": 3000
+    },
+    {
+      "path": "data/runs/2026-09-26-tld/probes.jsonl",
+      "sha256": "3c41944adebcc9b16aaea1d6a11ad10f3f93af62a079805650ed97bd5e432bf9",
+      "records": 3000
+    }
+  ],
+  "records": [
+    {
+      "domain": "3dcalculators.com",
+      "fetchedAt": "2026-09-26T03:20:51.577296Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "admaker.xyz",
+      "fetchedAt": "2026-09-26T03:25:33.438678Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "agreeconverter.com",
+      "fetchedAt": "2026-09-26T03:21:19.052207Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "aiadminplanner.xyz",
+      "fetchedAt": "2026-09-26T03:20:46.457302Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "aiaptracker.xyz",
+      "fetchedAt": "2026-09-26T03:20:37.604721Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "aicoststracker.xyz",
+      "fetchedAt": "2026-09-26T03:21:58.725216Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "aikyctracker.xyz",
+      "fetchedAt": "2026-09-26T03:22:18.533744Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ailabplanner.xyz",
+      "fetchedAt": "2026-09-26T03:20:41.324479Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ailogschecker.xyz",
+      "fetchedAt": "2026-09-26T03:22:10.592658Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ainpstracker.xyz",
+      "fetchedAt": "2026-09-26T03:23:00.029378Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "aiplannerpro.app",
+      "fetchedAt": "2026-09-26T03:23:38.822294Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "aiscriptgenerator.xyz",
+      "fetchedAt": "2026-09-26T03:21:15.400271Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "aistockchecker.xyz",
+      "fetchedAt": "2026-09-26T03:21:32.999306Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "aisubtitlegenerator.pro",
+      "fetchedAt": "2026-09-26T03:22:46.974817Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "aitranslator.co",
+      "fetchedAt": "2026-09-26T04:01:36.043816Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "aitrialplanner.xyz",
+      "fetchedAt": "2026-09-26T03:22:48.628842Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "aivideoscreator.com",
+      "fetchedAt": "2026-09-26T03:20:53.673573Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "aivideotranslator.tech",
+      "fetchedAt": "2026-09-26T03:23:33.240104Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "allkindsofcalculators.info",
+      "fetchedAt": "2026-09-26T03:21:24.084293Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "alumni-manager.app",
+      "fetchedAt": "2026-09-26T03:59:16.180242Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "aml-checker.online",
+      "fetchedAt": "2026-09-26T03:23:37.252133Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "too_large",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "aquickstudyonline.com",
+      "fetchedAt": "2026-09-26T03:24:59.961345Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ariaeditor.com",
+      "fetchedAt": "2026-09-26T03:24:31.967937Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "asfuturelifeplanners.co.in",
+      "fetchedAt": "2026-09-26T03:22:54.040142Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "assistantgenies.com",
+      "fetchedAt": "2026-09-26T03:54:37.043607Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "atc-express-calculator.com",
+      "fetchedAt": "2026-09-26T03:21:56.434917Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "auto-loan-reality-calculator.com",
+      "fetchedAt": "2026-09-26T03:21:16.346145Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "autoratestracker.com",
+      "fetchedAt": "2026-09-26T03:20:51.815325Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "autotracker-one.ru",
+      "fetchedAt": "2026-09-26T03:21:27.227642Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "autovideomaker.top",
+      "fetchedAt": "2026-09-26T03:21:52.832084Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "averagecalculators.co",
+      "fetchedAt": "2026-09-26T03:21:27.603219Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "backlinkcheckerbest.website",
+      "fetchedAt": "2026-09-26T03:23:53.232406Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "backlinkscheckerfree.website",
+      "fetchedAt": "2026-09-26T03:21:37.594264Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "backtracker.app",
+      "fetchedAt": "2026-09-26T03:21:47.192134Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "bestbtracker.app",
+      "fetchedAt": "2026-09-26T03:20:40.234137Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "bestjuicemakers.com",
+      "fetchedAt": "2026-09-26T03:56:10.891357Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "too_large",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "bestrankchecker.website",
+      "fetchedAt": "2026-09-26T03:21:33.358192Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "besttdeecalculator.com",
+      "fetchedAt": "2026-09-26T03:21:26.631464Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "bevetracker.com",
+      "fetchedAt": "2026-09-26T03:21:29.854323Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "blueplanner.xyz",
+      "fetchedAt": "2026-09-26T03:22:03.211617Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "bmicalculator.ph",
+      "fetchedAt": "2026-09-26T03:20:37.309111Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "boardplanner.org",
+      "fetchedAt": "2026-09-26T03:21:03.259424Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "too_large",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "boilermakerstamps.com",
+      "fetchedAt": "2026-09-26T03:25:18.981410Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "bookingonline.mobi",
+      "fetchedAt": "2026-09-26T03:25:53.282783Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "broadsmaker.com",
+      "fetchedAt": "2026-09-26T03:24:29.981588Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "bulkdapachecker.website",
+      "fetchedAt": "2026-09-26T03:23:44.066462Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "buyonlineofc11.shop",
+      "fetchedAt": "2026-09-26T04:02:18.851452Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "calculatorreadiness.com",
+      "fetchedAt": "2026-09-26T03:23:27.868454Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "cardmakerbrain.xyz",
+      "fetchedAt": "2026-09-26T03:24:56.316917Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "cartrackernowshera.pk",
+      "fetchedAt": "2026-09-26T03:21:17.953534Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ceilingfanplanner.com",
+      "fetchedAt": "2026-09-26T01:34:57.682229Z",
+      "source": "data/runs/2026-09-26/probes.json",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "centralasiamonitor.com",
+      "fetchedAt": "2026-09-26T03:25:32.114820Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "chatbotchecker.com",
+      "fetchedAt": "2026-09-26T03:21:02.062113Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "cheapfontgenerator.com",
+      "fetchedAt": "2026-09-26T03:22:42.982317Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "checkercabglendale.com",
+      "fetchedAt": "2026-09-26T03:23:23.416060Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "checkerchatbot.xyz",
+      "fetchedAt": "2026-09-26T03:24:02.958359Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "checkergain.xyz",
+      "fetchedAt": "2026-09-26T03:21:50.681831Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "chinatrainplanner.com",
+      "fetchedAt": "2026-09-26T03:23:19.783883Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "chinese-zodiac-calculator.com",
+      "fetchedAt": "2026-09-26T03:21:13.110370Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "chordchartformatter.com",
+      "fetchedAt": "2026-09-26T03:24:10.585867Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "christmasgenerator.com",
+      "fetchedAt": "2026-09-26T03:24:00.605636Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "churnaimonitor.xyz",
+      "fetchedAt": "2026-09-26T03:26:00.792042Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "citychairmaker.com",
+      "fetchedAt": "2026-09-26T03:25:57.240402Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "cityplanner24.com",
+      "fetchedAt": "2026-09-26T03:21:08.923784Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "clothingsizecalculator.net",
+      "fetchedAt": "2026-09-26T03:22:05.226438Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "cmmonitoring.com",
+      "fetchedAt": "2026-09-26T03:25:08.360090Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "colorpaletteextractor.com",
+      "fetchedAt": "2026-09-26T01:34:40.967901Z",
+      "source": "data/runs/2026-09-26/probes.json",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "commentgenerator.app",
+      "fetchedAt": "2026-09-26T03:23:10.845113Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "competitionchecker.website",
+      "fetchedAt": "2026-09-26T03:23:43.343083Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "contentconverter.me",
+      "fetchedAt": "2026-09-26T04:00:24.339529Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "convert.surf",
+      "fetchedAt": "2026-09-26T03:24:23.754094Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "converta-ai.ru",
+      "fetchedAt": "2026-09-26T03:24:58.774361Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "convertanyimage.com",
+      "fetchedAt": "2026-09-26T03:21:06.782231Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "converterimagememtexto.com",
+      "fetchedAt": "2026-09-26T03:20:45.832668Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "convertermint.com",
+      "fetchedAt": "2026-09-26T03:24:18.471941Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "convertidormp3.me",
+      "fetchedAt": "2026-09-26T04:01:31.690654Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "convertum.app",
+      "fetchedAt": "2026-09-26T03:58:43.143370Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "crazytimetracker.io",
+      "fetchedAt": "2026-09-26T03:24:16.926745Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "creditorhyper.xyz",
+      "fetchedAt": "2026-09-26T03:25:56.326444Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "credtracker.xyz",
+      "fetchedAt": "2026-09-26T03:22:47.807923Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "dacheckerfree.website",
+      "fetchedAt": "2026-09-26T03:24:06.998380Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "dacheckers.website",
+      "fetchedAt": "2026-09-26T03:22:25.031390Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "dadomainchecker.website",
+      "fetchedAt": "2026-09-26T03:23:04.220366Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "dapadrchecker.website",
+      "fetchedAt": "2026-09-26T03:23:05.966199Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "dapafreechecker.website",
+      "fetchedAt": "2026-09-26T03:23:52.456269Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "dateplanner.net",
+      "fetchedAt": "2026-09-26T03:21:09.710079Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "dentalcostcalculator.site",
+      "fetchedAt": "2026-09-26T03:22:29.532460Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "detroitweddingplanner.com",
+      "fetchedAt": "2026-09-26T03:21:48.643033Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "digiplanners.xyz",
+      "fetchedAt": "2026-09-26T03:24:07.446376Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "digitalweddingplanner.site",
+      "fetchedAt": "2026-09-26T03:23:21.216928Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "docsviewer.live",
+      "fetchedAt": "2026-09-26T03:21:55.756566Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "domaindachecker.website",
+      "fetchedAt": "2026-09-26T03:23:17.326468Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "domainseochecker.website",
+      "fetchedAt": "2026-09-26T03:21:17.051722Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "domainserpchecker.website",
+      "fetchedAt": "2026-09-26T03:21:44.648398Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "dosetracker.org",
+      "fetchedAt": "2026-09-26T03:22:58.357638Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "dramagenerator.ai",
+      "fetchedAt": "2026-09-26T03:22:00.519673Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "dreammakerstravelagency.de",
+      "fetchedAt": "2026-09-26T03:25:54.307287Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "editorappetite.xyz",
+      "fetchedAt": "2026-09-26T03:25:43.382743Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "editoretresmiadresi.cam",
+      "fetchedAt": "2026-09-26T03:25:09.243376Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "editorialdata.org",
+      "fetchedAt": "2026-09-26T03:25:20.074795Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "editorialmcp.xyz",
+      "fetchedAt": "2026-09-26T03:24:33.243432Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "editorialtaquina.net",
+      "fetchedAt": "2026-09-26T03:24:28.848858Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ensotracker.com",
+      "fetchedAt": "2026-09-26T03:22:01.141006Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "eqstracker.live",
+      "fetchedAt": "2026-09-26T03:21:59.784180Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "explorersai.com",
+      "fetchedAt": "2026-09-26T03:58:11.951957Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ez-fire-calculator.com",
+      "fetchedAt": "2026-09-26T03:23:05.544780Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ezautoloancalculator.com",
+      "fetchedAt": "2026-09-26T03:23:06.225060Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "facebookvideodownloader.com.in",
+      "fetchedAt": "2026-09-26T03:22:50.883930Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "fakeorderchecker.com",
+      "fetchedAt": "2026-09-26T03:21:49.881619Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "financialplannerssydney.com",
+      "fetchedAt": "2026-09-26T03:21:39.636680Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "fiveyearplanner.com",
+      "fetchedAt": "2026-09-26T03:21:08.156846Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "fleshcalculator.top",
+      "fetchedAt": "2026-09-26T03:20:50.144091Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "fontgenerator.best",
+      "fetchedAt": "2026-09-26T03:21:39.429927Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "forgemakerlab.online",
+      "fetchedAt": "2026-09-26T03:24:35.142638Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "freeblogseochecker.website",
+      "fetchedAt": "2026-09-26T03:22:46.048568Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "freeinvoicegenerator.info",
+      "fetchedAt": "2026-09-26T01:34:50.223977Z",
+      "source": "data/runs/2026-09-26/probes.json",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "freepachecker.website",
+      "fetchedAt": "2026-09-26T03:23:58.811461Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "freepadachecker.website",
+      "fetchedAt": "2026-09-26T03:22:38.908729Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "freerankcheckertool.website",
+      "fetchedAt": "2026-09-26T03:24:12.182887Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "freeresumecreatortools.com",
+      "fetchedAt": "2026-09-26T03:22:50.130643Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "freeserpcheckertool.website",
+      "fetchedAt": "2026-09-26T03:23:02.864049Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "freightcbmcalculator.com",
+      "fetchedAt": "2026-09-26T03:21:39.660598Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "fuelaimonitor.xyz",
+      "fetchedAt": "2026-09-26T03:25:01.878980Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "gamenightgenerator.com",
+      "fetchedAt": "2026-09-26T03:22:43.780872Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "gematriacalculatorfree.xyz",
+      "fetchedAt": "2026-09-26T03:24:11.990452Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "generator-memov.ru",
+      "fetchedAt": "2026-09-26T03:21:43.184108Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "generatorinstall.online",
+      "fetchedAt": "2026-09-26T03:23:03.961272Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "getconvertmax.com",
+      "fetchedAt": "2026-09-26T03:25:18.649652Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "getfishtracker.com",
+      "fetchedAt": "2026-09-26T03:23:27.968744Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "getkitchenconverter.com",
+      "fetchedAt": "2026-09-26T01:34:41.054031Z",
+      "source": "data/runs/2026-09-26/probes.json",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "gettasktracker.com",
+      "fetchedAt": "2026-09-26T03:21:50.299066Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "glitchtextsgenerator.com",
+      "fetchedAt": "2026-09-26T03:22:29.294156Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "goaltracker.jp",
+      "fetchedAt": "2026-09-26T03:21:03.841855Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "gpsmctracker.com",
+      "fetchedAt": "2026-09-26T03:21:22.700008Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "gpspettracker.shop",
+      "fetchedAt": "2026-09-26T03:20:44.984949Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "grandcanyontravelplanner.com",
+      "fetchedAt": "2026-09-26T03:22:41.218024Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "habittracker.tech",
+      "fetchedAt": "2026-09-26T03:22:57.239156Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "heicpngconverter.website",
+      "fetchedAt": "2026-09-26T01:35:01.500959Z",
+      "source": "data/runs/2026-09-26/probes.json",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "himakers.shop",
+      "fetchedAt": "2026-09-26T03:24:52.541222Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "hooptrackerapp.com",
+      "fetchedAt": "2026-09-26T03:21:09.443189Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "hydraulicmonitoring.com",
+      "fetchedAt": "2026-09-26T03:24:22.472907Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "icelandroadtripplanner.com",
+      "fetchedAt": "2026-09-26T03:20:52.132114Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ieditor.app",
+      "fetchedAt": "2026-09-26T03:25:01.289992Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "imageconverter.wiki",
+      "fetchedAt": "2026-09-26T03:22:24.373692Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "imageconverttool.com",
+      "fetchedAt": "2026-09-26T03:23:37.555180Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "inchtocmconverter.com",
+      "fetchedAt": "2026-09-26T03:22:30.517562Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "informatiquefontaine.ca",
+      "fetchedAt": "2026-09-26T03:21:25.318107Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "insighteditor.in",
+      "fetchedAt": "2026-09-26T03:24:46.775904Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "instant-qr-generator.com",
+      "fetchedAt": "2026-09-26T03:22:29.619496Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "invoicemakerpdf.online",
+      "fetchedAt": "2026-09-26T03:23:59.400075Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "jimplanner.app",
+      "fetchedAt": "2026-09-26T03:21:25.713703Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ktmonitor.com",
+      "fetchedAt": "2026-09-26T03:56:55.935205Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "lcmcalculator.info",
+      "fetchedAt": "2026-09-26T03:22:18.960327Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "leasetracker.net",
+      "fetchedAt": "2026-09-26T03:22:37.180146Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "lenmaker.com",
+      "fetchedAt": "2026-09-26T03:25:47.127756Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "llmtracker.dev",
+      "fetchedAt": "2026-09-26T03:22:06.661426Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "love-story-planner.world",
+      "fetchedAt": "2026-09-26T03:21:28.532147Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "loyaltybuilders.io",
+      "fetchedAt": "2026-09-26T03:59:56.568081Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "makerdelta.xyz",
+      "fetchedAt": "2026-09-26T03:24:41.739133Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "makerevent.xyz",
+      "fetchedAt": "2026-09-26T03:24:34.320105Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "makermed.xyz",
+      "fetchedAt": "2026-09-26T03:25:19.818604Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "makeroompsych.com",
+      "fetchedAt": "2026-09-26T03:25:20.592167Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "marineshaftgenerator.com",
+      "fetchedAt": "2026-09-26T03:20:49.249320Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "matchmygenerator.net",
+      "fetchedAt": "2026-09-26T03:22:59.501855Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "matrix-monitor.pp.ua",
+      "fetchedAt": "2026-09-26T03:24:35.195195Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "unsupported_content_type",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "mattpianobuilder.app",
+      "fetchedAt": "2026-09-26T04:00:08.936302Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "maxeventplanner.com",
+      "fetchedAt": "2026-09-26T03:22:05.929589Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "mdrcalculator.in",
+      "fetchedAt": "2026-09-26T03:21:31.059935Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "medchecker.xyz",
+      "fetchedAt": "2026-09-26T03:22:41.922082Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "mediaplanner.ly",
+      "fetchedAt": "2026-09-26T03:22:52.769070Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "metaagentconnector.com",
+      "fetchedAt": "2026-09-26T03:24:04.931736Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ministryplanner.app",
+      "fetchedAt": "2026-09-26T03:23:28.108525Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "mirrormonitor.com",
+      "fetchedAt": "2026-09-26T03:25:47.431920Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "missedcallcalculator.org",
+      "fetchedAt": "2026-09-26T03:21:39.543449Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "monikaandmakers.com",
+      "fetchedAt": "2026-09-26T03:24:24.298963Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "monitorcircuitai.cyou",
+      "fetchedAt": "2026-09-26T03:25:56.553414Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "monitoreoguardacol.com",
+      "fetchedAt": "2026-09-26T03:25:48.505958Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "monitoringsa.com",
+      "fetchedAt": "2026-09-26T03:25:12.068368Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "too_large",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "monitorx.help",
+      "fetchedAt": "2026-09-26T03:24:29.164766Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "motioneditor.xyz",
+      "fetchedAt": "2026-09-26T03:25:43.182376Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "movieshotplanner.tools",
+      "fetchedAt": "2026-09-26T01:34:45.335935Z",
+      "source": "data/runs/2026-09-26/probes.json",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "mrmrsfoodmaker.in",
+      "fetchedAt": "2026-09-26T03:24:31.270406Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "mygardentracker.com",
+      "fetchedAt": "2026-09-26T03:20:50.205105Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "myphotoeditor.app",
+      "fetchedAt": "2026-09-26T03:24:06.755924Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "name-calculator.com",
+      "fetchedAt": "2026-09-26T03:22:40.854906Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "neurocalculator.com",
+      "fetchedAt": "2026-09-26T03:22:41.798586Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "nexteditore.it",
+      "fetchedAt": "2026-09-26T03:26:04.949716Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "nijmegenslotenmaker.nl",
+      "fetchedAt": "2026-09-26T03:24:41.756169Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ninjacalculator.com",
+      "fetchedAt": "2026-09-26T03:21:00.079686Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "node-generator.xyz",
+      "fetchedAt": "2026-09-26T03:22:05.372307Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "numberfontsgenerator.com",
+      "fetchedAt": "2026-09-26T01:35:11.272968Z",
+      "source": "data/runs/2026-09-26/probes.json",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "nyccalculator.com",
+      "fetchedAt": "2026-09-26T03:23:56.169520Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "oddstracker.se",
+      "fetchedAt": "2026-09-26T03:22:51.462694Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "omniagent-online.ru",
+      "fetchedAt": "2026-09-26T03:21:55.615189Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ondemandpowergenerators.com",
+      "fetchedAt": "2026-09-26T03:21:46.141952Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "onegrowthgenerator.io",
+      "fetchedAt": "2026-09-26T03:24:13.476270Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "online-casinos-nz.org",
+      "fetchedAt": "2026-09-26T03:56:04.684555Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "online-htvideo.com.cn",
+      "fetchedAt": "2026-09-26T03:21:11.905078Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "onlinebackgroundremover.com",
+      "fetchedAt": "2026-09-26T03:22:12.320341Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "onlinephotos.uk",
+      "fetchedAt": "2026-09-26T03:20:48.261527Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "only-genie-generator.biz",
+      "fetchedAt": "2026-09-26T03:22:11.826618Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "oona-tracker.com",
+      "fetchedAt": "2026-09-26T03:24:11.427310Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "opomonitor.store",
+      "fetchedAt": "2026-09-26T03:26:05.100616Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "optionscalculators.online",
+      "fetchedAt": "2026-09-26T03:24:13.428855Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "padachecker.website",
+      "fetchedAt": "2026-09-26T03:21:48.904850Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "passwordgeneratorplus.com",
+      "fetchedAt": "2026-09-26T03:22:02.414137Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "pathplanner.co.nz",
+      "fetchedAt": "2026-09-26T03:20:49.740897Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "pciriskchecker.xyz",
+      "fetchedAt": "2026-09-26T03:21:32.304748Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "pdf-convertido.online",
+      "fetchedAt": "2026-09-26T03:23:41.147657Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "pdfconverter.dev",
+      "fetchedAt": "2026-09-26T01:34:38.319412Z",
+      "source": "data/runs/2026-09-26/probes.json",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "pdfcraftonline.com",
+      "fetchedAt": "2026-09-26T03:22:12.005394Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "pencilplanner.org",
+      "fetchedAt": "2026-09-26T03:22:47.358057Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "petpetgenerator.app",
+      "fetchedAt": "2026-09-26T01:34:59.611058Z",
+      "source": "data/runs/2026-09-26/probes.json",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "photobooth-online.web.id",
+      "fetchedAt": "2026-09-26T03:23:05.698491Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "pixelviewer.com",
+      "fetchedAt": "2026-09-26T03:24:56.031831Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "plannerrail.xyz",
+      "fetchedAt": "2026-09-26T03:23:41.874898Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "plannerspace.xyz",
+      "fetchedAt": "2026-09-26T03:20:51.705910Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "plannersport.xyz",
+      "fetchedAt": "2026-09-26T03:23:59.489827Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "poconogenerator.ai",
+      "fetchedAt": "2026-09-26T03:21:24.352270Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "podchecker.xyz",
+      "fetchedAt": "2026-09-26T03:24:20.684473Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "portplanner.xyz",
+      "fetchedAt": "2026-09-26T03:21:55.542139Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "pplannerbocce.beer",
+      "fetchedAt": "2026-09-26T03:21:12.282935Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "promptgenerator.fyi",
+      "fetchedAt": "2026-09-26T01:34:44.048448Z",
+      "source": "data/runs/2026-09-26/probes.json",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "protocol-tracker.com",
+      "fetchedAt": "2026-09-26T03:22:30.142235Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "qrcodemaker.tech",
+      "fetchedAt": "2026-09-26T03:21:29.656278Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "randomdategenerator.wiki",
+      "fetchedAt": "2026-09-26T03:20:46.541563Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "randomtopicgenerator.com",
+      "fetchedAt": "2026-09-26T03:21:03.311513Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "rankcheckerseo.website",
+      "fetchedAt": "2026-09-26T03:23:48.893793Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "rankplanners.xyz",
+      "fetchedAt": "2026-09-26T03:22:34.479808Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "rappernamegenerator.com",
+      "fetchedAt": "2026-09-26T03:22:30.387035Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "reallygoodeditors.com",
+      "fetchedAt": "2026-09-26T03:25:07.842583Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "recreationmaker.com",
+      "fetchedAt": "2026-09-26T03:26:05.904305Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "reelsplanner.com",
+      "fetchedAt": "2026-09-26T01:34:50.363848Z",
+      "source": "data/runs/2026-09-26/probes.json",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "resumebuilder.wiki",
+      "fetchedAt": "2026-09-26T03:23:48.569104Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "rpachecker.xyz",
+      "fetchedAt": "2026-09-26T03:22:36.957814Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "scoretracker88.com",
+      "fetchedAt": "2026-09-26T03:20:49.482925Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "scoretracker88.online",
+      "fetchedAt": "2026-09-26T03:24:12.379182Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "seedlingspaceplanner.com",
+      "fetchedAt": "2026-09-26T01:35:02.811501Z",
+      "source": "data/runs/2026-09-26/probes.json",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "seo-text-generator.ru",
+      "fetchedAt": "2026-09-26T03:24:15.588200Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "seobacklinkschecker.website",
+      "fetchedAt": "2026-09-26T03:23:06.337553Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "seocheckerforfree.website",
+      "fetchedAt": "2026-09-26T03:23:44.066620Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "seopadachecker.website",
+      "fetchedAt": "2026-09-26T03:23:58.658054Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "serveplanner.com",
+      "fetchedAt": "2026-09-26T03:22:21.674096Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "shiftaiplaymaker.com",
+      "fetchedAt": "2026-09-26T03:25:41.122388Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "shopbuildplanner.com",
+      "fetchedAt": "2026-09-26T01:35:11.297073Z",
+      "source": "data/runs/2026-09-26/probes.json",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "sitebacklinkchecker.website",
+      "fetchedAt": "2026-09-26T03:22:42.261892Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "sitecheckerfree.website",
+      "fetchedAt": "2026-09-26T03:23:34.201933Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "siteseochecker.website",
+      "fetchedAt": "2026-09-26T03:23:39.119359Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "sleepcyclecalculator.online",
+      "fetchedAt": "2026-09-26T03:22:56.365179Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "sobrietytracker.org",
+      "fetchedAt": "2026-09-26T03:21:52.605132Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "spritesheetmaker.net",
+      "fetchedAt": "2026-09-26T03:22:13.996424Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "srslycreators.com",
+      "fetchedAt": "2026-09-26T03:26:45.647547Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ssoapimonitor.xyz",
+      "fetchedAt": "2026-09-26T03:24:29.921552Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "staffingnavigatorhub.com",
+      "fetchedAt": "2026-09-26T03:27:09.074203Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "staffplanner.app",
+      "fetchedAt": "2026-09-26T03:58:35.380988Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "stampduty-calculator.com",
+      "fetchedAt": "2026-09-26T03:23:01.685919Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "stamptracker.xyz",
+      "fetchedAt": "2026-09-26T03:22:21.316985Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "studyonlinedao.xyz",
+      "fetchedAt": "2026-09-26T03:24:51.174954Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "studyplanner.web.id",
+      "fetchedAt": "2026-09-26T03:24:02.853841Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "subbiecalculator.com",
+      "fetchedAt": "2026-09-26T03:21:47.949034Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "http_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "subnetcalculator.io",
+      "fetchedAt": "2026-09-26T03:58:26.783153Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "subtitletranslator.app",
+      "fetchedAt": "2026-09-26T03:23:43.128455Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "sunnahplanner.fr",
+      "fetchedAt": "2026-09-26T03:22:54.924049Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "superabconvert.com",
+      "fetchedAt": "2026-09-26T03:25:30.542942Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "t-planner.cloud",
+      "fetchedAt": "2026-09-26T03:21:09.927070Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "tasks-planner.ru",
+      "fetchedAt": "2026-09-26T03:23:43.546594Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "teamplanner.co",
+      "fetchedAt": "2026-09-26T04:01:00.802378Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "teeplanner.net",
+      "fetchedAt": "2026-09-26T03:21:31.835848Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "thebetgenerator.com",
+      "fetchedAt": "2026-09-26T03:21:18.883264Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "thefamilyplannerapp.com",
+      "fetchedAt": "2026-09-26T03:21:58.420921Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "thelinentracker.com",
+      "fetchedAt": "2026-09-26T03:20:50.525259Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "themakerssociety.org",
+      "fetchedAt": "2026-09-26T03:24:45.301405Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "theplannercafe.com",
+      "fetchedAt": "2026-09-26T03:24:09.233100Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "thequranplanner.com",
+      "fetchedAt": "2026-09-26T03:23:15.056437Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "tokentrackerapp.com",
+      "fetchedAt": "2026-09-26T03:23:47.410196Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "toppdftoexcelconverter.com",
+      "fetchedAt": "2026-09-26T03:23:45.794391Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "tracker-pulse.ru",
+      "fetchedAt": "2026-09-26T03:23:00.551015Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "tracker-relais.info",
+      "fetchedAt": "2026-09-26T03:23:02.915061Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "trackerdock.xyz",
+      "fetchedAt": "2026-09-26T03:22:43.251412Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "trackermcp.xyz",
+      "fetchedAt": "2026-09-26T03:22:36.098036Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "trackerrisk.xyz",
+      "fetchedAt": "2026-09-26T03:23:19.300542Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "translatorduo.app",
+      "fetchedAt": "2026-09-26T04:00:10.209926Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "tripplannerjp.app",
+      "fetchedAt": "2026-09-26T03:23:29.756119Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "triskelecalculator.ru",
+      "fetchedAt": "2026-09-26T03:21:29.853802Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ttplanner.app",
+      "fetchedAt": "2026-09-26T03:21:03.959688Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "twmonitor.org",
+      "fetchedAt": "2026-09-26T03:24:39.641791Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "ukstampdutycalculator.com",
+      "fetchedAt": "2026-09-26T03:22:04.459159Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "urlrankchecker.website",
+      "fetchedAt": "2026-09-26T03:22:51.513933Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "vataichecker.xyz",
+      "fetchedAt": "2026-09-26T03:21:56.855821Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "verifierbond.xyz",
+      "fetchedAt": "2026-09-26T04:02:14.772184Z",
+      "source": "data/runs/2026-09-26-tld/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "videocalculator.online",
+      "fetchedAt": "2026-09-26T03:24:03.809644Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "votemattshoemaker.com",
+      "fetchedAt": "2026-09-26T03:24:38.336606Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "warframe-prime-tracker.com",
+      "fetchedAt": "2026-09-26T03:23:54.201474Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "webbacklinkschecker.website",
+      "fetchedAt": "2026-09-26T03:23:14.219648Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "weblinkchecker.pp.ua",
+      "fetchedAt": "2026-09-26T03:22:02.080773Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "websitedatachecker.website",
+      "fetchedAt": "2026-09-26T03:20:39.180734Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "websitelinkchecker.website",
+      "fetchedAt": "2026-09-26T03:22:38.849441Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "websitepagechecker.website",
+      "fetchedAt": "2026-09-26T03:24:04.715354Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "whatfilmmakersthink.com",
+      "fetchedAt": "2026-09-26T03:25:51.995595Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "withloveplanners.co.uk",
+      "fetchedAt": "2026-09-26T03:22:03.771939Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "workcreditor.xyz",
+      "fetchedAt": "2026-09-26T03:25:54.903875Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "ok",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    },
+    {
+      "domain": "worldfootballtrackers.com",
+      "fetchedAt": "2026-09-26T03:23:18.717150Z",
+      "source": "data/runs/2026-09-26-month/probes.jsonl",
+      "fetchStatus": "network_error",
+      "note": "曾经检查的记录；不代表现在可访问或通过当前规则。先复用旧证据，不立即重抓。"
+    }
+  ]
+}
