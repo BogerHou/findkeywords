@@ -18,6 +18,7 @@
 /site/local-trends-status.json
 /site/local-trends-results.json
 /site/local-trends-evidence/
+/site/expansion-*.json
 /dist/
 /reports/*.tar.gz
 /reports/*.zip

@@ -14,13 +14,14 @@
 <section class="run-stats" id="run-stats" aria-label="覆盖进度"></section>
 <section class="panel run-panel"><h2>当前阶段</h2><div id="run-stage"></div></section>
 <section class="panel run-panel"><h2>本地 Google Trends 查询</h2><div id="run-local-trends">尚未读取本地查询记录。</div></section>
+<section class="panel run-panel"><h2>AWS 新增域名批次</h2><div id="run-expansion">尚未读取新增批次记录。</div></section>
 <section class="panel run-panel"><h2>AWS 历史 Google Trends 连接诊断</h2><div id="run-connection">尚未读取诊断记录。</div></section>
 <section class="panel run-panel"><h2>筛选规则</h2>
 <p>本轮覆盖 51 个词根命中的全部 16,090 个域名，包括之前暂缓的同名不同后缀域名。复用 299 条旧证据；新检查 15,688 个域名，再重试 103 条旧失败记录。名单日期为 2026-08-27 至 2026-09-25，未逐一证明是新注册或新上线。</p>
 <p>每站先检查 HTTPS 和 robots.txt，再读取首页文本。8 个工作进程共享每秒最多 2 次请求的限制；同一主机至少间隔 5 秒。首页最多保存 128 KiB，robots.txt 最多 32 KiB。不渲染 JavaScript，不下载图片、视频或网页资源。</p>
 <ul><li><strong>有内容，待关键词验证：</strong>取得 HTML；可见文字不少于 160 字符，并存在 Title、Description 或 H1；不代表内容质量高。</li><li><strong>跳过：</strong>明确售卖域名、占位页、404/410 或非 HTML 内容，保留对应原因。</li><li><strong>证据不足：</strong>网络失败、证书问题、站点限制、内容截断或依赖 JavaScript 等。不能据此断言网站没有价值。</li></ul>
 <p>关键词优先取自 Title 和 H1 的实际短语，Description 作为补充；保留原文与字段。自动提取不到的页面另列语义复核，不从域名凭空编造关键词。</p>
-<p>趋势口径：美国、网页搜索、搜索词、全部类别；固定为查询阶段启动时最近 30 个完整 UTC 日。最近 7 天均值 ≥ 前 7 天的 2 倍，且至少 5 天有非零指数。为排除单峰，最近 7 天最大单日占这 7 天指数总和不得超过 40%。前期为零的词单列，不计算无限增长率。</p>
+<p>趋势口径：美国、网页搜索、搜索词、全部类别；本地队列固定日期为 2026-08-29 至 2026-09-27。按 UTC 选择日期窗口，但导出的 CSV 未提供分桶时区，不能称为已核验的 UTC 日数据。最近 7 天均值 ≥ 前 7 天的 2 倍，且至少 5 天有非零指数。为排除单峰，最近 7 天最大单日占这 7 天指数总和不得超过 40%。前期为零的词单列，不计算无限增长率。</p>
 <p>达标后检查半年背景；较早已有信号的词进入复查，再次查询 30 天验证数列。Google 指数是相对热度，零不证明无人搜索；符合规则也不等于 SEO 竞争低或绝对搜索量大。</p>
 <p>网站数据接口可能变化或限流；遇到验证、403 或 429 会暂停趋势阶段并保存错误，绝不伪造为“无数据”。当前没有使用需要申请权限的官方 Trends API，也没有使用付费接口。</p>
 </section>

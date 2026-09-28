@@ -17,6 +17,7 @@ from urllib.parse import parse_qs, urlsplit
 
 from probe_full import atomic_json
 from trends_full import RULE, evaluate_30, evaluate_background, windows
+from local_trends_pacing import Pacer, POLICY, availability, utcnow
 
 ROOT = Path(__file__).resolve().parents[1]
 RUN = ROOT / 'results/local-trends-20260928'
@@ -134,7 +135,10 @@ def publish(queue):
                'candidates': len(queue['candidates']), 'excluded': len(queue['excluded']),
                'queried': len(public), 'completed': len(queue['candidates']) - len(pending),
                'pending': len(pending), 'window': queue['window'],
-               'rule': {**RULE, 'browser_query_interval_seconds': 30},
+               'rule': {**{k: v for k, v in RULE.items() if k not in ('automatic_retries', 'request_interval_seconds')},
+                        'browser_query_interval_seconds': POLICY['query_interval_seconds'],
+                        'immediate_retries': 0, 'scheduled_cooldown_recovery': True,
+                        'local_pacing_policy': POLICY},
                'chart_series': sum(c['status'] == 'chart' for r in public for c in r['charts'].values()),
                'automatic_matches': sum(r['matches_automatic_screen'] for r in public),
                'assessments': dict(Counter(r['assessment']['status'] for r in public)),
@@ -143,6 +147,11 @@ def publish(queue):
     control = read(RUN / 'control.json') if (RUN / 'control.json').exists() else {}
     if control.get('status') == 'blocked':
         summary.update(status='blocked', error=control['reason'], blocked_at=control['at'])
+    elif control.get('pacing_enabled') and pending:
+        pacing = availability(control, utcnow())
+        summary.update(status=pacing['state'], pacing=pacing,
+                       next_allowed_at=control['next_allowed_at'],
+                       last_rate_limit_reason=control.get('last_rate_limit_reason', control.get('reason')))
     atomic_json(RUN / 'summary.json', summary)
     atomic_json(RUN / 'pending.json', pending)
     atomic_json(ROOT / 'site/local-trends-status.json', summary)
@@ -159,6 +168,8 @@ def ingest(args, queue):
     record = records.setdefault(args.keyword, {'keyword': args.keyword, 'charts': {}})
     if next_stage(record, queue['window']) != args.stage:
         raise ValueError('Wrong/duplicate stage; preserve existing evidence')
+    pacer = Pacer(RUN)
+    pacer.require_claim(args.keyword, args.stage)
     if args.csv:
         raw = args.csv.read_bytes()
         points = csv_points(raw, args.keyword, queue['window'], args.stage)
@@ -190,11 +201,12 @@ def ingest(args, queue):
         'source': 'Google Trends local browser CSV download' if args.csv else 'Google Trends observed local browser DOM',
         'evidence': evidence.relative_to(ROOT / 'site').as_posix(), 'evidence_sha256': digest}
     atomic_json(path, records)
+    pacer.success(args.keyword, args.stage)
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=['prepare', 'next', 'ingest', 'status', 'block'])
+    parser.add_argument('command', choices=['prepare', 'next', 'ingest', 'status', 'block', 'resume', 'claim', 'cooldown'])
     parser.add_argument('--limit', type=int, default=10)
     parser.add_argument('--keyword')
     parser.add_argument('--stage', choices=['chart30', 'background', 'repeat30'], default='chart30')
@@ -203,19 +215,32 @@ def main():
     parser.add_argument('--dom', type=Path)
     parser.add_argument('--captured-at')
     parser.add_argument('--reason')
+    parser.add_argument('--not-before')
+    parser.add_argument('--retry-after')
     args = parser.parse_args()
     queue = prepare()
+    action_result = None
     if args.command == 'block':
         if not args.reason:
             parser.error('block needs the observed failure reason')
-        atomic_json(RUN / 'control.json', {'status': 'blocked', 'reason': args.reason,
-                                          'at': datetime.now(timezone.utc).isoformat()})
+        Pacer(RUN).block(args.reason)
+    if args.command == 'resume':
+        if not args.reason or not args.not_before:
+            parser.error('resume needs explicit user authorization reason and a not-before timestamp')
+        action_result = Pacer(RUN).resume(args.not_before, args.reason)
+    if args.command == 'cooldown':
+        if not args.reason:
+            parser.error('cooldown needs the actual observed failure reason')
+        action_result = Pacer(RUN).cooldown(args.reason, args.retry_after)
+    if args.command == 'claim':
+        _, pending = publish(queue)
+        action_result = Pacer(RUN).claim(pending[0] if pending else None)
     if args.command == 'ingest':
         if not args.keyword or not args.url or bool(args.csv) == bool(args.dom):
             parser.error('ingest needs keyword, observed URL and exactly one CSV/DOM evidence file')
         ingest(args, queue)
     summary, pending = publish(queue)
-    print(json.dumps(pending[:args.limit] if args.command == 'next' else summary, ensure_ascii=False, indent=2))
+    print(json.dumps(action_result if action_result is not None else pending[:args.limit] if args.command == 'next' else summary, ensure_ascii=False, indent=2))
 
 
 if __name__ == '__main__':
