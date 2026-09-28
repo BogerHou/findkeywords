@@ -8,6 +8,7 @@ from pathlib import Path
 import re
 
 from probe_full import atomic_json, load_records
+from semantic_review import validate_ledger
 
 ROOT = Path(__file__).resolve().parents[1]
 PARKING = re.compile(r'^(?:namecheap parking page|parked domain name on hostinger dns system|domain registered at whc\.ca|domain parking|(?:[a-z0-9.-]+\.[a-z]{2,}) (?:is )?for sale(?:\s*[|–—].*)?)$', re.I)
@@ -61,6 +62,14 @@ def run():
                            'usable_evidence_count': len(usable), 'source_kind': 'original_literal_extraction'})
     supplement_path = ROOT / 'scripts/data/full-keyword-supplements.json'
     supplements = json.loads(supplement_path.read_text())
+    ledger_path = ROOT / 'scripts/data/full-semantic-reviews.json'
+    ledger = json.loads(ledger_path.read_text()) if ledger_path.exists() else {'version': 1, 'domains': [], 'terms': []}
+    domain_reviews, term_reviews = validate_ledger(ledger, by_domain, raw_candidates['candidates'], supplements)
+    for candidate in candidates:
+        review = term_reviews.get(canonical(candidate['keyword']))
+        if review:
+            candidate['semantic_review'] = review
+            candidate['meaning_review'] = 'saved_field_meaning_reviewed_not_trends_verified'
     existing = {canonical(r['keyword']): r for r in candidates}
     supplemented_domains = set()
     for addition in supplements:
@@ -73,20 +82,33 @@ def run():
         quote = next((s for s in values if canonical(term) in canonical(s)), None)
         if quote is None:
             raise ValueError('Supplement is not a literal source phrase: ' + term)
-        if canonical(term) in existing:
-            continue
         supplemented_domains.add(domain)
-        candidates.append({'keyword': term, 'source_kind': 'saved_fields_manual_supplement',
-                           'review_status': 'supplement_needs_trends', 'review_reason': addition['reason'],
+        evidence = {'domain': domain, 'field': field, 'quote': quote,
+                    'checked_at': source.get('checked_at'), 'page_decision': source['decision'],
+                    'page_reason': source['reason'], 'incomplete_html': source.get('incomplete_html', False) or bool(source.get('page_prefix'))}
+        if canonical(term) in existing:
+            candidate = existing[canonical(term)]
+            if not any(all(e.get(k) == evidence[k] for k in ('domain', 'field', 'quote')) for e in candidate['evidence']):
+                candidate['evidence'].append(evidence)
+            candidate.setdefault('additional_literal_reviews', []).append({**addition, 'quote': quote})
+            continue
+        status = 'supplement_needs_trends' if source['decision'] == 'pass' and not evidence['incomplete_html'] else 'metadata_only'
+        candidate = {'keyword': term, 'source_kind': 'saved_fields_manual_supplement',
+                           'review_status': status, 'review_reason': addition['reason'],
                            'meaning_review': 'literal_use_case_checked_not_growth_verified',
-                           'evidence': [{'domain': domain, 'field': field, 'quote': quote,
-                                         'checked_at': source.get('checked_at'), 'page_decision': source['decision'],
-                                         'page_reason': source['reason'], 'incomplete_html': source.get('incomplete_html', False)}]})
+                           'language_hint': addition.get('language_hint'),
+                           'query_encoding_warning': 'Comma must not turn one phrase into multiple comparison terms.' if ',' in term else None,
+                           'evidence': [evidence]}
+        candidates.append(candidate)
+        existing[canonical(term)] = candidate
     old_audit = json.loads((ROOT / 'site/full-domain-results.json').read_text())
     unresolved = [r for r in old_audit if r['keyword_status'] == 'needs_keyword_review' and r['domain'] not in corrections and r['domain'] not in supplemented_domains]
+    unreviewed = [r for r in unresolved if r['domain'] not in domain_reviews]
+    deferred = [{**r, 'semantic_review': domain_reviews[r['domain']]} for r in unresolved if r['domain'] in domain_reviews]
+    pending_terms = [r for r in candidates if r['review_status'] == 'ready_for_semantic_review' and canonical(r['keyword']) not in term_reviews]
     effective = Counter(corrections.get(r['domain'], r)['decision'] for r in rows)
     trend_state = json.loads((ROOT / 'results/aws-full-20260928-trends/summary.json').read_text())
-    summary = {'version': 'offline-curation-v1', 'updated_at': datetime.now(timezone.utc).isoformat(),
+    summary = {'version': 'offline-curation-v2', 'updated_at': datetime.now(timezone.utc).isoformat(),
                'source_sha256': {'results': result_hash, 'reused': hashlib.sha256(reuse_path.read_bytes()).hexdigest(),
                                  'raw_candidates': hashlib.sha256(candidate_path.read_bytes()).hexdigest()},
                'domain_total': len(rows), 'original_decisions': dict(Counter(r['decision'] for r in rows)),
@@ -97,12 +119,21 @@ def run():
                'total_phrases': len(candidates), 'phrase_statuses': dict(Counter(r['review_status'] for r in candidates)),
                'supplemented_domains': len(supplemented_domains),
                'unextracted_domains_still_needing_review': len(unresolved),
+               'unextracted_domains_unreviewed': len(unreviewed), 'semantic_domains_deferred': len(deferred),
+               'semantic_domains_reviewed': len(domain_reviews), 'semantic_terms_reviewed': len(term_reviews),
+               'semantic_domain_statuses': dict(Counter(r['status'] for r in domain_reviews.values())),
+               'semantic_term_statuses': dict(Counter(r['status'] for r in term_reviews.values())),
+               'semantic_terms_pending': len(pending_terms), 'literal_supplement_entries': len(supplements),
+               'review_scope': 'Assistant reviews of saved fields only. Each phrase review checks one selected source; other sources and full website quality are not approved.',
                'trend_queries_successful': trend_state.get('queried', 0), 'trend_block': trend_state.get('error'),
                'note': 'Only domain names were filtered by the 51 roots. The original literal extractor also required an exact root in page phrases, which misses plural forms and other real uses; supplements correct observed examples, not all semantic omissions. No valuable/rising keywords have been confirmed.'}
     atomic_json(ROOT / 'site/full-curation-summary.json', summary)
     atomic_json(ROOT / 'site/full-keyword-reviewed.json', candidates)
     atomic_json(ROOT / 'site/full-domain-review.json', list(corrections.values()))
-    atomic_json(ROOT / 'results/aws-full-20260928-trends/semantic-review-remaining.json', unresolved)
+    atomic_json(ROOT / 'site/full-semantic-reviews.json', ledger)
+    atomic_json(ROOT / 'results/aws-full-20260928-trends/semantic-review-remaining.json', unreviewed)
+    atomic_json(ROOT / 'results/aws-full-20260928-trends/semantic-review-deferred.json', deferred)
+    atomic_json(ROOT / 'results/aws-full-20260928-trends/semantic-terms-remaining.json', pending_terms)
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 
 

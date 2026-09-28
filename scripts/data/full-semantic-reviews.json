@@ -1,0 +1,2132 @@
+{
+  "version": 1,
+  "method": "Assistant semantic review of individually read saved Title/H1/Description fields; not live browsing, human review, Trends verification, or full-site quality approval.",
+  "batches": [
+    {
+      "id": "saved-fields-20260928-01",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "selection": "First 55 unreviewed domains in saved pending queue and first 65 full-field-supported phrases in existing order; not a random or representative sample.",
+      "domains": 55,
+      "terms": 65,
+      "network_requests": 0
+    }
+  ],
+  "domains": [
+    {
+      "domain": "reelsplanner.com",
+      "status": "insufficient_fields",
+      "reason": "仅有 ReelsPlanner 名称，描述和H1为空；不从域名拆词推断功能。",
+      "selected_keywords": [],
+      "source_fields_sha256": "c1d28527139600d1f9ae3b38ee5fdad7959e6e212732952bd2bbf616fb27639e",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "ReelsPlanner",
+        "description": "",
+        "h1": []
+      }
+    },
+    {
+      "domain": "fleshcalculator.top",
+      "status": "conflicting_fields",
+      "reason": "页面自称 Business News Daily，与候选域名缺少可验证关系；标题还混入图标文字，暂不把转载或归属不明的标签当可靠用途证据。",
+      "selected_keywords": [],
+      "source_fields_sha256": "2cb3ef80052b6c435af85d7e4ecc67e0ae53f09279a69df90e5a691d1c65fa60",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Business News Daily: Small Business Guidance & Recommendations - BusinessNewsDaily.com BND Hamburger Icon Close Arrow Arrow Arrow Arrow BND Logo Search Icon Search Icon Plus Plus Plus checkmark Visit us on Facebook Visit us on LinkedIn Visit us on X E93EC9CC-097E-442F-B5D1-5C402EEAEC72@1x E93EC9CC-097E-442F-B5D1-5C402EEAEC72@1x E93EC9CC-097E-442F-B5D1-5C402EEAEC72@1x E93EC9CC-097E-442F-B5D1-5C402EEAEC72@1x",
+        "description": "Business News Daily provides valuable advice, guidance, and recommendations to start and grow your business.",
+        "h1": [
+          "Expert Guidance, Reviews and Recommendations to Build Your Business"
+        ]
+      }
+    },
+    {
+      "domain": "ttplanner.app",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "semester plan"
+      ],
+      "source_fields_sha256": "f5410ba6fe855f10bfbc36008969908a39cb0fa30cbaaf6d43051630824b69c4",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Turn your syllabi into a semester plan · TT Planner",
+        "description": "Upload your syllabi and get every due date, exam, and crunch week on one calendar in under two minutes.",
+        "h1": [
+          "Your whole semester, before week one."
+        ]
+      }
+    },
+    {
+      "domain": "online-htvideo.com.cn",
+      "status": "conflicting_fields",
+      "reason": "标题是影片在线播放，描述却是企业视频制作服务；用途矛盾需核对。",
+      "selected_keywords": [],
+      "source_fields_sha256": "d727656821163be1da7cf44a3ea62595cedee543f5ed7865bb725954060b58f3",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "红桃视频 - 2026国产电影网在线播放 - 红桃视频平台",
+        "description": "红桃视频官网围绕企业日常宣传和阶段性推广需求提供视频制作服务，可制作品牌介绍、产品展示、短视频专题和活动内容，通过持续更新的视觉素材帮助企业保持稳定的内容传播节奏。",
+        "h1": [
+          "红桃视频 - 2026国产电影网在线播放 - 红桃视频平台"
+        ]
+      }
+    },
+    {
+      "domain": "love-story-planner.world",
+      "status": "entity_or_personal",
+      "reason": "字段是个人婚礼邀请、日期与到场信息；保留页面性质，不把人名或日期当可推广的通用工具需求。",
+      "selected_keywords": [],
+      "source_fields_sha256": "84fa5b5ca72fa1fb0c71560e09e97c35a06dbdb6b7b3ca36391f8a2969c46204",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "טליה ועומר — 3 ביוני 2027 | הזמנה לחתונה",
+        "description": "טליה ועומר מתחתנים ביום חמישי, 3 ביוני 2027, בווילה סלינה טרה בקיסריה. אישור הגעה, לוח זמנים וניווט.",
+        "h1": [
+          "Talia & Omer"
+        ]
+      }
+    },
+    {
+      "domain": "triskelecalculator.ru",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "калькулятор стоимости ручного трикотажа"
+      ],
+      "source_fields_sha256": "1232b074c03b4994868e80e6ba7c5f4937a356736fb81033ebcd1551384793bf",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Triskele — калькулятор стоимости ручного трикотажа",
+        "description": "",
+        "h1": []
+      }
+    },
+    {
+      "domain": "teeplanner.net",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Starttijden plannen"
+      ],
+      "source_fields_sha256": "fdfa9535f00d46f6f9eca727e5cc3fcce65943cce7169bee4a9449c6a97324e4",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Starttijden plannen — Onze Golfvrienden",
+        "description": "Bekijk alle geboekte starttijden per week en per maand, en meld je flight aan bij de groep.",
+        "h1": []
+      }
+    },
+    {
+      "domain": "missedcallcalculator.org",
+      "status": "needs_query_formulation",
+      "reason": "描述解释未响应询盘的业务成本，但没有完整自然的用途查询短语；不将拼接域名自动改写成关键词。",
+      "selected_keywords": [],
+      "source_fields_sha256": "7334a9fa5bf5af5ef506823dadf0d4a20b2b019f238ecdfddbce2fbb51e92cd4",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "MissedCallCalculator.org",
+        "description": "Work out what unanswered enquiries are really costing your business, every week and every year. Free, no email and no sign-up.",
+        "h1": [
+          "MissedCallCalculator.org"
+        ]
+      }
+    },
+    {
+      "domain": "omniagent-online.ru",
+      "status": "site_shell",
+      "reason": "保存的H1主要是统计、通知、对话、设置等菜单；缺少足够产品用途描述。",
+      "selected_keywords": [],
+      "source_fields_sha256": "821563311b7e83c29713d7672df7ba66d9cffb5f3560f09d33a0932d77c796c2",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Omni Agent",
+        "description": "",
+        "h1": [
+          "Статистика",
+          "Уведомления",
+          "Диалоги",
+          "AI Бот",
+          "Мессенджеры",
+          "Тарифы",
+          "Сотрудники",
+          "Настройки",
+          "База знаний",
+          "Техподдержка"
+        ]
+      }
+    },
+    {
+      "domain": "weblinkchecker.pp.ua",
+      "status": "site_shell",
+      "reason": "Title是LinkWatch，H1是Log in；登录外壳不能证明域名暗示的检查器用途。",
+      "selected_keywords": [],
+      "source_fields_sha256": "efb26b314c9aad51d14ccba99bd8cb3791cdc034cd997dcf7b9cefd3b8d4cee9",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "LinkWatch",
+        "description": "",
+        "h1": [
+          "Log in"
+        ]
+      }
+    },
+    {
+      "domain": "only-genie-generator.biz",
+      "status": "needs_query_formulation",
+      "reason": "薄页描述泛称AI generation suite和图片视频生成，尚缺少可区分的自然查询短语；保留线索。",
+      "selected_keywords": [],
+      "source_fields_sha256": "9410bd0d82ddd1c032b37efb0f16e98e6b6f41eb751b2b82c3d6d8cbc2f7f88d",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Only Genie",
+        "description": "Transform your photos into unique images and videos with our premium, secure, and intuitive AI generation suite.",
+        "h1": []
+      }
+    },
+    {
+      "domain": "serveplanner.com",
+      "status": "insufficient_fields",
+      "reason": "只有品牌名和Welcome欢迎标题，无具体用途字段。",
+      "selected_keywords": [],
+      "source_fields_sha256": "f5a2914bc5d1f3645fa8fea21d6d2f1704cac9dde5339b6a577890d0f372c1df",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "ServePlanner",
+        "description": "",
+        "h1": [
+          "Welcome to ServePlanner"
+        ]
+      }
+    },
+    {
+      "domain": "dacheckers.website",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Domain Authority Tools"
+      ],
+      "source_fields_sha256": "fa1198012cf727a77f9396e501773982f6829d8d02788199b9f753d3b2a8780b",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "DA Checkers: The Complete Guide To Understanding And Using Domain Authority Tools",
+        "description": "DA Checkers: your essential guide to understanding Domain Authority scores, how DA checker tools work, what scores to aim for, and practical strategies to boost your website's authority and SEO performance.",
+        "h1": [
+          "Da Checkers Grow Organic Traffic For FREE",
+          "DA Checkers: The Complete Guide to Understanding and Using Domain Authority Tools"
+        ]
+      }
+    },
+    {
+      "domain": "glitchtextsgenerator.com",
+      "status": "insufficient_fields",
+      "reason": "薄页仅有域名标题，不能拿域名本身冒充网页用途证据。",
+      "selected_keywords": [],
+      "source_fields_sha256": "acdb4992318a99a780a13851901bdd923f6e38aa7d4277c6e332d20dbbb20999",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "glitchtextsgenerator.com",
+        "description": "",
+        "h1": []
+      }
+    },
+    {
+      "domain": "mediaplanner.ly",
+      "status": "site_shell",
+      "reason": "标题只有Welcome - LibyanSpider，无法确认这是实际站点内容还是服务商欢迎页。",
+      "selected_keywords": [],
+      "source_fields_sha256": "d1c0ebdc8660e6766476e49ba35b4e9130de05a5c767ec0c01ead5fe511491d7",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Welcome - LibyanSpider",
+        "description": "",
+        "h1": []
+      }
+    },
+    {
+      "domain": "sunnahplanner.fr",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Casino en Ligne Fiable"
+      ],
+      "source_fields_sha256": "42f7c658a57b52a200825cb11f4331bca1d5439defd8cb57d3d11f95400362fc",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Meilleur Casino en Ligne Fiable 2026 | Top 5 en France💎",
+        "description": "Les meilleurs casinos en ligne en France : notre top 5 testé en 2026, bonus jusqu&#39;à 15 000 €, retraits rapides et critères de fiabilité. Comparez et choisissez.",
+        "h1": [
+          "Meilleur Casino en Ligne en France 2026 : les 5 Sites les Plus Fiables"
+        ]
+      }
+    },
+    {
+      "domain": "generatorinstall.online",
+      "status": "insufficient_fields",
+      "reason": "只保存到Generatorinstall标题，未提供描述或H1。",
+      "selected_keywords": [],
+      "source_fields_sha256": "807fe098129f11c82346292d08aaabad8306a99d5d618fe10e4ee0a93900618e",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Generatorinstall",
+        "description": "",
+        "h1": []
+      }
+    },
+    {
+      "domain": "aiplannerpro.app",
+      "status": "needs_query_formulation",
+      "reason": "薄页描述日程、邮件、任务汇总与AI计划，但AI-planned day偏宣传语；需要更具体的功能查询表达。",
+      "selected_keywords": [],
+      "source_fields_sha256": "5e52e29f490818a3735a06c5e94fc9e194f29e1dcf78e79dde6a374b7f0ba02b",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Dashboard — Go Plan",
+        "description": "Your daily operating screen: meetings, available time, urgent email, tasks due and an AI-planned day.",
+        "h1": []
+      }
+    },
+    {
+      "domain": "videocalculator.online",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Calculadora de RPM"
+      ],
+      "source_fields_sha256": "281b47788352c80d3a4c05bdf4138f485e294b81f022f5d095f3113006878e0d",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "YouTubeCalculador - Herramientas y Calculadoras Gratuitas para Creadores de YouTube",
+        "description": "Calcula y analiza tus métricas de YouTube: Calculadora de RPM, CPM, Ganancias, CTR, Horas de Reproducción, Shorts, Bitrate y SEO.",
+        "h1": [
+          "Calculadoras de Ingresos, RPM, CPM, Shorts y SEO para YouTube"
+        ]
+      }
+    },
+    {
+      "domain": "seo-text-generator.ru",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Генератор SEO-статей"
+      ],
+      "source_fields_sha256": "fe8a5d83a966da793ea5b1d5024df5721f5b949b28e8ee4761059cb731fd0a62",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Генератор SEO-статей онлайн — нейросеть SEO Текст",
+        "description": "Задайте тему, ключевые слова и подзапросы — нейросеть построит структуру SEO-статьи и напишет черновик. Доработайте текст в онлайн-редакторе и скачайте файл.",
+        "h1": [
+          "Генератор SEO-статей — нейросеть соберёт текст под ваш запрос"
+        ]
+      }
+    },
+    {
+      "domain": "votemattshoemaker.com",
+      "status": "entity_or_personal",
+      "reason": "公开竞选个人页面；保留其实体/导航性质，没有从姓氏中的maker推断制作器。",
+      "selected_keywords": [],
+      "source_fields_sha256": "958cd6c1c0e7dbc576daea8441cc7c0141dea51c646a1229a507034766ee99c1",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Matt Shoemaker for Saline School Board",
+        "description": "Matt Shoemaker is a dad of four, a youth coach, and a former substitute teacher who spent 16 years in professional baseball. He's running for Saline School Board to support our teachers, expand opportunities for every student, and get enrollment growing again.",
+        "h1": [
+          "We came home for these schools. Why?"
+        ]
+      }
+    },
+    {
+      "domain": "twmonitor.org",
+      "status": "insufficient_fields",
+      "reason": "只有AML Service标题；缩写与具体服务缺少上下文。",
+      "selected_keywords": [],
+      "source_fields_sha256": "5b54d4c63957931c29d9d07fc53796c4ebc9a6cdcb80b6be2b2e5321f130d8cb",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "AML Service",
+        "description": "",
+        "h1": []
+      }
+    },
+    {
+      "domain": "nijmegenslotenmaker.nl",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Slotenmaker Nijmegen"
+      ],
+      "source_fields_sha256": "8efe9f88b3abff0aefa176b3c1794e98f9ed84785293277e6502dd373764ce5a",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Slotenmaker Nijmegen 24/7 | Van Beek — vanaf € 89,99 Slotenmaker Oss Slotenmaker Wageningen Slotenmaker Nijmegen Slotenmaker Veenendaal Slotenmaker Ede Slotenmaker Arnhem Slotenmaker 's-Hertogenbosch Slotenmaker Helmond",
+        "description": "Slotenmaker Nijmegen: deur openen vanaf € 89,99. Prijs vooraf, geen voorrijkosten, 24/7 spoed. Slot vervangen, autosleutel bijmaken en inbraakhulp in Nijmegen.",
+        "h1": [
+          "Slotenmaker Nijmegen, 24/7 voor u klaar"
+        ]
+      }
+    },
+    {
+      "domain": "makeroompsych.com",
+      "status": "entity_or_personal",
+      "reason": "薄页标题为Dedham的精神健康诊所名称；这是本地机构线索，尚无区别性用途短语。",
+      "selected_keywords": [],
+      "source_fields_sha256": "1a36f93a1bca950475e08f47770f1c7e908f996d89f59bc710dc931761efc1c4",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Make Room Psychiatry & Wellness | Dedham, MA",
+        "description": "",
+        "h1": []
+      }
+    },
+    {
+      "domain": "editorialdata.org",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Directory of Scientific Journals"
+      ],
+      "source_fields_sha256": "3e4e4f79eb14b141660a30a3ab45bbbdeeabb7780f435435572d9a7e3dbd9622",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Editorial Data - Directory of Scientific Journals",
+        "description": "Open directory of scientific journals with public, verifiable editorial information.",
+        "h1": [
+          "Scientific output from open journals, in one place"
+        ]
+      }
+    },
+    {
+      "domain": "centralasiamonitor.com",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Мониторинг Центральной Азии"
+      ],
+      "source_fields_sha256": "a75a496f12af89d5f2d78806c1508b965e606b2c7e4ae6082d25db9bf1aca28f",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Мониторинг Центральной Азии",
+        "description": "Ретейл, финтех, банкинг Евразии.",
+        "h1": []
+      }
+    },
+    {
+      "domain": "shiftaiplaymaker.com",
+      "status": "entity_or_personal",
+      "reason": "标题是邀请加入SHIFT，描述涉及SHIFT AI Studios和EcoPay；仅据这些品牌称谓无法核实独立通用需求。",
+      "selected_keywords": [],
+      "source_fields_sha256": "add5a3dd28cc39f8d6965df42817590197a16eda6ca6d788989340d504bd3c4f",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Play Makers invited you to SHIFT",
+        "description": "Create with the SHIFT AI Studios and take part in the EcoPay economy.",
+        "h1": [
+          "Play Makers invited you to SHIFT"
+        ]
+      }
+    },
+    {
+      "domain": "lenmaker.com",
+      "status": "insufficient_fields",
+      "reason": "薄页Title和H1均为域名，缺少用途原文。",
+      "selected_keywords": [],
+      "source_fields_sha256": "ff74c7bc192c4fbc6cb3e5db66e07b73b6cd52ee4e97527aa75fd8f40c69c986",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "lenmaker.com",
+        "description": "",
+        "h1": [
+          "lenmaker.com"
+        ]
+      }
+    },
+    {
+      "domain": "monitoreoguardacol.com",
+      "status": "site_shell",
+      "reason": "保存的标题明确为SoftGuard登录页；保留软件实体线索，不推断登录后功能。",
+      "selected_keywords": [],
+      "source_fields_sha256": "77418896f3343c3e467edfa711b5fe41aae90627e06e9deb1c91277eac41beb1",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "SoftGuard Desktop Security Suite - Login",
+        "description": "",
+        "h1": []
+      }
+    },
+    {
+      "domain": "monitorcircuitai.cyou",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Local Citations Backlinks"
+      ],
+      "source_fields_sha256": "7e7d30ef87e006973f3db5b830c704318d27618d87db9c1e61a1fa5fc9974958",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Local Citations Backlinks",
+        "description": "",
+        "h1": [
+          "Local Citations Backlinks"
+        ]
+      }
+    },
+    {
+      "domain": "srslycreators.com",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Creator Agency"
+      ],
+      "source_fields_sha256": "a76c0bba0886bea00fbf3d88672c5b9d6bd7488a7f78fdbed02c1eae3ad0cc5e",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "SRSLY Creators | Creator Agency, Gold Coast",
+        "description": "Full service agency for creators who make real content: social, subscriptions and brand deals. Run by creators with ten billion views behind them. Gold Coast, Australia.",
+        "h1": [
+          "Full service agency for creators who make real content.",
+          "Full service agency for creators who make real content."
+        ]
+      }
+    },
+    {
+      "domain": "convertum.app",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "compress files"
+      ],
+      "source_fields_sha256": "81b5f965dcdbff1de7d7864e282c3584c8467861bd8b6ebf9f70b70511c1d861",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Convertum — Every tool you need to convert, edit & compress files — Convertum",
+        "description": "Convertum — Fast, 100% private in-browser tools for PDFs, images, media, and code. Zero cloud uploads, zero tracking. 100% private, fast in-browser...",
+        "h1": [
+          "Convertum — Every tool you need to convert, edit & compress files"
+        ]
+      }
+    },
+    {
+      "domain": "alumni-manager.app",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "同窓会管理",
+        "会員管理SaaS"
+      ],
+      "source_fields_sha256": "a90d86075693cd6592820905686c1036c0d3d4ee9635a2297b6040738d8b38f5",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "同窓会管理をもっとスマートに",
+        "description": "同窓会マネージャーは、同窓会・OB会・卒業生協会向けの会員管理SaaSです。会員名簿管理、会費のオンライン集金、イベント運営とQR受付、メール配信までひとつで完結します。",
+        "h1": [
+          "同窓会管理を、 もっとスマートに。"
+        ]
+      }
+    },
+    {
+      "domain": "youdaotranslator.com",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "有道翻译下载",
+        "PDF 翻译"
+      ],
+      "source_fields_sha256": "8f1b1bb1f545b20d8bc93fbb3c32626e31ee0549ce9e030549b77ca9faa47aea",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "有道翻译下载",
+        "description": "有道翻译电脑版下载与安装使用指南，提供 Windows、Mac 官方版本获取入口、安装步骤、版本选择，以及截图翻译、文档翻译、PDF 翻译等核心功能教程。",
+        "h1": [
+          "有道翻译下载"
+        ]
+      }
+    },
+    {
+      "domain": "oakinteractivepagexample704.com",
+      "status": "entity_or_personal",
+      "reason": "字段自称Teach For America Houston，描述地区教育活动；这是组织/地区导航内容，不从example词根造工具词。",
+      "selected_keywords": [],
+      "source_fields_sha256": "11ad3dea03d160a6b65a00569b201a082863abd08a919351a2222be3a910544e",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Teach For America Houston",
+        "description": "We've been in Houston since 1991, and our network is leading some of the most innovative education initiatives in the country.",
+        "h1": [
+          "Houston"
+        ]
+      }
+    },
+    {
+      "domain": "senderosg.com.mx",
+      "status": "insufficient_fields",
+      "reason": "标题仅为Home de加域名，描述和H1为空。",
+      "selected_keywords": [],
+      "source_fields_sha256": "012de46ec471bdf6947b1fd017eacbf97316224e0f4d3a701a0830560ac01b86",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Home de senderosg.com.mx",
+        "description": "",
+        "h1": []
+      }
+    },
+    {
+      "domain": "s30recorder.ru",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Скачивание приложения S30"
+      ],
+      "source_fields_sha256": "8b48a8dad832e62553d950f890bd93d2bba19027202959cc6110c091051c573f",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "S30 — центр покупателя",
+        "description": "Скачивание приложения S30, активация, инструкции и поддержка.",
+        "h1": [
+          "Всё для вашего диктофона S30"
+        ]
+      }
+    },
+    {
+      "domain": "mymerchantprocessor.com",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "merchant fees",
+        "payment holds"
+      ],
+      "source_fields_sha256": "4fdc79c3e8e5cde1952f8e892681a91eb1732fec75aa907cc4cfa384d92526b0",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "MyMerchantProcessor",
+        "description": "MyMerchantProcessor offers clear guidance on merchant fees, payment holds, cash flow, and switching processors across 28 pages for all owners.",
+        "h1": [
+          "MyMerchantProcessor"
+        ]
+      }
+    },
+    {
+      "domain": "bounce-detector.com",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "scalper de rebote RSI"
+      ],
+      "source_fields_sha256": "3d6ca069cb909557e8599bdf9b9e52d23d62e6fd7ea03a769fac23b00d53e25d",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "bounce-detector — scalper de rebote RSI",
+        "description": "",
+        "h1": []
+      }
+    },
+    {
+      "domain": "otona-sample.com",
+      "status": "entity_or_personal",
+      "reason": "字段描述FANZA内容样本目录；记录为平台/内容导航线索，未取得可区分的通用用途短语。",
+      "selected_keywords": [],
+      "source_fields_sha256": "a4c5ef31aca4c16856459cf276b67deb0389493483219cffbb67dd1138ccb22e",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "トナサンプル｜FANZAのサンプル画像・動画から作品を探す – 好みの画像・動画から探せるサイト",
+        "description": "FANZAから厳選した抜けそうなサンプル画像・動画を紹介。気になる画像や動画から逆算して、作品情報をチェックできます。",
+        "h1": [
+          "オトナサンプル の新着一覧"
+        ]
+      }
+    },
+    {
+      "domain": "automatedscheduler.info",
+      "status": "conflicting_fields",
+      "reason": "标题为Calendly Careers，描述却称Meta招聘；薄页品牌信息矛盾，暂缓采用。",
+      "selected_keywords": [],
+      "source_fields_sha256": "27cc64574d0067d96434e654045104a4cb8622e54c2ad8b492299da913499a00",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Job Search | Calendly Careers",
+        "description": "Search open positions at Meta across AI, engineering, research, product, design, and more.",
+        "h1": []
+      }
+    },
+    {
+      "domain": "securethebagwealthbuilder.com",
+      "status": "site_shell",
+      "reason": "只有Base44 APP通用壳标题，没有财富管理或其他具体用途证据。",
+      "selected_keywords": [],
+      "source_fields_sha256": "332eab06d0b24f62c3ec3985f87800e8e8d1154a2c71a168753141992e637c56",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Base44 APP",
+        "description": "",
+        "h1": []
+      }
+    },
+    {
+      "domain": "ofertinhasonline.com",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Kit Festa"
+      ],
+      "source_fields_sha256": "f2e7d51b89d2e01945bd4fcab11d16972cf583db5c11b6405cd36fe41a76d320",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Kit Festa que vira memória - Kit Festa que vira memória -",
+        "description": "Que tal fugir das lembrancinhas tradicionais ? Esse Kit as Crianças Vão DISPUTAR as Lembrancinhas da Festa do Seu Filho. Com esse kit, você cria lembrancinhas profissionais e as crianças VÃO SE DIVERTIR DURANTE A FESTA E QUERER levar para casa. AS CRIANÇAS VÃO AMAR E AS MÃES VÃO FICAR ADMIRADAS E CURIOSAS PRA SABER COMO […]",
+        "h1": []
+      }
+    },
+    {
+      "domain": "metaltransformationsllc.com",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Custom Metal Signs",
+        "architectural metalwork",
+        "raw steel sales"
+      ],
+      "source_fields_sha256": "1097356791e0b751330c6e57756e27001fb71879d4a9bcb4b7a2e5e432e6ee24",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Metal Transformations LLC | Custom Metal Signs, Fabrication & Steel Sales",
+        "description": "Metal Transformations LLC in Halstead, Kansas. Custom metal signs, architectural metalwork, commercial fabrication, and raw steel sales.",
+        "h1": [
+          "Custom Metal Signs, Fabrication & Steel Sales"
+        ]
+      }
+    },
+    {
+      "domain": "aml-formation.com",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "prévention du harcèlement",
+        "risques psychosociaux"
+      ],
+      "source_fields_sha256": "959baa90e94161a5739b8f489d60c1a7ee3f5fba23ea425b0948b6e4b24a73af",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "AML.Formation | Prévention des risques humains au travail",
+        "description": "Formations professionnelles en prévention du harcèlement, des violences et des risques psychosociaux. Une approche humaine, concrète et participative.",
+        "h1": []
+      }
+    },
+    {
+      "domain": "chainmakers.ai",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "AI-native software"
+      ],
+      "source_fields_sha256": "a8863f5ca52b619cbf572ba668d14e805da3d7142edd5872e097bcebcf36df72",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Chainmakers — AI-native systems for the real world",
+        "description": "Chainmakers builds AI-native software, automation and infrastructure for businesses still operating through spreadsheets, email, PDFs and disconnected systems.",
+        "h1": [
+          "We turn operational complexity into software."
+        ]
+      }
+    },
+    {
+      "domain": "mona-outreach-tracker.site",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Outreach Log"
+      ],
+      "source_fields_sha256": "236a17b2c615e6d738f9b34ba3002e5f0077b76746e3d4d6cf91af625165acd8",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Outreach Log",
+        "description": "",
+        "h1": [
+          "Outreach Log"
+        ]
+      }
+    },
+    {
+      "domain": "casinopurpleonline.net",
+      "status": "entity_or_personal",
+      "reason": "字段主要描述Casino Purple及丹麦玩家的奖金/游戏入口；品牌导航线索单列，没有因行业判垃圾。",
+      "selected_keywords": [],
+      "source_fields_sha256": "8108e80d7c8633111913b896cbd3e1b381ce4d26e40b66162365d7f0553d45f7",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Casino Purple – 100 Freespins Til Spilleautomater",
+        "description": "Casino Purple samler bonusser, spil, betalinger og sikkerhed for danske spillere på én side.",
+        "h1": [
+          "Casino Purple"
+        ]
+      }
+    },
+    {
+      "domain": "themakerzhub.com",
+      "status": "insufficient_fields",
+      "reason": "只有The Makers Hub / The Makerz Hub品牌式标题，缺少用途说明。",
+      "selected_keywords": [],
+      "source_fields_sha256": "fc5212eb7d6ad34ae4d72172cd41a7c0f857814d70829ebefce3e740bf568e94",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "The Makers Hub",
+        "description": "",
+        "h1": [
+          "The Makerz Hub",
+          "The Makerz Hub"
+        ]
+      }
+    },
+    {
+      "domain": "spoedslotenmakerpapendrecht.com",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Slotenmaker Papendrecht"
+      ],
+      "source_fields_sha256": "154f5b1e7396c2c55ca5e0a5f750681c1fcbf208a27af0d5f702c655ed060cf8",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Spoed Slotenmaker Papendrecht | Snel & Betrouwbaar Serviço",
+        "description": "Buitengesloten of slot kapot? Wij helpen je snel en betrouwbaar met slotenmakerwerk in Papendrecht. Bel ons voor veilige, responsieve service.",
+        "h1": [
+          "Snel weer veilig naar binnen."
+        ]
+      }
+    },
+    {
+      "domain": "papropertymanagers.org",
+      "status": "entity_or_personal",
+      "reason": "截断页标题和描述指向Pennsylvania房屋管理者群体；保留地区机构线索，尚不能确认具体功能或服务。",
+      "selected_keywords": [],
+      "source_fields_sha256": "5ff70ca8951c189dad4a4f7bb0703ee14d91f013b68b87b9e9cf77b7b27dc8b8",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Home | PA Property Managers",
+        "description": "For the people who manage housing across Pennsylvania",
+        "h1": []
+      }
+    },
+    {
+      "domain": "casinovavadaonline.net",
+      "status": "entity_or_personal",
+      "reason": "标题与描述围绕Vavada品牌及阿根廷用户；没有从online词根推导通用工具需求。",
+      "selected_keywords": [],
+      "source_fields_sha256": "cb3c6cea0fe1d45b6ca70b173af55adb3825849ad0447c281e0f80ac60e7afbf",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Vavada | 250% Hasta 95.000 ARS Por Depósito",
+        "description": "Vavada reúne licencia, bonos, juegos, pagos, app y soporte con datos útiles para jugadores de Argentina.",
+        "h1": [
+          "Vavada"
+        ]
+      }
+    },
+    {
+      "domain": "slotenmakervanbeek-wageningen.nl",
+      "status": "supplemented",
+      "reason": "已从保存字段核对并补充字面用途短语；保留原语言、地区及原页面质量限制，趋势未查。",
+      "selected_keywords": [
+        "Slotenmaker Wageningen"
+      ],
+      "source_fields_sha256": "d98fe22c7d2e10f3d35ad0f2ae89a0d6f9263e6f61087db74fbe85a5e0f8a083",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "Slotenmaker Wageningen | 24/7 · Bel 085 800 1699 | Van Beek Slotenmaker Wageningen Slotenmaker Ede Slotenmaker Veenendaal Slotenmaker Barneveld Slotenmaker Arnhem Slotenmaker Nijmegen Slotenmaker Amersfoort Slotenmaker Oss",
+        "description": "Slotenmaker in Wageningen? Buitengesloten, sleutel kwijt of slot kapot: Van Beek komt 24/7, prijs vooraf. Deur openen vanaf € 89,95. Bel 085 800 1699.",
+        "h1": [
+          "Slotenmaker Wageningen, 24/7 voor u klaar"
+        ]
+      }
+    },
+    {
+      "domain": "online-site-pg.com.cn",
+      "status": "entity_or_personal",
+      "reason": "标题与描述围绕pg电子平台入口和游戏目录；记录品牌导航性质，未据行业或后缀淘汰。",
+      "selected_keywords": [],
+      "source_fields_sha256": "c83de0f11fcc976c193d3d60d9491a65c601f7c35645902d5d8f43931304d487",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "pg电子-pg电子平台官网-移动游戏入口",
+        "description": "进入pg电子中文入口后，可直接浏览pg电子平台的游戏推荐栏目、热门游戏分类、电子内容专区，并将棋牌玩法介绍放在清晰位置。站内导航清晰，常用栏目可快速直达，方便按需求筛选内容并跟进近期更新。",
+        "h1": []
+      }
+    },
+    {
+      "domain": "dashboardteam4aria.team",
+      "status": "site_shell",
+      "reason": "只有aria-dashboard标题的脚本薄页，无功能解释。",
+      "selected_keywords": [],
+      "source_fields_sha256": "0cc8d2832636838ea4bab1825e60599ad5eb4f137bad1e1294a57f33fa2569b3",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "saved_title_h1_description_only",
+      "source_fields": {
+        "title": "aria-dashboard",
+        "description": "",
+        "h1": []
+      }
+    }
+  ],
+  "terms": [
+    {
+      "keyword": "da checker",
+      "status": "meaning_checked",
+      "meaning": "域名权威分数检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "dacheckerfree.website",
+        "field": "title",
+        "quote": "Da Checker Free – Your Complete Guide To Checking Domain Authority Without Paying"
+      },
+      "source_fields_sha256": "dc5d3a4513ea543d9799caaabc68a6735909e417340262c76d173e3d1b810685",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "seo checker",
+      "status": "meaning_checked",
+      "meaning": "站点SEO检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "siteseochecker.website",
+        "field": "title",
+        "quote": "Site SEO Checker: The Complete Guide To Elevating Your Website's Search Performance"
+      },
+      "source_fields_sha256": "754adc2d19f7345c73d41395d319235e9d8ff82705988807350d3aaf48f3c22b",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "da pa checker",
+      "status": "meaning_checked",
+      "meaning": "域名及页面权威分数检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "sitedapachecker.website",
+        "field": "title",
+        "quote": "Site DA PA Checker – Your Complete Guide To Understanding And Maximizing Your Authority Scores"
+      },
+      "source_fields_sha256": "81b33b89833cd816dff08dbba245bf11ad387c51f53a6209fa5f915e118a4ed3",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "backlink checker",
+      "status": "meaning_checked",
+      "meaning": "反向链接检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "sitebacklinkchecker.website",
+        "field": "title",
+        "quote": "Site Backlink Checker: Your Complete Guide To Understanding And Growing Your Backlink Profile"
+      },
+      "source_fields_sha256": "39ed3344531d230f84ce6c87344cab5cfa8e06dc05973753b58f1cdf516b8f7e",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "rank checker",
+      "status": "meaning_checked",
+      "meaning": "搜索排名检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "bestrankchecker.website",
+        "field": "title",
+        "quote": "Best Rank Checker: The Complete Guide To Finding Your Perfect SEO Tracking Tool"
+      },
+      "source_fields_sha256": "e4d73bbad118cb18be89b8208cb9d97ae63b7d4cc25ffff741e148e868b12dbd",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "backlinks checker",
+      "status": "meaning_checked",
+      "meaning": "反向链接检查（复数表达）",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "backlinkscheckerfree.website",
+        "field": "title",
+        "quote": "Backlinks Checker Free: The Complete Guide To Empowering Your SEO Strategy"
+      },
+      "source_fields_sha256": "6a60e1d9457192f12bf1082f03eed317925c05bde17a0e8d35cd1e689f9928a9",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "serp checker",
+      "status": "meaning_checked",
+      "meaning": "搜索结果页排名检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "freeserpcheckertool.website",
+        "field": "title",
+        "quote": "Free SERP Checker Tool: Your Ultimate Guide To Mastering Search Rankings"
+      },
+      "source_fields_sha256": "8a6494b582560f69aefecdc05a33264a5d97bd565ffc23ba2797d6b63eb7c1ae",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "bulk da checker",
+      "status": "meaning_checked",
+      "meaning": "批量域名权威分数检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "bulkdacheckertools.website",
+        "field": "title",
+        "quote": "Bulk DA Checker Tools: The Complete Guide To Scaling Your SEO Authority Analysis"
+      },
+      "source_fields_sha256": "a4e7e8683dd8e44be3e5fed3bb3314b2fb2b66fe9b76a4816c41c2fffebde27f",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "pa da checker",
+      "status": "meaning_checked",
+      "meaning": "页面和域名权威分数检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "padachecker.website",
+        "field": "title",
+        "quote": "PA DA Checker: Your Complete Guide To Measuring Website Authority And Boosting Your SEO Success"
+      },
+      "source_fields_sha256": "fd3ddc4822da20c55cf50817edcd158049cbe9cb114e33b84a8ad716bdc11ef5",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "ranking checker",
+      "status": "meaning_checked",
+      "meaning": "搜索排名跟踪检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "rankingcheckertool.website",
+        "field": "title",
+        "quote": "Ranking Checker Tool: Your Complete Guide To Tracking SEO Success And Maximizing Organic Growth"
+      },
+      "source_fields_sha256": "bc763b10404e4b3a5372843b0e79f4c9488f3c51a7f8cd962d71ddcb8b674449",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "pa checker",
+      "status": "meaning_checked",
+      "meaning": "页面权威分数检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "freepachecker.website",
+        "field": "title",
+        "quote": "Free PA Checker: Your Complete Guide To Boosting Page Authority"
+      },
+      "source_fields_sha256": "66de6d231ac9d1782bebe038d541a7d0e809317af7da766fdf3012e1817c0fe0",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "dr checker",
+      "status": "meaning_checked",
+      "meaning": "域名评级检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "drcheckertool.website",
+        "field": "title",
+        "quote": "DR Checker Tool – Your Complete Guide To Mastering Domain Authority Analysis"
+      },
+      "source_fields_sha256": "88ccc92f07bbae792ff816ff8326a7971e9f3c0aeef3f8be45f719b803d08f9a",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "da dr checker",
+      "status": "meaning_checked",
+      "meaning": "域名权威与域名评级检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "dadrcheckerfree.website",
+        "field": "title",
+        "quote": "DA DR Checker Free: Your Complete Guide To Checking Domain Authority And Domain Rating"
+      },
+      "source_fields_sha256": "16966f911c4883e445b1091d14ff4ddd3bf3db7561455e0ce269314b6f000022",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "dapa checker",
+      "status": "meaning_checked",
+      "meaning": "域名及页面权威检查的缩写拼写",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "websitedapachecker.website",
+        "field": "title",
+        "quote": "Website Dapa Checker: The Ultimate Guide To Domain And Page Authority Monitoring"
+      },
+      "source_fields_sha256": "5aac4ec2701b09df08cc201ae429564075e416dfde96ce19a590d298f7a89551",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "backlink generator",
+      "status": "meaning_checked",
+      "meaning": "反向链接生成",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "backlinkgeneratorbot.site",
+        "field": "title",
+        "quote": "Backlink Generator Bot: Your Ultimate Guide To Effortless SEO Growth"
+      },
+      "source_fields_sha256": "cdfc21b7fabf6e4c1836900c6f85762222eab8aa3efd8f6a6dd208adc7f560a2",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "domain checker",
+      "status": "needs_qualifier",
+      "meaning": "含义有域名可注册性与域名权威检查的歧义",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。 需补足对象或澄清查询含义，暂不直接把宽泛词的热度归因于该页面用途。",
+      "flags": [
+        "selected_source_guide_or_marketing",
+        "query_ambiguity_or_clipped_phrase"
+      ],
+      "evidence": {
+        "domain": "domaincheckerdapa.website",
+        "field": "title",
+        "quote": "Domain Checker DA PA: Your Complete Guide To Unlocking Maximum Domain Authority And Page Authority"
+      },
+      "source_fields_sha256": "f2f8e8671c9ffcbe466887b2e6d2560224fb5a52e2762018885a44cff3e6e92c",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "link checker",
+      "status": "meaning_checked",
+      "meaning": "站点链接健康检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "websitelinkchecker.website",
+        "field": "title",
+        "quote": "Website Link Checker: Your Essential Guide To A Healthy, High-Performing Website"
+      },
+      "source_fields_sha256": "f112650ca93150404444716b7566a0408feac2e4a581f2f51feac5afd9a412f3",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "da and pa checker",
+      "status": "meaning_checked",
+      "meaning": "域名与页面权威检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "daandpacheckertool.website",
+        "field": "title",
+        "quote": "DA And PA Checker Tool: Your Complete Guide To Measuring Website Authority"
+      },
+      "source_fields_sha256": "58480b281cf1eb1228e919e2711c9ce7b7649f9604421e10cfbf56b9cb799160",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "seo rank checker",
+      "status": "meaning_checked",
+      "meaning": "SEO排名检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "seorankchecker.website",
+        "field": "title",
+        "quote": "SEO Rank Checker: Your Complete Guide To Tracking And Boosting Your Search Visibility"
+      },
+      "source_fields_sha256": "37e7e5416a81470484082ba5ca2f44da2c5f4b05452ccd3068dff29b415d768d",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "seo site checker",
+      "status": "meaning_checked",
+      "meaning": "站点SEO检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "seositechecker.website",
+        "field": "title",
+        "quote": "SEO Site Checker: Your Complete Guide To Boosting Website Performance And Rankings"
+      },
+      "source_fields_sha256": "14a904a469322be93060032487c6e52061b42527f8b52f60724a06ea7b6349fa",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "pa and da checker",
+      "status": "meaning_checked",
+      "meaning": "页面和域名权威检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "paanddachecker.website",
+        "field": "title",
+        "quote": "PA And DA Checker: Your Essential Guide To Understanding And Boosting Your Website Authority"
+      },
+      "source_fields_sha256": "26fcfc85027ea069daf37784941c8c425b738aa38261d0658a7c438b0f2114d9",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "backlinks online",
+      "status": "meaning_checked",
+      "meaning": "在线反向链接相关主题",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "createbacklinksonline.website",
+        "field": "title",
+        "quote": "Create Backlinks Online: Your Complete Guide To Building Authority And Visibility"
+      },
+      "source_fields_sha256": "4738d1c8fd47a790ccdba7445b133586cebbd36ff3b402915daf3248ea0349ac",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "age calculator",
+      "status": "meaning_checked",
+      "meaning": "按生日计算年龄",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。",
+      "flags": [],
+      "evidence": {
+        "domain": "agecalculators.pro",
+        "field": "title",
+        "quote": "Age Calculator — Your Exact Age in Years, Months and Days"
+      },
+      "source_fields_sha256": "5577b38535be4b333f320ccad99334a0ddee54bbcf1449ed14a43c3a68df1ffc",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "qr code generator",
+      "status": "meaning_checked",
+      "meaning": "二维码生成",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。",
+      "flags": [],
+      "evidence": {
+        "domain": "qrcodemaker.tech",
+        "field": "title",
+        "quote": "qrcodemaker - Free QR Code Generator with AI Art"
+      },
+      "source_fields_sha256": "459fc6d863cb0f213d44bdbae93d405aeda8726531ecd506b8b902c20c5489e0",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "font generator",
+      "status": "meaning_checked",
+      "meaning": "文字字体/花体字符生成",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。",
+      "flags": [],
+      "evidence": {
+        "domain": "fontgenerator.best",
+        "field": "title",
+        "quote": "Font Generator – Copy & Paste Fancy Text Fonts Online Free"
+      },
+      "source_fields_sha256": "09da7d7db539f53397228508d4569c904f18236a119a6b7f9fd75554ba5b71aa",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "invoice generator",
+      "status": "meaning_checked",
+      "meaning": "发票生成",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。",
+      "flags": [],
+      "evidence": {
+        "domain": "freeinvoicegenerator.info",
+        "field": "title",
+        "quote": "Free Invoice Generator – No Sign Up, Instant PDF"
+      },
+      "source_fields_sha256": "dd4b4751f36ea991076c2e60a571641070b7186716ac7dc79725b7b372ea22a2",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "audit checker",
+      "status": "needs_qualifier",
+      "meaning": "审计对象缺失，所选来源实际为网站审计",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。 需补足对象或澄清查询含义，暂不直接把宽泛词的热度归因于该页面用途。",
+      "flags": [
+        "selected_source_guide_or_marketing",
+        "query_ambiguity_or_clipped_phrase"
+      ],
+      "evidence": {
+        "domain": "websiteauditchecker.website",
+        "field": "title",
+        "quote": "Website Audit Checker: Your Complete Guide To Unlocking Peak Performance"
+      },
+      "source_fields_sha256": "541260462eaf980b657e3f0b7a4f164624d672ffbd39b99fa919a6900c722ad7",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "dofollow backlink maker",
+      "status": "meaning_checked",
+      "meaning": "dofollow反向链接制作",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "dofollowbacklinkmaker.site",
+        "field": "title",
+        "quote": "Dofollow Backlink Maker: Your Complete Guide To Building Powerful SEO Authority"
+      },
+      "source_fields_sha256": "3d97fbc3f7726930ae67649ec718da84b6ae730382a9023080aa34e5aef6e1c1",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "stats checker",
+      "status": "needs_qualifier",
+      "meaning": "统计对象缺失，所选来源实际为网站统计",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。 需补足对象或澄清查询含义，暂不直接把宽泛词的热度归因于该页面用途。",
+      "flags": [
+        "selected_source_guide_or_marketing",
+        "query_ambiguity_or_clipped_phrase"
+      ],
+      "evidence": {
+        "domain": "sitestatschecker.website",
+        "field": "title",
+        "quote": "Site Stats Checker: Your Complete Guide To Understanding Your Website's Performance"
+      },
+      "source_fields_sha256": "b3e1a7292a1eb52d7339bc3d69a32b0779a7c2c2e8d8df72f92877165559a163",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "seo audit checker",
+      "status": "meaning_checked",
+      "meaning": "SEO审计检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "freeseoauditchecker.website",
+        "field": "title",
+        "quote": "Free SEO Audit Checker: The Complete Guide To Boosting Your Website's Performance"
+      },
+      "source_fields_sha256": "aa08f92ae3e19f648a8e5ac9d165eb734a412efb914b2963ba290046ac9b1adb",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "ai backlinks generator",
+      "status": "meaning_checked",
+      "meaning": "AI反向链接生成",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "aibacklinksgenerator.shop",
+        "field": "title",
+        "quote": "AI Backlinks Generator: The Complete Guide To Smarter, Faster, And More Effective Link Building"
+      },
+      "source_fields_sha256": "d813ebcc23fcf4d1bc17160d70980a9abf09a5e11890438fbe1daeb55c7a7a3c",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "blog checker",
+      "status": "meaning_checked",
+      "meaning": "博客表现检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "blogcheckerfree.website",
+        "field": "title",
+        "quote": "Blog Checker Free: Your Complete Guide To Optimizing Your Blog's Performance"
+      },
+      "source_fields_sha256": "9a3323a9f25e1b5efe7fa96f1cc3227df0e7078d9786feaf76bba1057e8a33b9",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "backlink maker",
+      "status": "meaning_checked",
+      "meaning": "网站反向链接制作",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "websitebacklinkmaker.shop",
+        "field": "h1",
+        "quote": "Website Backlink Maker Grow Organic Traffic For FREE"
+      },
+      "source_fields_sha256": "161ae253932c499da237af38de695fd9fd7bce4da6cbc0e3daa562889bba6aa7",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "bulk dr checker",
+      "status": "meaning_checked",
+      "meaning": "批量域名评级检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "bulkdrcheckerfree.website",
+        "field": "title",
+        "quote": "Bulk DR Checker Free – Your Complete Guide To Checking Domain Ratings At Scale"
+      },
+      "source_fields_sha256": "accdad98416df4d9c4b9fe6ef8ddcf022d5286801fe190e318d374b9dbd9c684",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "blog seo checker",
+      "status": "meaning_checked",
+      "meaning": "博客SEO检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "freeblogseochecker.website",
+        "field": "title",
+        "quote": "Free Blog SEO Checker: Your Complete Guide To Unlocking Better Blog Performance"
+      },
+      "source_fields_sha256": "e7d201e50fedcdc02ad32c5bf289bbd3a320cf0ea29bc867ca3571ab0754851c",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "serp rank checker",
+      "status": "meaning_checked",
+      "meaning": "搜索结果排名检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "serprankchecker.website",
+        "field": "title",
+        "quote": "SERP Rank Checker: Your Complete Guide To Tracking And Improving Your Search Engine Positions"
+      },
+      "source_fields_sha256": "09e096155dce125f79e09bcc51a4e404497811c523271d5798e4b89dd899ff3d",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "backlink analyzer",
+      "status": "meaning_checked",
+      "meaning": "反向链接分析",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "backlinkanalyzer.website",
+        "field": "title",
+        "quote": "Backlink Analyzer: Your Complete Guide To Unlocking Better SEO Results"
+      },
+      "source_fields_sha256": "a2314ffaeb0dfbe608cf4f2b0562ad8c48a5306d42c59f6d327deaaccf5d620b",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "online da checker",
+      "status": "meaning_checked",
+      "meaning": "在线域名权威检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "onlinedachecker.website",
+        "field": "title",
+        "quote": "Online DA Checker: Your Complete Guide To Domain Authority Success"
+      },
+      "source_fields_sha256": "b268bd089746d230c78e0424e26a158db1620d14be42ebe074877baf4766f953",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "web seo checker",
+      "status": "meaning_checked",
+      "meaning": "网站SEO检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "webseochecker.website",
+        "field": "title",
+        "quote": "Web SEO Checker: Your Complete Guide To Optimizing Your Website's Performance"
+      },
+      "source_fields_sha256": "8b339004c1b7c8d7b279dc58866b98f41721c413a2c081421c30960420e97629",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "automated backlink builder",
+      "status": "meaning_checked",
+      "meaning": "自动反向链接构建",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "automatedbacklinkbuilder.online",
+        "field": "title",
+        "quote": "Automated Backlink Builder: The Ultimate Guide To Scaling Your SEO Efforts"
+      },
+      "source_fields_sha256": "585944e585ebb9078f6cff90962798f1ac021fa3bb959cc37739cc22f6ee0511",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "seo score checker",
+      "status": "meaning_checked",
+      "meaning": "SEO评分检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "freeseoscorechecker.website",
+        "field": "title",
+        "quote": "Free SEO Score Checker: Your Complete Guide To Understanding And Improving Your Website's Health"
+      },
+      "source_fields_sha256": "c52e3cfa387dbef52f504cfa4c1d907097de7d32809c87108320b20930dab17c",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "checker seo",
+      "status": "needs_qualifier",
+      "meaning": "截断式词序，来源完整表达是Site Checker SEO",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。 需补足对象或澄清查询含义，暂不直接把宽泛词的热度归因于该页面用途。",
+      "flags": [
+        "selected_source_guide_or_marketing",
+        "query_ambiguity_or_clipped_phrase"
+      ],
+      "evidence": {
+        "domain": "sitecheckerseo.website",
+        "field": "title",
+        "quote": "Site Checker SEO – Your Complete Guide To Optimizing Website Performance"
+      },
+      "source_fields_sha256": "03070d57164cd6333a40cd85b50f6d11aa928dd9fb551aa0386a4f33a095a050",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "golf simulator",
+      "status": "meaning_checked",
+      "meaning": "高尔夫模拟器",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。",
+      "flags": [],
+      "evidence": {
+        "domain": "golfsimulatorcompare.com",
+        "field": "title",
+        "quote": "Golf Simulator Compare: Verified Specs, Space Requirements & Package Prices"
+      },
+      "source_fields_sha256": "e99f7cf406c1758675ce8105f541453c52c5014796986c8374b384c4283d9139",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "online pokies nz",
+      "status": "meaning_checked",
+      "meaning": "新西兰在线老虎机主题",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 保留来源地区语境，不据此推断美国需求。",
+      "flags": [
+        "source_has_geographic_context"
+      ],
+      "evidence": {
+        "domain": "bestonlinepokiesnz.pro",
+        "field": "title",
+        "quote": "Best online pokies NZ — Real Money Games Listed for 2026"
+      },
+      "source_fields_sha256": "bc8cce345a1bac28dbfc600639f93fd7db9686b1934efac02043d46b92e72160",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "online pokies in 2026",
+      "status": "meaning_checked",
+      "meaning": "带年份限定的在线老虎机主题",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 标题含2026不等于近期出现。",
+      "flags": [
+        "year_does_not_prove_newness"
+      ],
+      "evidence": {
+        "domain": "onlinepokiesau.sbs",
+        "field": "h1",
+        "quote": "Online Pokies in 2026: The Complete Guide to Playing Them Well"
+      },
+      "source_fields_sha256": "7de60ce0588089d496c8eab0ffb0f78da281988ea157f52f8ae8a5e177337fce",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "online ruler",
+      "status": "meaning_checked",
+      "meaning": "在线尺子",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。",
+      "flags": [],
+      "evidence": {
+        "domain": "onlinepenggaris.com",
+        "field": "title",
+        "quote": "Online Ruler — Free Ruler Online in cm, mm, inches (Actual Size)"
+      },
+      "source_fields_sha256": "a5c63dc8772873e8eef63b4d07672e4f62fcf9a1dd4856b8fc7521d9207be826",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "online casino stake",
+      "status": "entity_query",
+      "meaning": "Stake品牌相关在线赌场导航",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 品牌/实体词单列，未核实官方归属，也未因其是实体而删除。 保留来源地区语境，不据此推断美国需求。",
+      "flags": [
+        "entity_or_brand_query",
+        "source_has_geographic_context"
+      ],
+      "evidence": {
+        "domain": "onlinecasinostake.click",
+        "field": "title",
+        "quote": "Online Casino Stake: Top Philippines Gaming Hub 2026"
+      },
+      "source_fields_sha256": "bd0a0e02aa36b5e541de82267667f1f2c08aa61af5f4d4d0b7d3c237a2748991",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "online image converter",
+      "status": "meaning_checked",
+      "meaning": "在线图片转换",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。",
+      "flags": [],
+      "evidence": {
+        "domain": "convertanyimage.com",
+        "field": "title",
+        "quote": "Free Online Image Converter – RAW, PNG, JPG, PDF & PSD"
+      },
+      "source_fields_sha256": "dbd7d0ef33adf9078ce8e2b383cbcaf4f8cc78a12cff9e421d0876567e787f20",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "online protractor",
+      "status": "meaning_checked",
+      "meaning": "在线量角器",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。",
+      "flags": [],
+      "evidence": {
+        "domain": "freeprotractoronline.com",
+        "field": "title",
+        "quote": "Free Online Protractor Tool — Measure Angles on Any Image"
+      },
+      "source_fields_sha256": "ff3e1427dd17cb88214a0867cb6a9a1e4e77c530d7e993b0f80cdc743cbbe37d",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "sprite sheet maker",
+      "status": "meaning_checked",
+      "meaning": "精灵图集制作",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。",
+      "flags": [],
+      "evidence": {
+        "domain": "spritesheetmaker.net",
+        "field": "title",
+        "quote": "Sprite Sheet Maker – Free Online Sprite Sheet Generator"
+      },
+      "source_fields_sha256": "8dbc7c21fc1bda71c3ee6d897c6c21b0ecb1358d9249c81829f132d75588b55f",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "online casino 2026",
+      "status": "meaning_checked",
+      "meaning": "带年份限定的在线赌场主题",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 标题含2026不等于近期出现。",
+      "flags": [
+        "year_does_not_prove_newness"
+      ],
+      "evidence": {
+        "domain": "mezinarodnionlinecasino.one",
+        "field": "title",
+        "quote": "Online Casino 2026 – [20] – Nejlepší zahraničí casina pro Čechy"
+      },
+      "source_fields_sha256": "30e989fbb93adbc00702463282bb275327e4ebef37edbabdb5ec38e68ab476b8",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "deck builder",
+      "status": "needs_qualifier",
+      "meaning": "来源指庭院露台建造；搜索词本身也可能指卡牌组建",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 需补足对象或澄清查询含义，暂不直接把宽泛词的热度归因于该页面用途。",
+      "flags": [
+        "query_ambiguity_or_clipped_phrase"
+      ],
+      "evidence": {
+        "domain": "customdeckbuildernewmarket.com",
+        "field": "title",
+        "quote": "Deck Builder"
+      },
+      "source_fields_sha256": "3eb8aeec6fe95c8139f0b4b8c09305ce49d3ef47884416092d40292c7b19257c",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "betway online casino",
+      "status": "entity_query",
+      "meaning": "Betway品牌在线赌场导航",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 品牌/实体词单列，未核实官方归属，也未因其是实体而删除。",
+      "flags": [
+        "entity_or_brand_query"
+      ],
+      "evidence": {
+        "domain": "betway-online-casino.org",
+        "field": "title",
+        "quote": "Betway Online Casino — Explore Games and Open the Lobby"
+      },
+      "source_fields_sha256": "edc9023547c66e4f580bfabee9faa8ac7292e6838396df2b1af20cd933ad6dee",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "backlink generator online",
+      "status": "meaning_checked",
+      "meaning": "在线反向链接生成",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "backlinkgeneratoronline.online",
+        "field": "title",
+        "quote": "Backlink Generator Online: The Complete Guide To Growing Your Authority"
+      },
+      "source_fields_sha256": "40e85705e0648896e95d49b8e661622efb7bdab752b3a8da91714eb3e4557291",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "meta glasses converter",
+      "status": "meaning_checked",
+      "meaning": "Meta眼镜相关照片转换，来源指向Instagram旋转Story图片",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。",
+      "flags": [],
+      "evidence": {
+        "domain": "glassesconverter.com",
+        "field": "title",
+        "quote": "Meta Glasses Converter | Instagram Rotating Story Photo Tool"
+      },
+      "source_fields_sha256": "d9e569b6831fae1886dd1c3f90d47daec3e4499e0a21e25cec0747dbf8733d11",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "online casino games",
+      "status": "meaning_checked",
+      "meaning": "在线赌场游戏主题",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。",
+      "flags": [],
+      "evidence": {
+        "domain": "bestonlinecasinogamestowinmoney.com",
+        "field": "title",
+        "quote": "Best Online Casino Games To Win Money | RTP Gids"
+      },
+      "source_fields_sha256": "169dab8367721654369e247d2fa78294840a5a0e1a3cd49703cb7d6192e380c7",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "online roulette real money",
+      "status": "meaning_checked",
+      "meaning": "真钱在线轮盘主题，所选来源面向澳大利亚",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 保留来源地区语境，不据此推断美国需求。",
+      "flags": [
+        "source_has_geographic_context"
+      ],
+      "evidence": {
+        "domain": "online-roulette-real-money-au.com",
+        "field": "title",
+        "quote": "Online Roulette Real Money AU 2026: Top Australian Casinos"
+      },
+      "source_fields_sha256": "6c0151dc67fb37b4cbaea8467a2f9df97c9970cc82705c8fe6addc20690a9827",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "online pokies real money",
+      "status": "meaning_checked",
+      "meaning": "真钱在线老虎机主题，所选来源面向澳大利亚",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 保留来源地区语境，不据此推断美国需求。",
+      "flags": [
+        "source_has_geographic_context"
+      ],
+      "evidence": {
+        "domain": "bestonlinepokiesrealmoney.casino",
+        "field": "title",
+        "quote": "Best online pokies real money — AU Guide & Top Sites 2026"
+      },
+      "source_fields_sha256": "daf217b37b36c984e1347843667900adae3afb2d346a15695fdf0eeaca172533",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "q789 online",
+      "status": "entity_query",
+      "meaning": "Q789品牌导航，所选来源面向巴基斯坦",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 品牌/实体词单列，未核实官方归属，也未因其是实体而删除。 保留来源地区语境，不据此推断美国需求。",
+      "flags": [
+        "entity_or_brand_query",
+        "source_has_geographic_context"
+      ],
+      "evidence": {
+        "domain": "q789online.com",
+        "field": "title",
+        "quote": "Q789 Online – Pakistan's Premier Casino & Betting Platform"
+      },
+      "source_fields_sha256": "791eb059820c16cb4515708e773c718787e91454ba5799753fe450fe5745a323",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "da checker online",
+      "status": "meaning_checked",
+      "meaning": "在线域名权威检查",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "dacheckeronlinefree.website",
+        "field": "title",
+        "quote": "DA Checker Online Free: Your Complete Guide To Unlocking Your Website's True Potential"
+      },
+      "source_fields_sha256": "f12fb200579c876294c778dd4e175a38757f97e2a74e8cfff5f5c915240b0372",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "image converter",
+      "status": "meaning_checked",
+      "meaning": "图片转换",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。",
+      "flags": [],
+      "evidence": {
+        "domain": "convert.surf",
+        "field": "title",
+        "quote": "convert.gifts — Image Converter"
+      },
+      "source_fields_sha256": "c4a1c9f97c52be72471ca371632aba81034ff67d543b27432268ca1625a75565",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "anime shop simulator",
+      "status": "entity_query",
+      "meaning": "Anime Shop Simulator游戏实体，来源自称Steam发布和玩法页",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 品牌/实体词单列，未核实官方归属，也未因其是实体而删除。",
+      "flags": [
+        "entity_or_brand_query"
+      ],
+      "evidence": {
+        "domain": "animeshopsimulator.xyz",
+        "field": "title",
+        "quote": "Anime Shop Simulator ✨ — Steam Release and Gameplay Hub"
+      },
+      "source_fields_sha256": "2d0145611970f7546e85329b883cf9ac2fe9060d0be0fd5b28da0d19ede24c70",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "online casinos 2026",
+      "status": "meaning_checked",
+      "meaning": "带年份限定的在线赌场主题",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 保留来源地区语境，不据此推断美国需求。 标题含2026不等于近期出现。",
+      "flags": [
+        "source_has_geographic_context",
+        "year_does_not_prove_newness"
+      ],
+      "evidence": {
+        "domain": "online-casinos-nz.org",
+        "field": "title",
+        "quote": "Top Online Casinos 2026: Real Money Casinos for Aussies"
+      },
+      "source_fields_sha256": "cbe95314a7869abdef276e20e6b5348d5084a9985c864b93eb8d62753f18c26e",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "da checker bulk",
+      "status": "meaning_checked",
+      "meaning": "批量域名权威检查的词序变体",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 所选来源多为指南/营销标题，不能据此认定有可用工具或新需求。",
+      "flags": [
+        "selected_source_guide_or_marketing"
+      ],
+      "evidence": {
+        "domain": "dacheckerbulkfree.website",
+        "field": "title",
+        "quote": "Da Checker Bulk Free: Your Complete Guide To Boosting Domain Authority"
+      },
+      "source_fields_sha256": "3daec6a1451c56f7e8db326c15cd2f2ae2f422822791fe47a0a1f34e3919d788",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    },
+    {
+      "keyword": "mobile golf simulator",
+      "status": "meaning_checked",
+      "meaning": "可移动高尔夫模拟器服务",
+      "reason": "已核对一个来源字段中的字面短语及语境；仅完成词义复核，其他来源、完整页面质量与趋势尚未核对。 保留来源地区语境，不据此推断美国需求。",
+      "flags": [
+        "source_has_geographic_context"
+      ],
+      "evidence": {
+        "domain": "golfsimulatorindianapolis.com",
+        "field": "title",
+        "quote": "Mobile Golf Simulator Set Up Indoors in Indianapolis | Golf Simulator Co"
+      },
+      "source_fields_sha256": "43f4cddc05a770f3570a4ace732f6faa879c27921e8280278d7e6d43f7c63bfa",
+      "reviewed_at": "2026-09-28T13:06:31.654082+00:00",
+      "batch_id": "saved-fields-20260928-01",
+      "scope": "one_selected_source_field_other_sources_not_reviewed"
+    }
+  ]
+}

@@ -12,6 +12,7 @@
 /site/full-curation-summary.json
 /site/full-keyword-reviewed.json
 /site/full-domain-review.json
+/site/full-semantic-reviews.json
 /dist/
 /reports/*.tar.gz
 /reports/*.zip

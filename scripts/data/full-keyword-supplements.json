@@ -1,12 +1,310 @@
 [
-  {"domain":"promptgenerator.fyi","keyword":"AI prompt enhancer","field":"description","reason":"网页描述中的实际用途词；不含原51词根，旧提取器漏掉。尚未验证30天趋势。"},
-  {"domain":"tcguploader.com","keyword":"Trading Card Scanner","field":"title","reason":"网页标题明确用途；Uploader只用于域名初筛，实际用途词Scanner不应被二次词根限制漏掉。"},
-  {"domain":"tcguploader.com","keyword":"Collection Inventory","field":"title","reason":"网页标题中的另一项用途；字面证据已核对，趋势未查。"},
-  {"domain":"mayatemplates.com","keyword":"Printable Paper Cone Templates","field":"title","reason":"标题实际短语，Templates复数未命中旧提取器的单数精确匹配。"},
-  {"domain":"testscoreconverter.com","keyword":"standardized test score calculators","field":"description","reason":"描述实际用途，Calculators复数被旧单数词根规则漏掉。"},
-  {"domain":"getconvertmax.com","keyword":"first-party revenue attribution","field":"h1","reason":"H1明确用途；域名Convert初筛不应要求网页用途短语仍带Convert。"},
-  {"domain":"superabconvert.com","keyword":"Shopify A/B Testing App","field":"title","reason":"标题实际用途；字面证据已核对，未推断搜索需求。"},
-  {"domain":"chinatrainplanner.com","keyword":"12306 name format","field":"description","reason":"描述中的明确问题短语；旧窗口切分包含前方逗号，导致漏提取。"},
-  {"domain":"pathplanner.co.nz","keyword":"University & Career Pathway Planning NZ","field":"title","reason":"完整标题片段；有地区限定，是否存在美国需求待Trends验证。"},
-  {"domain":"bskydownloader.app","keyword":"Bluesky Video, Image & GIF Downloader","field":"title","reason":"完整标题用途被旧逗号过滤漏掉；若后续查询，此词含逗号须作为单一搜索词核实，不能直接拼进多词比较URL。"}
+  {
+    "domain": "promptgenerator.fyi",
+    "keyword": "AI prompt enhancer",
+    "field": "description",
+    "reason": "网页描述中的实际用途词；不含原51词根，旧提取器漏掉。尚未验证30天趋势。"
+  },
+  {
+    "domain": "tcguploader.com",
+    "keyword": "Trading Card Scanner",
+    "field": "title",
+    "reason": "网页标题明确用途；Uploader只用于域名初筛，实际用途词Scanner不应被二次词根限制漏掉。"
+  },
+  {
+    "domain": "tcguploader.com",
+    "keyword": "Collection Inventory",
+    "field": "title",
+    "reason": "网页标题中的另一项用途；字面证据已核对，趋势未查。"
+  },
+  {
+    "domain": "mayatemplates.com",
+    "keyword": "Printable Paper Cone Templates",
+    "field": "title",
+    "reason": "标题实际短语，Templates复数未命中旧提取器的单数精确匹配。"
+  },
+  {
+    "domain": "testscoreconverter.com",
+    "keyword": "standardized test score calculators",
+    "field": "description",
+    "reason": "描述实际用途，Calculators复数被旧单数词根规则漏掉。"
+  },
+  {
+    "domain": "getconvertmax.com",
+    "keyword": "first-party revenue attribution",
+    "field": "h1",
+    "reason": "H1明确用途；域名Convert初筛不应要求网页用途短语仍带Convert。"
+  },
+  {
+    "domain": "superabconvert.com",
+    "keyword": "Shopify A/B Testing App",
+    "field": "title",
+    "reason": "标题实际用途；字面证据已核对，未推断搜索需求。"
+  },
+  {
+    "domain": "chinatrainplanner.com",
+    "keyword": "12306 name format",
+    "field": "description",
+    "reason": "描述中的明确问题短语；旧窗口切分包含前方逗号，导致漏提取。"
+  },
+  {
+    "domain": "pathplanner.co.nz",
+    "keyword": "University & Career Pathway Planning NZ",
+    "field": "title",
+    "reason": "完整标题片段；有地区限定，是否存在美国需求待Trends验证。"
+  },
+  {
+    "domain": "bskydownloader.app",
+    "keyword": "Bluesky Video, Image & GIF Downloader",
+    "field": "title",
+    "reason": "完整标题用途被旧逗号过滤漏掉；若后续查询，此词含逗号须作为单一搜索词核实，不能直接拼进多词比较URL。"
+  },
+  {
+    "domain": "ttplanner.app",
+    "keyword": "semester plan",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "描述说明从课程大纲汇总截止日、考试与日历，标题中的semester plan是明确用途短语。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "triskelecalculator.ru",
+    "keyword": "калькулятор стоимости ручного трикотажа",
+    "field": "title",
+    "language_hint": "ru",
+    "reason": "标题明确手工针织品成本计算用途；薄页只提供标签，源页仍待核对。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "teeplanner.net",
+    "keyword": "Starttijden plannen",
+    "field": "title",
+    "language_hint": "nl",
+    "reason": "标题及描述一致指向高尔夫开球时段安排；薄页证据限制保留。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "dacheckers.website",
+    "keyword": "Domain Authority Tools",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "从带营销前缀的长标题中取实际工具类别，不能把指南页当已验证可用工具。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "sunnahplanner.fr",
+    "keyword": "Casino en Ligne Fiable",
+    "field": "title",
+    "language_hint": "fr",
+    "reason": "保留实际法语主题，未因域名与主题不直观或因行业排除；法国限定不等于美国需求。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "videocalculator.online",
+    "keyword": "Calculadora de RPM",
+    "field": "description",
+    "language_hint": "es",
+    "reason": "描述明确YouTube指标计算，其中RPM计算是实际出现的用途短语。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "seo-text-generator.ru",
+    "keyword": "Генератор SEO-статей",
+    "field": "title",
+    "language_hint": "ru",
+    "reason": "标题与描述一致说明SEO文章生成，保留原语言，不将翻译冒充原文。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "nijmegenslotenmaker.nl",
+    "keyword": "Slotenmaker Nijmegen",
+    "field": "title",
+    "language_hint": "nl",
+    "reason": "标题与描述一致为Nijmegen锁匠服务；地区词保留，美国搜索需求未验证。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "editorialdata.org",
+    "keyword": "Directory of Scientific Journals",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "标题明确科学期刊目录，description也说明可核实的编辑信息。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "centralasiamonitor.com",
+    "keyword": "Мониторинг Центральной Азии",
+    "field": "title",
+    "language_hint": "ru",
+    "reason": "标题明确中亚监测/报道主题，描述涉及零售、金融科技和银行；未推断软件工具。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "monitorcircuitai.cyou",
+    "keyword": "Local Citations Backlinks",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "Title和H1均出现该SEO用途短语；仅核对词义，不证明网页内容质量。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "srslycreators.com",
+    "keyword": "Creator Agency",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "标题与描述一致为创作者代理服务，保留实际服务词而非仅从域名Creator猜测。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "convertum.app",
+    "keyword": "compress files",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "标题并列转换、编辑、压缩；压缩文件是可单独引用的连续用途短语。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "alumni-manager.app",
+    "keyword": "同窓会管理",
+    "field": "title",
+    "language_hint": "ja",
+    "reason": "标题及描述一致为校友会管理。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "alumni-manager.app",
+    "keyword": "会員管理SaaS",
+    "field": "description",
+    "language_hint": "ja",
+    "reason": "描述中的会员管理服务类别，保留原语言。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "youdaotranslator.com",
+    "keyword": "有道翻译下载",
+    "field": "title",
+    "language_hint": "zh",
+    "reason": "标题中的品牌加下载意图；不据此证明官网身份。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "youdaotranslator.com",
+    "keyword": "PDF 翻译",
+    "field": "description",
+    "language_hint": "zh",
+    "reason": "描述中明确出现的文件翻译用途，保留原文空格。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "s30recorder.ru",
+    "keyword": "Скачивание приложения S30",
+    "field": "description",
+    "language_hint": "ru",
+    "reason": "描述中的S30应用下载意图；标题与H1提供录音设备上下文，未核实官方身份。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "mymerchantprocessor.com",
+    "keyword": "merchant fees",
+    "field": "description",
+    "language_hint": "en",
+    "reason": "描述中的商户手续费主题；只是来源词义，未提供财务建议。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "mymerchantprocessor.com",
+    "keyword": "payment holds",
+    "field": "description",
+    "language_hint": "en",
+    "reason": "描述中的支付款项暂扣主题。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "bounce-detector.com",
+    "keyword": "scalper de rebote RSI",
+    "field": "title",
+    "language_hint": "es",
+    "reason": "薄页标题中的RSI反弹交易工具描述；不推断策略有效性或实际功能。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "ofertinhasonline.com",
+    "keyword": "Kit Festa",
+    "field": "title",
+    "language_hint": "pt",
+    "reason": "截断页面标题与描述一致为派对用品套装；页面内容完整性仍不足。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "metaltransformationsllc.com",
+    "keyword": "Custom Metal Signs",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "标题与描述均出现定制金属标识制作服务。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "metaltransformationsllc.com",
+    "keyword": "architectural metalwork",
+    "field": "description",
+    "language_hint": "en",
+    "reason": "描述中的建筑金属加工服务。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "metaltransformationsllc.com",
+    "keyword": "raw steel sales",
+    "field": "description",
+    "language_hint": "en",
+    "reason": "描述中的原钢材销售业务，和工具软件无关但不应被漏掉。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "aml-formation.com",
+    "keyword": "prévention du harcèlement",
+    "field": "description",
+    "language_hint": "fr",
+    "reason": "描述为反骚扰职业培训，保留实际主题短语；源页为脚本薄页。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "aml-formation.com",
+    "keyword": "risques psychosociaux",
+    "field": "description",
+    "language_hint": "fr",
+    "reason": "描述中的心理社会风险培训主题，保持源页证据限制。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "chainmakers.ai",
+    "keyword": "AI-native software",
+    "field": "description",
+    "language_hint": "en",
+    "reason": "描述实际服务类别；此词较泛，不根据AI字样推断新需求。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "mona-outreach-tracker.site",
+    "keyword": "Outreach Log",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "Title与H1一致为外联记录；具体用户与功能仍未核实。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "spoedslotenmakerpapendrecht.com",
+    "keyword": "Slotenmaker Papendrecht",
+    "field": "title",
+    "language_hint": "nl",
+    "reason": "截断页中的Papendrecht锁匠服务名称；保留地区和页面限制。",
+    "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "slotenmakervanbeek-wageningen.nl",
+    "keyword": "Slotenmaker Wageningen",
+    "field": "title",
+    "language_hint": "nl",
+    "reason": "标题与描述一致为Wageningen锁匠服务，保留原地名不伪造美国需求。",
+    "batch_id": "saved-fields-20260928-01"
+  }
 ]
