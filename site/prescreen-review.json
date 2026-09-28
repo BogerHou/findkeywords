@@ -1,0 +1,27 @@
+{
+  "resultsSha256": "c01b9fad8ecb14e4625f56cad6a58ba7f63af2c42bc9770d89ee8da99372dde2",
+  "method": "AI 复核已保存的 Title、Description、H1；没有重新请求网站。只标注三项明确误收，其余仍待质量复核。",
+  "items": [
+    {
+      "domain": "aimicroprocessor.com",
+      "decision": "skip",
+      "reason": "售卖域名页面；自动规则漏判",
+      "field": "description",
+      "quote": "aimicroprocessor.com is for sale on Spaceship. Secure checkout and quick transfer. See all purchase options. No hidden fees."
+    },
+    {
+      "domain": "myaiinterpreter.com",
+      "decision": "skip",
+      "reason": "尚未上线的占位页面；自动规则漏判",
+      "field": "h1",
+      "quote": "Launching Soon"
+    },
+    {
+      "domain": "yellowtemplate.site",
+      "decision": "skip",
+      "reason": "Lorem ipsum 模板占位内容；自动规则漏判",
+      "field": "h1",
+      "quote": "h1 Lorem Ipsum"
+    }
+  ]
+}

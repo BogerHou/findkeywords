@@ -1,0 +1,2998 @@
+window.FINDKEYWORDS_PRESCREEN_RESULTS = {
+  "generatedAt": "2026-09-28T08:14:29.748920+00:00",
+  "label": "AWS Lightsail · 首批100域名",
+  "summary": {
+    "policy_version": "prescreen-2026-09-28-v2",
+    "queued": 100,
+    "completed": 100,
+    "pending": 0,
+    "decisions": {
+      "pass": 20,
+      "skip": 1,
+      "recheck": 79
+    },
+    "reasons": {
+      "html_with_content": 20,
+      "homepage_missing": 1,
+      "tls_handshake_error": 7,
+      "homepage_too_large": 4,
+      "timeout": 10,
+      "external_or_unsupported_redirect": 5,
+      "robots_too_large": 1,
+      "javascript_or_thin": 26,
+      "dns_error": 10,
+      "robots_returned_html": 3,
+      "tls_certificate_error": 1,
+      "robots_http_error": 1,
+      "http_blocked": 3,
+      "robots_disallowed": 5,
+      "connect_error": 2,
+      "robots_complex_rules": 1
+    },
+    "stop_reason": null,
+    "note": "Technical precheck only; not verified launch dates or rising search keywords."
+  },
+  "policy": {
+    "version": "prescreen-2026-09-28-v2",
+    "concurrency": 1,
+    "min_request_interval_seconds": 2,
+    "min_host_interval_seconds": 5,
+    "transfer_timeout_seconds": 8,
+    "request_deadline_seconds": 15,
+    "max_decoded_response_bytes": 131072,
+    "max_robots_bytes": 32768,
+    "max_redirects": 2,
+    "automatic_retries": 0,
+    "https_only": true,
+    "stop_on_any_429": true,
+    "stop_after_consecutive_blocks": 3,
+    "stop_after_consecutive_transport_failures": 10,
+    "minimum_visible_characters": 160,
+    "maximum_batch_domains": 100
+  },
+  "queueSha256": "baaea472f129461aede75a35ecbd409e33fa982117c91e486fef483fb5dfd33b",
+  "resultsSha256": "c01b9fad8ecb14e4625f56cad6a58ba7f63af2c42bc9770d89ee8da99372dde2",
+  "metrics": {
+    "saved_decoded_response_bytes": 1579182,
+    "response_bytes_note": "Saved decoded bodies only; excludes headers, DNS, TLS and bytes read beyond cutoff",
+    "first_checked_at": "2026-09-28T07:55:35.049640Z",
+    "last_checked_at": "2026-09-28T08:04:22.678966Z"
+  },
+  "knownHttpAttempts": 149,
+  "unknownAttemptRecords": 1,
+  "rows": [
+    {
+      "domain": "youdaotranslator.com",
+      "checkedAt": "2026-09-28T07:55:35.049640Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "有道翻译下载",
+        "description": "有道翻译电脑版下载与安装使用指南，提供 Windows、Mac 官方版本获取入口、安装步骤、版本选择，以及截图翻译、文档翻译、PDF 翻译等核心功能教程。",
+        "h1": [
+          "有道翻译下载"
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://youdaotranslator.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://youdaotranslator.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "generatorserviceocala.com",
+      "checkedAt": "2026-09-28T07:55:41.186626Z",
+      "decision": "skip",
+      "reason": "homepage_missing",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://generatorserviceocala.com/robots.txt",
+          "stage": "robots",
+          "http_status": 404,
+          "status": "http_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://generatorserviceocala.com/",
+          "stage": "homepage",
+          "http_status": 404,
+          "status": "http_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "convertignitehub.xyz",
+      "checkedAt": "2026-09-28T07:55:47.133801Z",
+      "decision": "recheck",
+      "reason": "tls_handshake_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://convertignitehub.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "tls_handshake_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "dapaonlinechecker.website",
+      "checkedAt": "2026-09-28T07:55:49.168926Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "DA PA Online Checker: Your Complete Guide To Domain Authority And Page Authority Analysis",
+        "description": "DA PA Online Checker: Learn how to measure Domain and Page Authority, interpret results, track growth, and build a stronger SEO foundation with this free, easy-to-use tool for any website or page.",
+        "h1": [
+          "Da Pa Online Checker Grow Organic Traffic For FREE",
+          "DA PA Online Checker: Your Complete Guide to Domain Authority and Page Authority Analysis"
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://dapaonlinechecker.website/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://dapaonlinechecker.website/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "morsecodetranslatorhub.com",
+      "checkedAt": "2026-09-28T07:55:56.154925Z",
+      "decision": "recheck",
+      "reason": "homepage_too_large",
+      "lane": "exploration",
+      "page": {
+        "title": "Home - Morse Code Translator",
+        "description": "DOTS · DASHES · REAL TIME",
+        "h1": [
+          "Real-Time Morse Code Translator & Audio Decoder"
+        ]
+      },
+      "incomplete": true,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://morsecodetranslatorhub.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://morsecodetranslatorhub.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "too_large",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "redditdownloader.top",
+      "checkedAt": "2026-09-28T07:56:08.885354Z",
+      "decision": "recheck",
+      "reason": "timeout",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://redditdownloader.top/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "timeout",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "lifemaker.app",
+      "checkedAt": "2026-09-28T07:56:17.022541Z",
+      "decision": "recheck",
+      "reason": "external_or_unsupported_redirect",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://lifemaker.app/robots.txt",
+          "stage": "robots",
+          "http_status": 302,
+          "status": "redirect_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "pulseformcreator.com",
+      "checkedAt": "2026-09-28T07:56:17.153845Z",
+      "decision": "recheck",
+      "reason": "homepage_too_large",
+      "lane": "priority",
+      "page": {
+        "title": "Free Online Form Builder & Form Creator | PulseFormCreator",
+        "description": "Free online form builder with no sign-up. Start typing in the editor on this page, add logic, share one link. Unlimited responses on every plan.",
+        "h1": []
+      },
+      "incomplete": true,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://pulseformcreator.com/robots.txt",
+          "stage": "robots",
+          "http_status": 308,
+          "status": "redirect_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://www.pulseformcreator.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://pulseformcreator.com/",
+          "stage": "homepage",
+          "http_status": 308,
+          "status": "redirect_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://www.pulseformcreator.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://www.pulseformcreator.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "too_large",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "editorial-ideas.com",
+      "checkedAt": "2026-09-28T07:56:31.120336Z",
+      "decision": "recheck",
+      "reason": "tls_handshake_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://editorial-ideas.com/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "tls_handshake_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "everexgeneratorsystems.com",
+      "checkedAt": "2026-09-28T07:56:33.486131Z",
+      "decision": "recheck",
+      "reason": "timeout",
+      "lane": "exploration",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://everexgeneratorsystems.com/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "timeout",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "aimicroprocessor.com",
+      "checkedAt": "2026-09-28T07:56:40.092958Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "aimicroprocessor.com for sale | Spaceship.com",
+        "description": "aimicroprocessor.com is for sale on Spaceship. Secure checkout and quick transfer. See all purchase options. No hidden fees.",
+        "h1": [
+          "aimicroprocessor.com"
+        ]
+      },
+      "incomplete": false,
+      "review": {
+        "domain": "aimicroprocessor.com",
+        "decision": "skip",
+        "reason": "售卖域名页面；自动规则漏判",
+        "field": "description",
+        "quote": "aimicroprocessor.com is for sale on Spaceship. Secure checkout and quick transfer. See all purchase options. No hidden fees."
+      },
+      "requests": [
+        {
+          "url": "https://aimicroprocessor.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://aimicroprocessor.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "ats-designer.com",
+      "checkedAt": "2026-09-28T07:56:45.225162Z",
+      "decision": "recheck",
+      "reason": "robots_too_large",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://ats-designer.com/robots.txt",
+          "stage": "robots",
+          "http_status": 404,
+          "status": "too_large",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "compilerfoundry.com",
+      "checkedAt": "2026-09-28T07:56:48.099245Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://compilerfoundry.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://compilerfoundry.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "disanalyzer.com",
+      "checkedAt": "2026-09-28T07:56:54.229599Z",
+      "decision": "recheck",
+      "reason": "dns_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://disanalyzer.com/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "dns_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "oakinteractivepagexample704.com",
+      "checkedAt": "2026-09-28T07:56:56.164592Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "exploration",
+      "page": {
+        "title": "Teach For America Houston",
+        "description": "We've been in Houston since 1991, and our network is leading some of the most innovative education initiatives in the country.",
+        "h1": [
+          "Houston"
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://oakinteractivepagexample704.com/robots.txt",
+          "stage": "robots",
+          "http_status": 404,
+          "status": "http_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://oakinteractivepagexample704.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "evaluators.pl",
+      "checkedAt": "2026-09-28T07:57:04.366017Z",
+      "decision": "recheck",
+      "reason": "robots_returned_html",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://evaluators.pl/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "senderosg.com.mx",
+      "checkedAt": "2026-09-28T07:57:06.092284Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "Home de senderosg.com.mx",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://senderosg.com.mx/robots.txt",
+          "stage": "robots",
+          "http_status": 404,
+          "status": "http_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://senderosg.com.mx/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "receiverobo.xyz",
+      "checkedAt": "2026-09-28T07:57:12.808413Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://receiverobo.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://receiverobo.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "myaiinterpreter.com",
+      "checkedAt": "2026-09-28T07:57:19.177545Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "myaiinterpreter.com",
+        "description": "",
+        "h1": [
+          "Launching Soon",
+          "Launching Soon"
+        ]
+      },
+      "incomplete": false,
+      "review": {
+        "domain": "myaiinterpreter.com",
+        "decision": "skip",
+        "reason": "尚未上线的占位页面；自动规则漏判",
+        "field": "h1",
+        "quote": "Launching Soon"
+      },
+      "requests": [
+        {
+          "url": "https://myaiinterpreter.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://myaiinterpreter.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "taxiconverting.xyz",
+      "checkedAt": "2026-09-28T07:57:26.199610Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "exploration",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://taxiconverting.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://taxiconverting.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "tcguploader.com",
+      "checkedAt": "2026-09-28T07:57:33.174858Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "TCGUploader | Trading Card Scanner & Collection Inventory",
+        "description": "Turn Pokemon and Magic: The Gathering card photos into reviewed collection inventory and marketplace exports. Explore TCGUploader.",
+        "h1": [
+          "Automate your TCG sales."
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://tcguploader.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://tcguploader.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "calculator.autos",
+      "checkedAt": "2026-09-28T07:57:41.053860Z",
+      "decision": "recheck",
+      "reason": "dns_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://calculator.autos/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "dns_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "golchintemplate.ir",
+      "checkedAt": "2026-09-28T07:57:45.468166Z",
+      "decision": "recheck",
+      "reason": "external_or_unsupported_redirect",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://golchintemplate.ir/robots.txt",
+          "stage": "robots",
+          "http_status": 301,
+          "status": "redirect_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "transformationsmanager.ch",
+      "checkedAt": "2026-09-28T07:57:46.749993Z",
+      "decision": "recheck",
+      "reason": "tls_certificate_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://transformationsmanager.ch/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "tls_certificate_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "satishacademyonline.in",
+      "checkedAt": "2026-09-28T07:57:48.121737Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "exploration",
+      "page": {
+        "title": "Satish Academy Online",
+        "description": "Satish Academy Online - Online courses, test series, books and notes for competitive exam preparation.",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://satishacademyonline.in/robots.txt",
+          "stage": "robots",
+          "http_status": 308,
+          "status": "redirect_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://www.satishacademyonline.in/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://satishacademyonline.in/",
+          "stage": "homepage",
+          "http_status": 308,
+          "status": "redirect_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://www.satishacademyonline.in/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://www.satishacademyonline.in/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "becomeaworldbuilder.com",
+      "checkedAt": "2026-09-28T07:58:04.073759Z",
+      "decision": "recheck",
+      "reason": "dns_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://becomeaworldbuilder.com/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "dns_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "patterndesigner.info",
+      "checkedAt": "2026-09-28T07:58:06.116479Z",
+      "decision": "recheck",
+      "reason": "tls_handshake_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://patterndesigner.info/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "tls_handshake_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "checkerbrain.xyz",
+      "checkedAt": "2026-09-28T07:58:06.193137Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://checkerbrain.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://checkerbrain.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "bannerdetector.online",
+      "checkedAt": "2026-09-28T07:58:13.196911Z",
+      "decision": "recheck",
+      "reason": "robots_http_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://bannerdetector.online/robots.txt",
+          "stage": "robots",
+          "http_status": 530,
+          "status": "http_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "fbdownloaderhd.com",
+      "checkedAt": "2026-09-28T07:58:15.235909Z",
+      "decision": "recheck",
+      "reason": "http_blocked",
+      "lane": "exploration",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://fbdownloaderhd.com/robots.txt",
+          "stage": "robots",
+          "http_status": 403,
+          "status": "http_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "filescraper.net",
+      "checkedAt": "2026-09-28T07:58:17.476911Z",
+      "decision": "recheck",
+      "reason": "robots_disallowed",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://filescraper.net/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "warehouseflowmanager.net",
+      "checkedAt": "2026-09-28T07:58:20.074738Z",
+      "decision": "recheck",
+      "reason": "dns_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://warehouseflowmanager.net/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "dns_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "explorer.im",
+      "checkedAt": "2026-09-28T07:58:21.194973Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://explorer.im/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://explorer.im/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "valuesdashboard.com",
+      "checkedAt": "2026-09-28T07:58:28.199825Z",
+      "decision": "recheck",
+      "reason": "external_or_unsupported_redirect",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://valuesdashboard.com/robots.txt",
+          "stage": "robots",
+          "http_status": 307,
+          "status": "redirect_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "themakersmarketplace.it",
+      "checkedAt": "2026-09-28T07:58:30.279930Z",
+      "decision": "recheck",
+      "reason": "robots_returned_html",
+      "lane": "exploration",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://themakersmarketplace.it/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "movingplanner.online",
+      "checkedAt": "2026-09-28T07:58:32.743212Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "Free Moving Checklist & Moving Planner",
+        "description": "Get a personalized moving checklist based on your move date, then manage packing, budget, boxes and address changes in one free moving planner.",
+        "h1": [
+          "Free Moving Checklist & Moving Planner"
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://movingplanner.online/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://movingplanner.online/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "trymhatracker.com",
+      "checkedAt": "2026-09-28T07:58:40.839640Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "MHA Tracker | Next year’s designation is a guess built on last year’s guess",
+        "description": "Next year’s housing allowance designation is a guess built on last year’s guess. MHA Tracker helps ministers log housing costs as they go, so the designation rests on a real total and April means printing a record, not rebuilding one.",
+        "h1": [
+          "Next year’s designation is a guess built on last year’s guess."
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://trymhatracker.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://trymhatracker.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "s30recorder.ru",
+      "checkedAt": "2026-09-28T07:58:46.252420Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "S30 — центр покупателя",
+        "description": "Скачивание приложения S30, активация, инструкции и поддержка.",
+        "h1": [
+          "Всё для вашего диктофона S30"
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://s30recorder.ru/robots.txt",
+          "stage": "robots",
+          "http_status": 404,
+          "status": "http_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://s30recorder.ru/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "taxesoptimizer.xyz",
+      "checkedAt": "2026-09-28T07:58:53.777988Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://taxesoptimizer.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://taxesoptimizer.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "musecreators.dev",
+      "checkedAt": "2026-09-28T07:59:00.230010Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "exploration",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://musecreators.dev/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://musecreators.dev/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "autoscheduler.online",
+      "checkedAt": "2026-09-28T07:59:07.199874Z",
+      "decision": "recheck",
+      "reason": "tls_handshake_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://autoscheduler.online/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "tls_handshake_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "moonconverter.xyz",
+      "checkedAt": "2026-09-28T07:59:09.560438Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://moonconverter.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://moonconverter.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "aiyardreviewer.xyz",
+      "checkedAt": "2026-09-28T07:59:16.212852Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://aiyardreviewer.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://aiyardreviewer.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "ehrextractor.xyz",
+      "checkedAt": "2026-09-28T07:59:23.203325Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://ehrextractor.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://ehrextractor.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "noueditorial.com",
+      "checkedAt": "2026-09-28T07:59:30.199861Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "exploration",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://noueditorial.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://noueditorial.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "zrq-monitor.xyz",
+      "checkedAt": "2026-09-28T07:59:37.207275Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://zrq-monitor.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://zrq-monitor.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "remote-notifier.com",
+      "checkedAt": "2026-09-28T07:59:44.282682Z",
+      "decision": "recheck",
+      "reason": "dns_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://remote-notifier.com/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "dns_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "mapverifier.xyz",
+      "checkedAt": "2026-09-28T07:59:46.149159Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://mapverifier.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://mapverifier.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "policechiefsimulator.shop",
+      "checkedAt": "2026-09-28T07:59:53.302554Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "Police Chief Simulator Wiki, Guides, Cases & Fixes",
+        "description": "Full Version Police Chief Simulator wiki: current patch notes, known issues, fixes, case guides, station management and local planning tools.",
+        "h1": [
+          "Police Chief Simulator Wiki, Guides, Cases & Fixes"
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://policechiefsimulator.shop/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://policechiefsimulator.shop/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "taxiprocessors.xyz",
+      "checkedAt": "2026-09-28T08:00:00.479307Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "exploration",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://taxiprocessors.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://taxiprocessors.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "aigrcassistant.xyz",
+      "checkedAt": "2026-09-28T08:00:07.277737Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://aigrcassistant.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://aigrcassistant.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "constructoragim.online",
+      "checkedAt": "2026-09-28T08:00:14.209938Z",
+      "decision": "recheck",
+      "reason": "timeout",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://constructoragim.online/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "timeout",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "techcomparator.com",
+      "checkedAt": "2026-09-28T08:00:36.147274Z",
+      "decision": "recheck",
+      "reason": "timeout",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://techcomparator.com/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "timeout",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "edustudynavigator.com",
+      "checkedAt": "2026-09-28T08:00:41.257757Z",
+      "decision": "recheck",
+      "reason": "timeout",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://edustudynavigator.com/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "timeout",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "lightingdesignerai.com",
+      "checkedAt": "2026-09-28T08:00:46.310173Z",
+      "decision": "recheck",
+      "reason": "timeout",
+      "lane": "exploration",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://lightingdesignerai.com/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "timeout",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "synceretec.com",
+      "checkedAt": "2026-09-28T08:00:51.363129Z",
+      "decision": "recheck",
+      "reason": "http_blocked",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://synceretec.com/robots.txt",
+          "stage": "robots",
+          "http_status": 403,
+          "status": "http_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "marketplaceconnector.ru",
+      "checkedAt": "2026-09-28T08:00:51.631922Z",
+      "decision": "recheck",
+      "reason": "timeout",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://marketplaceconnector.ru/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "timeout",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "responderbid.com",
+      "checkedAt": "2026-09-28T08:00:58.739404Z",
+      "decision": "recheck",
+      "reason": "dns_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://responderbid.com/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "dns_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "japantranslator.net",
+      "checkedAt": "2026-09-28T08:00:58.765811Z",
+      "decision": "recheck",
+      "reason": "connect_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://japantranslator.net/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "connect_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "ex4tomq4decompilers.com",
+      "checkedAt": "2026-09-28T08:01:01.701641Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "exploration",
+      "page": {
+        "title": "Ex4 to Mq4 decompiler - Home",
+        "description": "EX4 to MQ4 Decompiler — Recover and convert EX4 files into editable MQ4 source code with a professional, secure, and reliable decompilation service.",
+        "h1": [
+          "EX4 to MQ4 Decompiler & MQL4 Source Code Recovery"
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://ex4tomq4decompilers.com/robots.txt",
+          "stage": "robots",
+          "http_status": 404,
+          "status": "http_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://ex4tomq4decompilers.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "pflichtenheft-generator.store",
+      "checkedAt": "2026-09-28T08:01:08.340040Z",
+      "decision": "recheck",
+      "reason": "tls_handshake_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://pflichtenheft-generator.store/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "tls_handshake_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "convertwave.xyz",
+      "checkedAt": "2026-09-28T08:01:10.170811Z",
+      "decision": "recheck",
+      "reason": "robots_disallowed",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://convertwave.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "onlinebacklinkgenerator.online",
+      "checkedAt": "2026-09-28T08:01:11.873479Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": [
+          "Online Backlink Generator Grow Organic Traffic For FREE"
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://onlinebacklinkgenerator.online/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://onlinebacklinkgenerator.online/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "bskydownloader.app",
+      "checkedAt": "2026-09-28T08:01:18.841638Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "Bluesky Video, Image & GIF Downloader | BskyDownloader",
+        "description": "Download videos, GIFs, and full-resolution images from public Bluesky posts. Paste a bsky.app post URL to preview and save media for free.",
+        "h1": [
+          "Bluesky Video, Image & GIF Downloader"
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://bskydownloader.app/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://bskydownloader.app/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "soundanalyzerai.com",
+      "checkedAt": "2026-09-28T08:01:25.884453Z",
+      "decision": "recheck",
+      "reason": "robots_complex_rules",
+      "lane": "exploration",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://soundanalyzerai.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "makerroute.xyz",
+      "checkedAt": "2026-09-28T08:01:27.898078Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://makerroute.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://makerroute.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "creatorclubind.com",
+      "checkedAt": "2026-09-28T08:01:35.836926Z",
+      "decision": "recheck",
+      "reason": "robots_disallowed",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://creatorclubind.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "ethansanderseditor.com",
+      "checkedAt": "2026-09-28T08:01:37.076768Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "Ethan Sanders Ethan Sanders – Video Editor, Animator, Musician WordPress.com",
+        "description": "Video Editor, Animator, Musician",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://ethansanderseditor.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://ethansanderseditor.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "mymerchantprocessor.com",
+      "checkedAt": "2026-09-28T08:01:44.368135Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "MyMerchantProcessor",
+        "description": "MyMerchantProcessor offers clear guidance on merchant fees, payment holds, cash flow, and switching processors across 28 pages for all owners.",
+        "h1": [
+          "MyMerchantProcessor"
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://mymerchantprocessor.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://mymerchantprocessor.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "embeddedevaluators.org",
+      "checkedAt": "2026-09-28T08:01:50.927958Z",
+      "decision": "recheck",
+      "reason": "external_or_unsupported_redirect",
+      "lane": "exploration",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://embeddedevaluators.org/robots.txt",
+          "stage": "robots",
+          "http_status": 302,
+          "status": "redirect_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "designerstudio.xyz",
+      "checkedAt": "2026-09-28T08:01:53.203981Z",
+      "decision": "recheck",
+      "reason": "timeout",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://designerstudio.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "timeout",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "tripcompiler.xyz",
+      "checkedAt": "2026-09-28T08:01:59.839490Z",
+      "decision": "recheck",
+      "reason": "timeout",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://tripcompiler.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "timeout",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "analyzergrid.me",
+      "checkedAt": "2026-09-28T08:02:04.910934Z",
+      "decision": "recheck",
+      "reason": "dns_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://analyzergrid.me/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "dns_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "careevaluator.com",
+      "checkedAt": "2026-09-28T08:02:04.933666Z",
+      "decision": "recheck",
+      "reason": "robots_disallowed",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://careevaluator.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "comunidadsenderosderaza.com",
+      "checkedAt": "2026-09-28T08:02:07.143784Z",
+      "decision": "recheck",
+      "reason": "dns_error",
+      "lane": "exploration",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://comunidadsenderosderaza.com/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "dns_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "iiptvallesender.shop",
+      "checkedAt": "2026-09-28T08:02:08.961839Z",
+      "decision": "recheck",
+      "reason": "homepage_too_large",
+      "lane": "priority",
+      "page": {
+        "title": "IPTV kaufen – iptv Alle Sender freischalten 2026",
+        "description": "IPTV kaufen und alle Sender freischalten mit IPTV Test starten, IPTV Line kaufen und IPTV Code in bester Qualität .",
+        "h1": [
+          "IPTV kaufen – Ihr IPTV Anbieter für Deutschland, Österreich & die Schweiz, weltweit iptv alle Sender freischalten"
+        ]
+      },
+      "incomplete": true,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://iiptvallesender.shop/robots.txt",
+          "stage": "robots",
+          "http_status": 301,
+          "status": "redirect_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://www.iiptvallesender.shop/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://iiptvallesender.shop/",
+          "stage": "homepage",
+          "http_status": 301,
+          "status": "redirect_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://www.iiptvallesender.shop/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://www.iiptvallesender.shop/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "too_large",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "roseburgreceiver.com",
+      "checkedAt": "2026-09-28T08:02:24.678137Z",
+      "decision": "recheck",
+      "reason": "timeout",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://roseburgreceiver.com/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "timeout",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "denverrussianinterpreter.com",
+      "checkedAt": "2026-09-28T08:02:30.800293Z",
+      "decision": "recheck",
+      "reason": "external_or_unsupported_redirect",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://denverrussianinterpreter.com/robots.txt",
+          "stage": "robots",
+          "http_status": 301,
+          "status": "redirect_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "rdcalculator.xyz",
+      "checkedAt": "2026-09-28T08:02:31.090026Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://rdcalculator.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://rdcalculator.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "robotreceivers.xyz",
+      "checkedAt": "2026-09-28T08:02:38.543847Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "exploration",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://robotreceivers.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://robotreceivers.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "yellowtemplate.site",
+      "checkedAt": "2026-09-28T08:02:48.227243Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "Home Page - Site Title",
+        "description": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+        "h1": [
+          "h1 Lorem Ipsum"
+        ]
+      },
+      "incomplete": false,
+      "review": {
+        "domain": "yellowtemplate.site",
+        "decision": "skip",
+        "reason": "Lorem ipsum 模板占位内容；自动规则漏判",
+        "field": "h1",
+        "quote": "h1 Lorem Ipsum"
+      },
+      "requests": [
+        {
+          "url": "https://yellowtemplate.site/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://yellowtemplate.site/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "bestecomsitebuilder.com",
+      "checkedAt": "2026-09-28T08:02:54.680813Z",
+      "decision": "recheck",
+      "reason": "robots_returned_html",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://bestecomsitebuilder.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "dadrpachecker.website",
+      "checkedAt": "2026-09-28T08:02:55.438301Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "DA DR PA Checker: The Complete Guide To Understanding And Improving Your SEO Metrics",
+        "description": "DA DR PA checker is your essential tool for tracking Domain Authority, Domain Rating, and Page Authority scores. Learn how to check, understand, and improve your website's SEO authority metrics with actionable strategies and expert insights.",
+        "h1": [
+          "Da Dr Pa Checker Grow Organic Traffic For FREE",
+          "DA DR PA Checker: The Complete Guide to Understanding and Improving Your SEO Metrics"
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://dadrpachecker.website/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://dadrpachecker.website/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "bounce-detector.com",
+      "checkedAt": "2026-09-28T08:03:02.472692Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "bounce-detector — scalper de rebote RSI",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://bounce-detector.com/robots.txt",
+          "stage": "robots",
+          "http_status": 404,
+          "status": "http_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://bounce-detector.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "bridgingthegapinterpreters.com",
+      "checkedAt": "2026-09-28T08:03:09.645936Z",
+      "decision": "recheck",
+      "reason": "tls_handshake_error",
+      "lane": "exploration",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://bridgingthegapinterpreters.com/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "tls_handshake_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "marketscraper.pro",
+      "checkedAt": "2026-09-28T08:03:11.321681Z",
+      "decision": "recheck",
+      "reason": "dns_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://marketscraper.pro/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "dns_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "hockeymanager.net",
+      "checkedAt": "2026-09-28T08:03:13.252191Z",
+      "decision": "recheck",
+      "reason": "tls_handshake_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://hockeymanager.net/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "tls_handshake_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "explorerssl.xyz",
+      "checkedAt": "2026-09-28T08:03:15.997859Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://explorerssl.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://explorerssl.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "cegarchitectdashboard.com",
+      "checkedAt": "2026-09-28T08:03:24.428327Z",
+      "decision": "recheck",
+      "reason": "robots_disallowed",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://cegarchitectdashboard.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "onlinefreightclasscalculator.com",
+      "checkedAt": "2026-09-28T08:03:25.287322Z",
+      "decision": "recheck",
+      "reason": "homepage_too_large",
+      "lane": "exploration",
+      "page": {
+        "title": "Freight Class Calculator — Free Online NMFC & LTL Freight Class Calculator",
+        "description": "Free freight class calculator for LTL shipments. Enter dimensions and weight for multiple pallets to get your NMFC freight class instantly, view the full density-to-class chart, and see how to lower your class before you book.",
+        "h1": [
+          "Know your freight class before the carrier does."
+        ]
+      },
+      "incomplete": true,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://onlinefreightclasscalculator.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://onlinefreightclasscalculator.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "too_large",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "romaamorweddingplanner.com",
+      "checkedAt": "2026-09-28T08:03:31.568702Z",
+      "decision": "recheck",
+      "reason": "connect_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://romaamorweddingplanner.com/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "connect_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "aichurntracker.xyz",
+      "checkedAt": "2026-09-28T08:03:35.451528Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://aichurntracker.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://aichurntracker.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "getjobrecorder.com",
+      "checkedAt": "2026-09-28T08:03:42.574662Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "priority",
+      "page": {
+        "title": "Job Recorder – Automate Repetitive Browser Tasks",
+        "description": "Job Recorder is a Chrome extension that records and replays repetitive browser tasks. Teach a workflow once, choose what changes, and run it again later.",
+        "h1": [
+          "Automate repetitive browser tasks without scripts"
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://getjobrecorder.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://getjobrecorder.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "slaoptimizer.xyz",
+      "checkedAt": "2026-09-28T08:03:47.669449Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://slaoptimizer.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://slaoptimizer.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "otona-sample.com",
+      "checkedAt": "2026-09-28T08:03:54.654542Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "exploration",
+      "page": {
+        "title": "トナサンプル｜FANZAのサンプル画像・動画から作品を探す – 好みの画像・動画から探せるサイト",
+        "description": "FANZAから厳選した抜けそうなサンプル画像・動画を紹介。気になる画像や動画から逆算して、作品情報をチェックできます。",
+        "h1": [
+          "オトナサンプル の新着一覧"
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://otona-sample.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://otona-sample.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "automatedscheduler.info",
+      "checkedAt": "2026-09-28T08:04:02.275306Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "Job Search | Calendly Careers",
+        "description": "Search open positions at Meta across AI, engineering, research, product, design, and more.",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://automatedscheduler.info/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://automatedscheduler.info/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "stablecoinconverter.com",
+      "checkedAt": "2026-09-28T08:04:10.128636Z",
+      "decision": "recheck",
+      "reason": "dns_error",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://stablecoinconverter.com/robots.txt",
+          "stage": "robots",
+          "http_status": null,
+          "status": "network_error",
+          "error_kind": "dns_error",
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "viewerfirst.com",
+      "checkedAt": "2026-09-28T08:04:10.592283Z",
+      "decision": "recheck",
+      "reason": "http_blocked",
+      "lane": "priority",
+      "page": null,
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://viewerfirst.com/robots.txt",
+          "stage": "robots",
+          "http_status": 403,
+          "status": "http_error",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "extractorbot.xyz",
+      "checkedAt": "2026-09-28T08:04:12.919456Z",
+      "decision": "recheck",
+      "reason": "javascript_or_thin",
+      "lane": "priority",
+      "page": {
+        "title": "",
+        "description": "",
+        "h1": []
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://extractorbot.xyz/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://extractorbot.xyz/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    },
+    {
+      "domain": "mayatemplates.com",
+      "checkedAt": "2026-09-28T08:04:22.678966Z",
+      "decision": "pass",
+      "reason": "html_with_content",
+      "lane": "exploration",
+      "page": {
+        "title": "Maya Templates — Printable Paper Cone Templates for Gifts and Crafts",
+        "description": "Printable paper cone templates designed by Maya. Four collections — Heart, Christmas, Halloween and Christian Cones — ready to print at home, cut, fold and fill. Instant download, PDF and Canva files.",
+        "h1": [
+          "Printable paper cone templates, drawn one by one"
+        ]
+      },
+      "incomplete": false,
+      "review": null,
+      "requests": [
+        {
+          "url": "https://mayatemplates.com/robots.txt",
+          "stage": "robots",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        },
+        {
+          "url": "https://mayatemplates.com/",
+          "stage": "homepage",
+          "http_status": 200,
+          "status": "ok",
+          "error_kind": null,
+          "body_sha256": null,
+          "retry_after": null
+        }
+      ]
+    }
+  ],
+  "contentReview": {
+    "resultsSha256": "c01b9fad8ecb14e4625f56cad6a58ba7f63af2c42bc9770d89ee8da99372dde2",
+    "method": "AI 复核已保存的 Title、Description、H1；没有重新请求网站。只标注三项明确误收，其余仍待质量复核。",
+    "items": [
+      {
+        "domain": "aimicroprocessor.com",
+        "decision": "skip",
+        "reason": "售卖域名页面；自动规则漏判",
+        "field": "description",
+        "quote": "aimicroprocessor.com is for sale on Spaceship. Secure checkout and quick transfer. See all purchase options. No hidden fees."
+      },
+      {
+        "domain": "myaiinterpreter.com",
+        "decision": "skip",
+        "reason": "尚未上线的占位页面；自动规则漏判",
+        "field": "h1",
+        "quote": "Launching Soon"
+      },
+      {
+        "domain": "yellowtemplate.site",
+        "decision": "skip",
+        "reason": "Lorem ipsum 模板占位内容；自动规则漏判",
+        "field": "h1",
+        "quote": "h1 Lorem Ipsum"
+      }
+    ]
+  },
+  "note": "网页技术预筛；自动分类仍需内容复核。未核实首次上线日期，未查询 Google Trends，不代表已发现增长关键词。"
+};

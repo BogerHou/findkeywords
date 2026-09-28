@@ -1,29 +1,26 @@
 # findkeywords：关键词研究工作台
 
-## 低成本采集与另一台Mac（2026-09-28）
+## AWS 低成本采集（2026-09-28）
 
-当前16,090条线索不全量抓取：离线核对出302条近7天历史探测记录，同名跨后缀再暂缓442条；其余按名称线索分为5,696条请求优先池和9,650条探索池。**本次只准备100条队列：80优先＋20探索，尚未联网执行。** 不将未选中的域名判为无价值；使用旧名单也不代表最新上线情况。
+采集已迁移到 AWS Lightsail，由服务器直接访问候选网站。本地电脑只展示已保存的数据。本批使用固定版本 `e5acea3` 的 100 域名队列（80 优先池＋20 探索池），没有自动遍历 16,090 条，也没有启动新的 Google Trends 查询。
 
-完整可核查的方法、流量演算和迁移步骤见[低成本方案](reports/low-cost-plan-2026-09-28.md)，网页词根页也可查看本次100条候选。默认首页响应读取上限128 KiB，robots.txt 32 KiB；保留TLS验证、限速、429暂停和断点记录。超限不会自动重抓或当作空站。
-
-仓库携带代码、网站快照、词根配置、缓存索引和小批队列；`.gitignore` 排除约1.8 GiB原始/中间数据、采集输出及机器配置。另一台Mac拉取后无需这些大文件即可打开网站，部分原始来源链接仅在原电脑可用：
+部署、连接情况、运行日志和核查命令见 [AWS 运行说明](reports/aws-deployment-2026-09-28.md)。名称筛选规则与预算演算见 [低成本方案](reports/low-cost-plan-2026-09-28.md)。工作台词根页展示本批进度及逐站的实际页面字段，网页是同步后的快照，不会自动发请求。
 
 ```sh
 python3 scripts/serve_site.py
 ```
 
-打开 http://127.0.0.1:8878/site/#roots 。项目仓库为 https://github.com/BogerHou/findkeywords 。Python需要3.10+；采集另外需要curl和系统CA证书。
+打开 http://127.0.0.1:8878/site/#roots 。Python 需要 3.10+；采集另外需要 curl 和系统 CA 证书。服务器已通过 24 项离线测试，按每批最多100个、单并发、限速及响应体上限执行。
 
-只在负责请求的另一台Mac上配置（离线），并预览队列：
+SSH 私钥、机器网络配置、原始采集输出不进入 Git。服务器上的任务目录为 `/home/admin/findkeywords/results/aws-pilot-01`。运行配置只在服务器初始化，本地没有初始化，避免误用本机网络。
+
+从结果目录或服务器紧凑导出离线更新工作台：
 
 ```sh
-python3 -B scripts/probe_prescreen.py network-init --label other-mac
-python3 -B scripts/probe_prescreen.py run --input site/prescreen-queue.json --output results/pilot-01 --limit 100
+python3 -B scripts/build_prescreen_site.py --input results/aws-pilot-01/export.json
 ```
 
-确认该电脑使用预期网络后，在上述 `run` 命令末尾加 `--execute` 才会联网。配置位于 `config/network.local.json`，绑定本机且不随Git共享；此配置不能证明真实出口，须检查TUN/VPN。当前电脑没有创建该配置。
-
-启动“启动关键词工作台.command”只展示已保存的快照，不再强制重建历史数据，不会触发抓取。下一批需要根据真实内容命中率再选择，不会自动遍历16,090条。
+域名输入仍是 2026-08-27 至 2026-09-25 的历史名单；取得实际网页内容不等于确认首次上线日期，也不等于发现最近30天迅猛增长的关键词。
 
 ## 当前入口：51 词根筛选（2026-09-28）
 
@@ -44,7 +41,7 @@ python3 -B scripts/build_roots_site.py --self-test
 
 ## 历史试跑说明
 
-**2026-09-28 网页预筛准备：**新增 [DNS / HTTPS / 内容判定规则与 Lightsail 操作说明](reports/prescreen-2026-09-28.md)，词根页可下载 100 域名试跑包。`scripts/probe_prescreen.py prepare` 仅离线抽样，`run` 默认也仅预览；网络执行要求 Linux 和显式 `--execute`。分为进入提词、本轮跳过、待复查，失败项保留原因，不把短页或一次访问失败直接判为垃圾站。尚未部署到服务器或执行本轮网络预筛；16,090 数量未改写。
+**2026-09-28 网页预筛准备：**新增 [DNS / HTTPS / 内容判定规则与 Lightsail 操作说明](reports/prescreen-2026-09-28.md)，词根页可下载 100 域名试跑包。`scripts/probe_prescreen.py prepare` 仅离线抽样，`run` 默认也仅预览；当前网络执行支持 Linux/macOS，需要本机运行配置和显式 `--execute`。分为进入提词、本轮跳过、待复查，失败项保留原因，不把短页或一次访问失败直接判为垃圾站。此为早期准备记录；后续 AWS 执行情况见文首运行说明，16,090 条名称线索数量不因此改写。
 
 离线验证：`python3 -B -m unittest discover -s scripts -p 'test_prescreen.py' -v`。所有 DNS 和外部进程默认禁止，测试使用模拟响应。
 
