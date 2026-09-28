@@ -24,6 +24,7 @@
 <p>网站数据接口可能变化或限流；遇到验证、403 或 429 会暂停趋势阶段并保存错误，绝不伪造为“无数据”。当前没有使用需要申请权限的官方 Trends API，也没有使用付费接口。</p>
 </section>
 <section class="panel run-panel"><h2>离线复核与提词纠正</h2><div id="run-curation">等待复核文件。</div></section>
+<section class="panel run-panel"><h2>AWS 访问失败原因审计</h2><div id="run-access-audit">等待访问统计。</div></section>
 <section class="panel run-panel"><h2>域名初判原因（原始记录）</h2><div id="run-reasons"></div></section>
 <section class="panel run-panel"><h2>本轮结果与证据</h2><div id="run-results"></div><p><a href="full-run-status.json" target="_blank" rel="noopener">域名进度 JSON</a> · <a href="full-trends-status.json" target="_blank" rel="noopener">趋势进度 JSON</a></p></section>
 <section class="panel run-panel"><h2>查看逐条结果</h2><p id="detail-help">域名结果保留原始技术判定；新增纠正在上面的独立文件中列明，不覆盖原始证据。未生成的数据会明确提示。</p><button class="btn btn-secondary" id="load-details">加载域名结果</button> <button class="btn btn-secondary" id="load-reviewed">加载关键词复核</button> <button class="btn btn-secondary" id="load-semantic">加载页面语义复核</button> <button class="btn btn-secondary" id="load-trends">加载趋势结果</button><input class="control" id="detail-search" type="search" placeholder="搜索已加载的域名或关键词" aria-label="搜索已加载结果"><div id="details-output"></div></section>
