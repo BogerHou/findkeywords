@@ -15,6 +15,9 @@
 /site/full-semantic-reviews.json
 /site/full-access-audit.json
 /site/full-access-cases.json
+/site/local-trends-status.json
+/site/local-trends-results.json
+/site/local-trends-evidence/
 /dist/
 /reports/*.tar.gz
 /reports/*.zip
