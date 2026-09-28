@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'none'">
+<title>AWS 全量筛选 · FindKeywords</title>
+<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="full-run.css">
+<script src="full-run.js" defer></script>
+</head>
+<body><main class="run-shell">
+<a href="./#roots">← 词根筛选工作台</a>
+<header class="run-header"><p class="eyebrow">FINDKEYWORDS / AWS</p><h1>全量筛选进度</h1><p>先完成域名筛选，再查询最近 30 天趋势。这里显示真实任务状态；候选词不等于已验证机会。</p></header>
+<div id="live-state" class="notice" role="status">正在读取服务器记录…</div>
+<section class="run-stats" id="run-stats" aria-label="覆盖进度"></section>
+<section class="panel run-panel"><h2>当前阶段</h2><div id="run-stage"></div></section>
+<section class="panel run-panel"><h2>筛选规则</h2>
+<p>本轮覆盖 51 个词根命中的全部 16,090 个域名，包括之前暂缓的同名不同后缀域名。复用 299 条旧证据；新检查 15,688 个域名，再重试 103 条旧失败记录。名单日期为 2026-08-27 至 2026-09-25，未逐一证明是新注册或新上线。</p>
+<p>每站先检查 HTTPS 和 robots.txt，再读取首页文本。8 个工作进程共享每秒最多 2 次请求的限制；同一主机至少间隔 5 秒。首页最多保存 128 KiB，robots.txt 最多 32 KiB。不渲染 JavaScript，不下载图片、视频或网页资源。</p>
+<ul><li><strong>有内容，待关键词验证：</strong>取得 HTML；可见文字不少于 160 字符，并存在 Title、Description 或 H1；不代表内容质量高。</li><li><strong>跳过：</strong>明确售卖域名、占位页、404/410 或非 HTML 内容，保留对应原因。</li><li><strong>证据不足：</strong>网络失败、证书问题、站点限制、内容截断或依赖 JavaScript 等。不能据此断言网站没有价值。</li></ul>
+<p>关键词优先取自 Title 和 H1 的实际短语，Description 作为补充；保留原文与字段。自动提取不到的页面另列语义复核，不从域名凭空编造关键词。</p>
+<p>趋势口径：美国、网页搜索、搜索词、全部类别；固定为查询阶段启动时最近 30 个完整 UTC 日。最近 7 天均值 ≥ 前 7 天的 2 倍，且至少 5 天有非零指数。为排除单峰，最近 7 天最大单日占这 7 天指数总和不得超过 40%。前期为零的词单列，不计算无限增长率。</p>
+<p>达标后检查半年背景；较早已有信号的词进入复查，再次查询 30 天验证数列。Google 指数是相对热度，零不证明无人搜索；符合规则也不等于 SEO 竞争低或绝对搜索量大。</p>
+<p>网站数据接口可能变化或限流；遇到验证、403 或 429 会暂停趋势阶段并保存错误，绝不伪造为“无数据”。当前没有使用需要申请权限的官方 Trends API，也没有使用付费接口。</p>
+</section>
+<section class="panel run-panel"><h2>域名判定原因</h2><div id="run-reasons"></div></section>
+<section class="panel run-panel"><h2>本轮结果与证据</h2><div id="run-results"></div><p><a href="full-run-status.json" target="_blank" rel="noopener">域名进度 JSON</a> · <a href="full-trends-status.json" target="_blank" rel="noopener">趋势进度 JSON</a></p></section>
+<section class="panel run-panel"><h2>查看逐条结果</h2><p id="detail-help">完整域名筛选结束后可以加载每个域名的页面标签、判定原因和提取词；未生成的数据会明确提示。</p><button class="btn btn-secondary" id="load-details">加载域名结果</button> <button class="btn btn-secondary" id="load-trends">加载趋势结果</button><input class="control" id="detail-search" type="search" placeholder="搜索已加载的域名或关键词" aria-label="搜索已加载结果"><div id="details-output"></div></section>
+</main></body></html>
