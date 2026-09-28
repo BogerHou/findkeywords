@@ -306,5 +306,301 @@
     "language_hint": "nl",
     "reason": "标题与描述一致为Wageningen锁匠服务，保留原地名不伪造美国需求。",
     "batch_id": "saved-fields-20260928-01"
+  },
+  {
+    "domain": "simpsony-onlines.ru",
+    "keyword": "Симпсоны смотреть онлайн",
+    "field": "title",
+    "language_hint": "ru",
+    "reason": "标题中的作品加观看意图；未核实内容授权或官方归属。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "reliant-builders.com",
+    "keyword": "Residential and Commercial Construction",
+    "field": "h1",
+    "language_hint": "en",
+    "reason": "H1与描述一致为住宅和商业建设服务，描述地区为Metro Manila；美国需求待查。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "muzamaker.com",
+    "keyword": "музичні вітання",
+    "field": "description",
+    "language_hint": "uk",
+    "reason": "描述中出现音乐祝福的实际用途；来源说通过Telegram生成歌曲，功能未实测。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "seocheckers.website",
+    "keyword": "SEO Checkers",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "复数形式的实际标题短语；网页为SEO指南，不能认定提供可用检查工具。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "eco-designer.eu",
+    "keyword": "Finiture di Pregio",
+    "field": "h1",
+    "language_hint": "it",
+    "reason": "H1中的高品质室内饰面主题，保留原语言短语。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "go10xmanager.co",
+    "keyword": "management and leadership training",
+    "field": "description",
+    "language_hint": "en",
+    "reason": "描述明确管理与领导力培训场景；来源HTML截断，保留metadata_only限制。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "re-n-maker.com",
+    "keyword": "안전바 설치",
+    "field": "description",
+    "language_hint": "ko",
+    "reason": "描述列出的安全扶手安装服务，未从域名猜测用途。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "re-n-maker.com",
+    "keyword": "식기세척기장 제작",
+    "field": "description",
+    "language_hint": "ko",
+    "reason": "描述中的洗碗机柜体制作服务，保留韩语字面表达。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "codereviewer.cn",
+    "keyword": "Code Reviewer",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "标题与中文描述一致为代码审查工具；桌面/云端功能未实测。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "umfeldmanager.ch",
+    "keyword": "Frühwarnsystem für Nachwuchsathleten",
+    "field": "title",
+    "language_hint": "de",
+    "reason": "标题中的青年运动员预警系统用途，描述说明跟踪学校、家庭与运动负担；不评价其有效性。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "masoionline.eu.cc",
+    "keyword": "Ma Sói Online",
+    "field": "title",
+    "language_hint": "vi",
+    "reason": "标题及描述指向在线狼人推理游戏，保留原语言；来源HTML截断。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "nutritracker.fit",
+    "keyword": "planificación nutricional",
+    "field": "description",
+    "language_hint": "es",
+    "reason": "描述中的营养规划用途；只记录主题，不提供健康效果判断。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "infodeskmaker.co.kr",
+    "keyword": "인포데스크 제작과 설치",
+    "field": "description",
+    "language_hint": "ko",
+    "reason": "描述直接说明接待台制作与安装；报价和售后承诺未核实。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "hihuay-online-v2.org",
+    "keyword": "หวยออนไลน์",
+    "field": "title",
+    "language_hint": "th",
+    "reason": "截断标题中的在线彩票主题，保留原语言，不把宣传中的收益承诺当事实。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "phponline-datingsoftware.com",
+    "keyword": "游戏加速",
+    "field": "title",
+    "language_hint": "zh",
+    "reason": "实际标题中的用途，标题和描述均围绕网络加速；官网身份未核实。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "phponline-datingsoftware.com",
+    "keyword": "流媒体解锁",
+    "field": "title",
+    "language_hint": "zh",
+    "reason": "实际标题中的另一项用途；页面宣传的功能未实测。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "burncdonline.com",
+    "keyword": "virtual mix CD",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "标题和描述明确是虚拟混音CD网页玩具；不是实际光盘刻录工具。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "vanguardbuildersga.com",
+    "keyword": "Construction & Remodeling",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "标题中的建设和改造服务，描述限定乔治亚州及佛罗里达州部分城市。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "casino-online-mx.com",
+    "keyword": "Casinos en línea en México",
+    "field": "title",
+    "language_hint": "es",
+    "reason": "标题中的墨西哥地区主题，保留地域限定，不假定美国需求。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "your-interviewer.live",
+    "keyword": "spoken mock interview",
+    "field": "description",
+    "language_hint": "en",
+    "reason": "描述明确口语模拟面试用途。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "your-interviewer.live",
+    "keyword": "AI interviewer",
+    "field": "description",
+    "language_hint": "en",
+    "reason": "描述中的AI面试官用途；反馈质量和实际功能未验证。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "achadosonline.shop",
+    "keyword": "Scooter Elétrica Tui 1000w",
+    "field": "title",
+    "language_hint": "pt",
+    "reason": "薄页标题中的电动踏板车产品/型号词；保留标签线索，不核实规格或在售情况。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "myrisknavigator.live",
+    "keyword": "Risk Personality Test",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "标题明确内部风险判断倾向测评；不据此认定测评科学性或适合人事决策。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "casino-online-sin-licencia.ltd",
+    "keyword": "Casinos sin licencia en España",
+    "field": "title",
+    "language_hint": "es",
+    "reason": "截断标题中的西班牙地区查询主题；仅保存字面词，不作法律判断或商业建议。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "metalcalculators.com",
+    "keyword": "Metal Weight and Density Calculators",
+    "field": "h1",
+    "language_hint": "en",
+    "reason": "使用干净H1提取金属重量和密度计算用途，避免长标题混入图示替代文本。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "metalcalculators.com",
+    "keyword": "theoretical metal weight",
+    "field": "description",
+    "language_hint": "en",
+    "reason": "描述中的理论金属重量计算主题，未验证计算精度。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "transformatuvida3.com",
+    "keyword": "Cookies New York & Crumble",
+    "field": "description",
+    "language_hint": "es",
+    "reason": "描述中的饼干烘焙主题，按原文保留Crumble拼写，不擅自改成其他品牌。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "subnexusonline.online",
+    "keyword": "school ERP",
+    "field": "description",
+    "language_hint": "en",
+    "reason": "描述中的学校管理系统类别；来源HTML截断。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "subnexusonline.online",
+    "keyword": "attendance tracking",
+    "field": "description",
+    "language_hint": "en",
+    "reason": "描述明确出勤跟踪功能；尚未实测且源页不完整。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "makersinchicago.org",
+    "keyword": "Makers in Chicago",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "Title、Description与Directory标题提供芝加哥创作者/制造者目录线索；具体目录内容未核实。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "campaonline.com",
+    "keyword": "Recambios originales de desguace",
+    "field": "title",
+    "language_hint": "es",
+    "reason": "标题与描述一致为拆车来源原装二手配件；库存和授权声明未核实。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "sedaptogelonline.world",
+    "keyword": "toto togel online",
+    "field": "description",
+    "language_hint": "id",
+    "reason": "描述实际出现的在线彩票主题，未采用“最佳”等营销结论。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "formation-aipr-limoges.fr",
+    "keyword": "Formation AIPR à Limoges",
+    "field": "h1",
+    "language_hint": "fr",
+    "reason": "H1与描述一致为Limoges地区AIPR培训，未验证认证/资助声明。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "viaforcreators.com",
+    "keyword": "AI Video Production for YouTube Creators",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "标题明确面向YouTube创作者的AI视频制作；Private beta及一致性功能均仅为页面自述。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "torbemodaonline.shop",
+    "keyword": "Ženske Torbe i Moda",
+    "field": "title",
+    "language_hint": "und",
+    "reason": "截断标题中的女包和时尚主题，保留原文字形；具体南斯拉夫语种未核实。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "threatmonitorsolutions.com",
+    "keyword": "Continuous Security Hardening",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "标题与描述中的持续安全加固服务。",
+    "batch_id": "saved-fields-20260928-02"
+  },
+  {
+    "domain": "threatmonitorsolutions.com",
+    "keyword": "Incident Response Playbooks",
+    "field": "title",
+    "language_hint": "en",
+    "reason": "标题与描述中的事件响应手册/流程用途，未验证服务能力。",
+    "batch_id": "saved-fields-20260928-02"
   }
 ]
