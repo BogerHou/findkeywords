@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "batch": "expansion-saved-fields-20260928-01",
+  "reviewed_at": "2026-09-28T15:22:00+00:00",
+  "scope": "Assistant review of one selected saved source per phrase. Purposive examples, not a random sample or full-site quality review. No Trends requests or demand claims.",
+  "reviews": [
+    {"keyword":"coming soon","domain":"mydataonline.com.au","field":"title","quote":"Coming Soon - MyData Online","status":"source_placeholder","reason":"标题明确表示待上线；原薄页记录和原提词保留，不作为可查用途词。"},
+    {"keyword":"MyData Online","domain":"mydataonline.com.au","field":"title","quote":"Coming Soon - MyData Online","status":"source_placeholder","reason":"来源标题明确表示待上线，目前只有品牌名称，缺少实际用途。"},
+    {"keyword":"18+ only","domain":"online-casino-72.com","field":"description","quote":"Discover Meqa Mor Casino Hotel — elegant rooms, refined dining, spa and wellness, live entertainment and a premium land-based casino experience. 18+ only. Play responsibly.","status":"not_use_query","reason":"年龄提示，不是页面用途关键词；不因此否定该网站所属行业。"},
+    {"keyword":"A better space starts here","domain":"stonebeambuildersgardengrove.com","field":"h1","quote":"A better space starts here.","status":"not_use_query","reason":"通用营销句，未表明具体服务或搜索意图。"},
+    {"keyword":"A big world","domain":"ivanexplorer.co.uk","field":"h1","quote":"A big world. Little wonders. Let’s explore!","status":"not_use_query","reason":"叙述性口号，缺少用途；保留页面以便另外提取实际主题。"},
+    {"keyword":"API overview","domain":"zundbuilder.com","field":"h1","quote":"API overview","status":"needs_qualifier","reason":"通用文档章节标题，查询需明确产品或API。"},
+    {"keyword":"accurate online ruler in cm","domain":"onlinerealruler.com","field":"title","quote":"Online Ruler (Actual Size) — Free Accurate Online Ruler in CM, MM & Inches","status":"meaning_checked","reason":"页面声称提供按厘米显示实际尺寸的在线尺；用途明确，尺寸准确性和搜索增长未验证。"},
+    {"keyword":"afc east tracker","domain":"afceasttracker.com","field":"title","quote":"AFC East Tracker: 2026 standings and win droughts","status":"meaning_checked","reason":"标题把追踪对象限定为AFC East积分排名和无胜场时长；体育用途，尚无趋势验证。"},
+    {"keyword":"ai image checker","domain":"aimagechecker.com","field":"title","quote":"AI Image Checker — Free Online Tool to Detect AI Generated Images","status":"meaning_checked","reason":"页面声称检测AI生成图像；用途明确，检测能力和搜索增长未验证。"},
+    {"keyword":"block builder","domain":"zundbuilder.com","field":"h1","quote":"A block builder for everyone.","status":"needs_qualifier","reason":"单个H1不能区分积木、游戏或软件构建；不能仅靠命中builder确定查询意图。"},
+    {"keyword":"cayman mortgage calculator","domain":"caymanmortgagecalculator.com","field":"title","quote":"Cayman Mortgage Calculator: stamp duty and closing costs","status":"meaning_checked_region_specific","reason":"明确为开曼地区的房贷、印花税和交割成本；保留地区限定，不能推定美国需求。"},
+    {"keyword":"convert png images into","domain":"pngtowebponline.site","field":"description","quote":"Convert PNG images into high-quality, lightweight WEBP files directly in your browser. Fast, private, and free.","status":"needs_query_formulation","reason":"自动截取缺少目标格式；完整原文说明PNG转WEBP，需要形成完整查询后再验证。"},
+    {"keyword":"american online banking","domain":"americanonlinebanking.com","field":"title","quote":"Sign In — American Online Banking","status":"entity_or_login","reason":"选定字段只是带品牌的登录标题，未核验运营主体、合法性或实际功能。"},
+    {"keyword":"atc shift planner","domain":"shiftplanner.ro","field":"title","quote":"Log in - ATC Shift Planner","status":"entity_or_login","reason":"选定字段是登录页标题，ATC含义和工具可用性仍需补充证据。"},
+    {"keyword":"blob the builder","domain":"blob-the-builder.com","field":"title","quote":"Blob the Builder","status":"entity_or_login","reason":"单一品牌或作品名不能证明是构建工具，需更多用途证据。"}
+  ]
+}
