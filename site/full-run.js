@@ -12,6 +12,8 @@
       const d = await json('full-run-status.json');
       const t = await json('full-trends-status.json').catch(() => null);
       const c = await json('full-curation-summary.json').catch(() => null);
+      const connection = await json('full-trends-connection.json').catch(() => null);
+      document.getElementById('run-connection').innerHTML = connection ? `<p>${esc(connection.conclusion)}</p><div class="run-reason-list">${connection.attempts.map(a=>`<div class="run-reason"><span>${esc(a.label)}<br><small>${esc(a.captured_at)} · UTC</small></span><strong>HTTP ${esc(a.http_status)}</strong></div>`).join('')}</div><p>上述记录均停在建立会话这一步，关键词查询请求尚未发出；均未返回 Retry-After。${esc(connection.warp_state)}</p><p class="run-mini">相同请求地址与客户端，只对照网络通道；不能据此断言具体限流原因，也没有验证其他浏览器或官方 API 是否可用。</p><p><a href="full-trends-connection.json" target="_blank" rel="noopener">查看三次请求时间、地址及响应校验和</a> · <a href="../reports/aws-trends-connection-2026-09-28.md" target="_blank" rel="noopener">查看 WARP 测试记录</a></p>` : '尚无连接诊断文件；这不代表趋势查询成功或没有搜索数据。';
       const age = (Date.now() - Date.parse(d.updated_at))/1000;
       const stale = d.status === 'screening' && age > 90;
       document.getElementById('live-state').textContent = `${t?.status==='paused'?'域名筛选完成；Google Trends 已暂停':statusNames[d.status] || d.status} · 最近更新 ${new Date(d.updated_at).toLocaleString('zh-CN')}${stale?' · 记录已超过90秒未更新，请检查连接或服务器状态。':' · 每30秒读取一次已保存进度。'}`;

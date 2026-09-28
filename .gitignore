@@ -5,6 +5,7 @@
 /runtime/
 /site/full-run-status.json
 /site/full-trends-status.json
+/site/full-trends-connection.json
 /site/full-domain-results.json
 /site/full-keyword-candidates.json
 /site/full-trends-results.json
