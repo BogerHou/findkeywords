@@ -1,0 +1,12 @@
+[
+  {"domain":"promptgenerator.fyi","keyword":"AI prompt enhancer","field":"description","reason":"网页描述中的实际用途词；不含原51词根，旧提取器漏掉。尚未验证30天趋势。"},
+  {"domain":"tcguploader.com","keyword":"Trading Card Scanner","field":"title","reason":"网页标题明确用途；Uploader只用于域名初筛，实际用途词Scanner不应被二次词根限制漏掉。"},
+  {"domain":"tcguploader.com","keyword":"Collection Inventory","field":"title","reason":"网页标题中的另一项用途；字面证据已核对，趋势未查。"},
+  {"domain":"mayatemplates.com","keyword":"Printable Paper Cone Templates","field":"title","reason":"标题实际短语，Templates复数未命中旧提取器的单数精确匹配。"},
+  {"domain":"testscoreconverter.com","keyword":"standardized test score calculators","field":"description","reason":"描述实际用途，Calculators复数被旧单数词根规则漏掉。"},
+  {"domain":"getconvertmax.com","keyword":"first-party revenue attribution","field":"h1","reason":"H1明确用途；域名Convert初筛不应要求网页用途短语仍带Convert。"},
+  {"domain":"superabconvert.com","keyword":"Shopify A/B Testing App","field":"title","reason":"标题实际用途；字面证据已核对，未推断搜索需求。"},
+  {"domain":"chinatrainplanner.com","keyword":"12306 name format","field":"description","reason":"描述中的明确问题短语；旧窗口切分包含前方逗号，导致漏提取。"},
+  {"domain":"pathplanner.co.nz","keyword":"University & Career Pathway Planning NZ","field":"title","reason":"完整标题片段；有地区限定，是否存在美国需求待Trends验证。"},
+  {"domain":"bskydownloader.app","keyword":"Bluesky Video, Image & GIF Downloader","field":"title","reason":"完整标题用途被旧逗号过滤漏掉；若后续查询，此词含逗号须作为单一搜索词核实，不能直接拼进多词比较URL。"}
+]

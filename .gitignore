@@ -8,6 +8,9 @@
 /site/full-domain-results.json
 /site/full-keyword-candidates.json
 /site/full-trends-results.json
+/site/full-curation-summary.json
+/site/full-keyword-reviewed.json
+/site/full-domain-review.json
 /dist/
 /reports/*.tar.gz
 /reports/*.zip
