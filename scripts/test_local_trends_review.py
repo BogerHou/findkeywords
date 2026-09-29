@@ -1,6 +1,12 @@
 from datetime import date, timedelta
+import json
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from types import SimpleNamespace
 import unittest
+from unittest.mock import patch
 
+import local_trends_review as review
 from local_trends_review import csv_points, next_stage, validate_url
 from trends_full import windows
 
@@ -42,6 +48,40 @@ class LocalBrowserEvidenceTests(unittest.TestCase):
         self.assertIsNone(next_stage(record, self.window))
         p = csv_points(self.csv([0] * 30), 'da checker', self.window, 'chart30')
         self.assertIsNone(next_stage({'charts': {'chart30': {'status': 'chart', 'points': p}}}, self.window))
+
+    def test_cloud_capture_keeps_source_and_legacy_captures_stay_local(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            run = root / 'results'
+            run.mkdir()
+            (root / 'site').mkdir()
+            queue = {'window': self.window, 'excluded': [],
+                     'candidates': [{'keyword': 'da checker'}, {'keyword': 'second term'}]}
+            csv = root / 'chart.csv'
+            args = SimpleNamespace(keyword='da checker', stage='chart30', url=self.url,
+                                   csv=csv, dom=None, captured_at='2026-09-29T02:00:00Z')
+            with patch.object(review, 'ROOT', root), patch.object(review, 'RUN', run):
+                csv.write_bytes(self.csv([0] * 30))
+                review.ingest(args, queue)
+                records = json.loads((run / 'records.json').read_text())
+                # Older captures predate the execution field.
+                del records['da checker']['charts']['chart30']['execution']
+                (run / 'records.json').write_text(json.dumps(records))
+                args.keyword = 'second term'
+                args.url = self.url.replace('da%20checker', 'second%20term')
+                args.execution = 'browserless_cloud'
+                csv.write_bytes(self.csv([0] * 30, 'second term: (美国)'))
+                review.ingest(args, queue)
+                summary, pending = review.publish(queue)
+                self.assertEqual(summary['execution'], 'mixed_browser')
+                self.assertEqual(summary['evidence_executions'],
+                                 {'local_browser': 1, 'browserless_cloud': 1})
+                self.assertEqual(pending, [])
+                records = json.loads((run / 'records.json').read_text())
+                cloud = records['second term']['charts']['chart30']
+                self.assertIn('Browserless cloud browser', cloud['source'])
+                self.assertIn('local browser', records['da checker']['charts']['chart30']['source'])
+                self.assertEqual((root / 'site' / cloud['evidence']).read_bytes(), csv.read_bytes())
 
 
 if __name__ == '__main__':

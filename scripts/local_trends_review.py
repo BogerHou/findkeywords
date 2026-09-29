@@ -130,8 +130,11 @@ def publish(queue):
         row['assessment'] = row['chart30_assessment']
         row['matches_automatic_screen'] = all(row.get(k, {}).get('eligible') for k in ('chart30_assessment', 'background_assessment', 'repeat30_assessment'))
         public.append(row)
+    executions = Counter(c.get('execution', 'local_browser') for r in public for c in r['charts'].values())
+    execution = 'mixed_browser' if len(executions) > 1 else next(iter(executions), 'local_browser')
     summary = {'status': 'awaiting_local_browser_batch' if pending else 'needs_final_review',
-               'execution': 'local_browser', 'updated_at': datetime.now(timezone.utc).isoformat(),
+               'execution': execution, 'evidence_executions': dict(executions),
+               'updated_at': datetime.now(timezone.utc).isoformat(),
                'candidates': len(queue['candidates']), 'excluded': len(queue['excluded']),
                'queried': len(public), 'completed': len(queue['candidates']) - len(pending),
                'pending': len(pending), 'window': queue['window'],
@@ -143,7 +146,7 @@ def publish(queue):
                'automatic_matches': sum(r['matches_automatic_screen'] for r in public),
                'assessments': dict(Counter(r['assessment']['status'] for r in public)),
                'timezone_note': 'UTC selects the fixed calendar dates; CSV exports contain daily labels without timezone metadata. The failed browser request exposed tz=-480. Do not describe these exports as verified UTC buckets.',
-               'note': 'Local browser CSV/DOM evidence. Meaning/quality flags retained. Not final opportunities or search volumes.'}
+               'note': 'Browser CSV/DOM evidence; each capture retains its execution source. Meaning/quality flags retained. Not final opportunities or search volumes.'}
     control = read(RUN / 'control.json') if (RUN / 'control.json').exists() else {}
     if control.get('status') == 'blocked':
         summary.update(status='blocked', error=control['reason'], blocked_at=control['at'])
@@ -195,10 +198,13 @@ def ingest(args, queue):
     evidence = ROOT / 'site/local-trends-evidence' / (digest + extension)
     evidence.parent.mkdir(parents=True, exist_ok=True)
     evidence.write_bytes(raw)
+    execution = getattr(args, 'execution', 'local_browser')
+    browser_source = 'Browserless cloud browser' if execution == 'browserless_cloud' else 'local browser'
     record['charts'][args.stage] = {'status': status, 'points': points, 'url': args.url,
         'captured_at': args.captured_at,
         'imported_at': datetime.now(timezone.utc).isoformat(),
-        'source': 'Google Trends local browser CSV download' if args.csv else 'Google Trends observed local browser DOM',
+        'execution': execution,
+        'source': 'Google Trends ' + browser_source + (' CSV download' if args.csv else ' observed DOM'),
         'evidence': evidence.relative_to(ROOT / 'site').as_posix(), 'evidence_sha256': digest}
     atomic_json(path, records)
     pacer.success(args.keyword, args.stage)
@@ -214,6 +220,7 @@ def main():
     parser.add_argument('--csv', type=Path)
     parser.add_argument('--dom', type=Path)
     parser.add_argument('--captured-at')
+    parser.add_argument('--execution', choices=['local_browser', 'browserless_cloud'], default='local_browser')
     parser.add_argument('--reason')
     parser.add_argument('--not-before')
     parser.add_argument('--retry-after')
