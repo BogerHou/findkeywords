@@ -9,7 +9,7 @@ from pathlib import Path
 
 from probe_full import atomic_json
 
-POLICY = {'query_interval_seconds': 60, 'initial_cooldown_seconds': 3600,
+POLICY = {'query_interval_seconds': 45, 'initial_cooldown_seconds': 3600,
           'maximum_cooldown_seconds': 86400, 'healthy_queries_before_reset': 6}
 
 
@@ -124,7 +124,7 @@ class Pacer:
             control.update(inflight=None, healthy_queries=healthy, rate_limit_level=level,
                            last_completed_at=self.clock().isoformat())
             # Space from completion too: preparing or downloading a chart must
-            # never compress the next submission below the one-minute interval.
+            # never compress the next submission below the configured interval.
             control['next_allowed_at'] = max(stamp(control['next_allowed_at']),
                 self.clock() + timedelta(seconds=POLICY['query_interval_seconds'])).isoformat()
             self.save(control, 'capture_imported', keyword=keyword, stage=stage)

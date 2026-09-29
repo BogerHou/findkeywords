@@ -2,7 +2,7 @@ from datetime import datetime, timedelta, timezone
 import tempfile
 import unittest
 
-from local_trends_pacing import Pacer, availability, retry_deadline
+from local_trends_pacing import Pacer, POLICY, availability, retry_deadline
 
 
 class PacingTests(unittest.TestCase):
@@ -40,7 +40,7 @@ class PacingTests(unittest.TestCase):
         self.pacer.claim(self.item)
         self.now += timedelta(seconds=15)
         self.pacer.success(**self.item)
-        self.now += timedelta(seconds=59)
+        self.now += timedelta(seconds=POLICY['query_interval_seconds'] - 1)
         self.assertFalse(self.pacer.claim(self.item)['allowed'])
         self.now += timedelta(seconds=1)
         self.assertTrue(self.pacer.claim(self.item)['allowed'])
@@ -61,7 +61,7 @@ class PacingTests(unittest.TestCase):
         for _ in range(6):
             self.assertTrue(self.pacer.claim(self.item)['allowed'])
             self.pacer.success(**self.item)
-            self.now += timedelta(seconds=60)
+            self.now += timedelta(seconds=POLICY['query_interval_seconds'])
         self.assertEqual(self.pacer.read()['rate_limit_level'], 0)
         self.pacer.claim(self.item)
         self.assertEqual(self.pacer.cooldown('HTTP429')['seconds_remaining'], 3600)
